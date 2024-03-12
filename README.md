@@ -16,5 +16,5 @@ All rights for assets - QPlaze, GSC, Nomoc!
 4. Open project
 
 ### Documentation:
-1. Assets description
-2. Source code scripts
+1. [Assets description](https://picnic-in-the-oblivion.gitbook.io/assets/)
+2. [Source code scripts](https://picnic-in-the-oblivion.gitbook.io/source-code-scripts/)
