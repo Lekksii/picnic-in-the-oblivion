@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://b06vphnk5421o"]
+
+[ext_resource type="Texture2D" uid="uid://j4e2gwdxydcm" path="res://assets/ui/pda/area_neutral.png" id="1_8th2f"]
+[ext_resource type="Script" path="res://scripts/GUI/marker.gd" id="2_30kcw"]
+
+[node name="marker" type="TextureRect"]
+offset_left = 263.0
+offset_top = 656.0
+offset_right = 307.0
+offset_bottom = 700.0
+mouse_filter = 0
+texture = ExtResource("1_8th2f")
+stretch_mode = 4
+script = ExtResource("2_30kcw")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

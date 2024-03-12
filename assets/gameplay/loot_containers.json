@@ -1,0 +1,137 @@
+{
+	"level_0_0_corpse_0": {
+		"name": "box.0_0.corpse.name",
+		"caption": "box.0_0.corpse.name",
+		"items": [
+			"medkit"
+		],
+		"items_casual": [
+			"medkit",
+			"medkit"
+		]
+	},
+	"level_svistun_rad_room":{
+		"name": "box",
+		"caption": "box",
+		"items": [
+			"ammo_viper5"
+		]
+	},
+	"loot_lr":{
+		"name": "box",
+		"caption": "box",
+		"items": [
+			"w_lr"
+		]
+	},
+	"loot_ak":{
+		"name": "shelf",
+		"caption": "box",
+		"items": [
+			"w_ak"
+		]
+	},
+	"loot_corpse_in_room":{
+		"name": "stalker",
+		"caption": "box",
+		"items": [
+			"antirad",
+			"medkit_army",
+			"ammo_viper5",
+			"ammo_viper5",
+			"w_viper5",
+			"af_crystal"
+		]
+	},
+	"loot_battery":{
+		"name": "shelf",
+		"caption": "box",
+		"items": [
+			"af_battery",
+			"medkit_army"
+		]
+	},
+	"loot_spring":{
+		"name": "shelf",
+		"caption": "box",
+		"items": [
+			"af_dummy",
+			"ammo_viper5"
+		]
+	},
+	"loot_scientist":{
+		"name": "corpse",
+		"caption": "box",
+		"items": [
+			"w_groza",
+			"ammo_oc",
+			"ammo_oc",
+			"medkit",
+			"medkit",
+			"antirad",
+			"medkit_army"
+		]
+	},
+	"loot_medkit_army":{
+		"name": "shelf",
+		"caption": "box",
+		"items": [
+			"medkit_army"
+		]
+	},
+	"loot_bandit_outfit":{
+		"name": "box",
+		"caption": "box",
+		"items": [
+			"jacket_bandit"
+		]
+	},
+	"level_svistun_end_room":{
+		"name": "box",
+		"caption": "box",
+		"items": [
+			"af_sparkle"
+		]
+	},
+	"level_galosh_art":{
+		"name": "box",
+		"caption": "box",
+		"items": [
+			"af_medusa"
+		]
+	},
+	"test_loot": {
+		"name": "treasure",
+		"caption": "treasure",
+		"items": [
+			"medkit",
+			"medkit_army",
+			"antirad",
+			"jacket",
+			"jacket_bandit",
+			"stalker_outfit",
+			"antigas_armor",
+			"ecolog_suit",
+			"military_armor",
+			"af_sparkle",
+			"af_bengal",
+			"af_fireball",
+			"af_crystal",
+			"af_dummy",
+			"af_medusa",
+			"af_battery",
+			"ammo_ak",
+			"ammo_ak",
+			"ammo_lr",
+			"ammo_lr",
+			"ammo_oc",
+			"ammo_oc",
+			"ammo_viper5",
+			"ammo_viper5",
+			"w_lr",
+			"w_ak",
+			"w_viper5",
+			"w_groza"
+		]
+	}
+}

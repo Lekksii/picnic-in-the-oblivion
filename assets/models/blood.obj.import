@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d08yra2cyepfs"
+path="res://.godot/imported/blood.obj-3ffd4fee9e5259e5251f72324d29f374.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blood.obj-3ffd4fee9e5259e5251f72324d29f374.mesh"]
+
+source_file="res://assets/models/blood.obj"
+dest_files=["res://.godot/imported/blood.obj-3ffd4fee9e5259e5251f72324d29f374.mesh", "res://.godot/imported/blood.obj-3ffd4fee9e5259e5251f72324d29f374.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

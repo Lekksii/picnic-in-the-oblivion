@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nqg6pt648tn5"
+path="res://.godot/imported/props_texobj2.obj-dfa3b0554caf016aa3414da9a32860eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj2.obj-dfa3b0554caf016aa3414da9a32860eb.mesh"]
+
+source_file="res://assets/levels/kaizanovsky_group2_final/props_texobj2.obj"
+dest_files=["res://.godot/imported/props_texobj2.obj-dfa3b0554caf016aa3414da9a32860eb.mesh", "res://.godot/imported/props_texobj2.obj-dfa3b0554caf016aa3414da9a32860eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

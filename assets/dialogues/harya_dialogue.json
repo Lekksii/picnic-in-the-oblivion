@@ -1,0 +1,145 @@
+{
+	"start_dialogue": "harya_start",
+	"dialogues": {
+		"harya_start": {
+			"text": "dlg.harya.start",
+			"answers": [
+				{
+					"text": "dlg.harya.answer.yes",
+					"condition_has_not": "harya.first.dialogue",
+					"go_to": "harya_bandits"
+				},
+				{
+					"text": "dlg.harya.answer.friend",
+					"go_to": "harya_friend"
+				},
+				{
+					"text": "dlg.harya.answer.no",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"harya_start_quest_accepted": {
+			"text": "dlg.krot.start",
+			"answers": [
+				{
+					"text": "dlg.harya.answer.friend",
+					"go_to": "harya_friend"
+				},
+				{
+					"text": "dlg.no.dialog.answer.1",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"harya_bandits": {
+			"text": "dlg.harya.text.bandits",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"harya.gived.quest.bandits"
+						]
+					}
+				}
+			]
+		},
+		"harya_friend": {
+			"text": "dlg.harya.text.friend",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 585,
+			"y": 515
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 936,
+			"y": 519
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 940,
+			"y": 846
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 323,
+			"y": 753
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 622,
+			"y": 1010
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1252,
+			"y": 849
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1265,
+			"y": 514
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1608,
+			"y": 518
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1613,
+			"y": 861
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1960,
+			"y": 720
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1980,
+			"y": 1102
+		},
+		{
+			"_type": "action",
+			"size_x": 358,
+			"size_y": 70,
+			"x": 1956,
+			"y": 791
+		}
+	]
+}

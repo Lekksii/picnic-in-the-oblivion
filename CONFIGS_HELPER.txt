@@ -1,0 +1,41 @@
+[*.level file fields]:
+	
+	"weather_color": "hex color" - color of main skybox color
+	"daylight": true/false - show main direction light on scene or not
+	"fog": false/true - show underground dark fog or not
+	
+[*.level file objects types]:
+	#1 - player spawn point, ID "spawn_point"
+	{
+	  "id": "spawn_point"
+	  "position": [] -> Vec3
+	  "rotation": [] -> Vec3
+	  "name": -> any name 
+	}
+	
+	#2 - static 3D object, no ID field required!
+	{
+	  "model": -> path to model including file type at assets/models/model.obj
+	  "texture": -> string path in assets/textures/
+	  "position": [] -> Vec3
+	  "rotation": [] -> Vec3
+	  "scale": -> int or Vec3
+	  "double_sided": -> bool (good for flora, grass, leaf etc)
+	  "collider": "mesh" for generating colliders based on mesh (best use only for interractive objects NPC, Lootboxes)
+	  "lit": -> bool (no light affecting)
+	  "alpha": -> bool (transparent object if has alpha channel in texture)
+	  "billboard": -> bool (always faced to player)
+	  "name": -> any name
+	}
+	
+	#3 - loot, id can be "loot" for lootbox and "loot_money" for money search
+	{
+	  "id": -> id
+	  "collider": "box",
+	  "value": -> Int, for "loot_money" id field only!
+	  "loot_id": -> id for "loot" id field only!
+	  "invisible": -> bool, makes zone invisible for player
+	  "position": [] -> Vec3
+	  "rotation": [] -> Vec3
+	  "name": -> any name 
+	}

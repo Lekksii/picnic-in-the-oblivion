@@ -1,0 +1,104 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "manikovsky.text.0",
+			"answers": [
+				{
+					"text": "manikovsky.answer.0",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"manikovsky.kill",
+							"manikovsky.dialogue.done"
+						]
+					}
+				},
+				{
+					"text": "manikovsky.answer.1",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "manikovsky.text.1",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"manikovsky.alive",
+							"manikovsky.dialogue.done"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 321,
+			"y": 0
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 642,
+			"y": 0
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 634,
+			"y": 243
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 953,
+			"y": 577
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 953,
+			"y": 518
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 634,
+			"y": 486
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 955,
+			"y": 243
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1274,
+			"y": 577
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1274,
+			"y": 518
+		}
+	]
+}

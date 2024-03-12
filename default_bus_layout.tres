@@ -1,0 +1,54 @@
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://bssdr68svnaga"]
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_koimn"]
+resource_name = "Reverb"
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_ca4j4"]
+resource_name = "Reverb"
+room_size = 0.04
+damping = 0.11
+spread = 0.19
+dry = 0.91
+wet = 0.21
+
+[resource]
+bus/1/name = &"Reverb"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = false
+bus/1/volume_db = -3.11736
+bus/1/send = &"Master"
+bus/1/effect/0/effect = SubResource("AudioEffectReverb_koimn")
+bus/1/effect/0/enabled = false
+bus/2/name = &"FX1"
+bus/2/solo = false
+bus/2/mute = false
+bus/2/bypass_fx = false
+bus/2/volume_db = -3.54298
+bus/2/send = &"Reverb"
+bus/3/name = &"FX2"
+bus/3/solo = false
+bus/3/mute = false
+bus/3/bypass_fx = false
+bus/3/volume_db = -3.54298
+bus/3/send = &"Reverb"
+bus/4/name = &"MUSIC"
+bus/4/solo = false
+bus/4/mute = false
+bus/4/bypass_fx = false
+bus/4/volume_db = -5.04538
+bus/4/send = &"Master"
+bus/5/name = &"AMBIENT"
+bus/5/solo = false
+bus/5/mute = false
+bus/5/bypass_fx = false
+bus/5/volume_db = -16.4004
+bus/5/send = &"Master"
+bus/6/name = &"AMBIENT_SFX"
+bus/6/solo = false
+bus/6/mute = false
+bus/6/bypass_fx = false
+bus/6/volume_db = -35.0067
+bus/6/send = &"Master"
+bus/6/effect/0/effect = SubResource("AudioEffectReverb_ca4j4")
+bus/6/effect/0/enabled = false

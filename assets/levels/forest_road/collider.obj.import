@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b57viqt2xlerb"
+path="res://.godot/imported/collider.obj-58064c8816a65400b5c4aa8e382e87c0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/collider.obj-58064c8816a65400b5c4aa8e382e87c0.mesh"]
+
+source_file="res://assets/levels/forest_road/collider.obj"
+dest_files=["res://.godot/imported/collider.obj-58064c8816a65400b5c4aa8e382e87c0.mesh", "res://.godot/imported/collider.obj-58064c8816a65400b5c4aa8e382e87c0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

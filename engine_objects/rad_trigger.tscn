@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://nytvc6jalq3h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xi787"]
+size = Vector3(16.47, 4.54, 7.84)
+
+[node name="RadTrigger" type="Area3D"]
+monitoring = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_xi787")

@@ -1,0 +1,6 @@
+.import/
+android/
+GDK.exe
+DE.EXE
+*.save
+logs.txt

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpy31p56vu7bf"
+path="res://.godot/imported/props_texgr3.obj-c640e87b435064245550a47105cc8adb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texgr3.obj-c640e87b435064245550a47105cc8adb.mesh"]
+
+source_file="res://assets/levels/second_group_attack/props_texgr3.obj"
+dest_files=["res://.godot/imported/props_texgr3.obj-c640e87b435064245550a47105cc8adb.mesh", "res://.godot/imported/props_texgr3.obj-c640e87b435064245550a47105cc8adb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

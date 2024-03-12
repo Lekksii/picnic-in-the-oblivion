@@ -1,0 +1,157 @@
+{
+  "stalker": {
+	"weapons": ["w_ak","w_groza"],
+	"attack_sound": "rifle_sound.wav",
+	"texture": ["pstalker"],
+	"miss_sounds": ["whine_1","whine_2","whine_3","whine_4","whine_5"],
+	"accuracy": 0.5,
+	"damage": [2.5,4.0],
+	"health": [10,15],
+	"exp": [2,5],
+	"attack_delay": [4,5],
+	"money": [20,50],
+	"loot": [
+		{
+			"item": "medkit",
+			"chance": 0.18,
+			"amount": 1
+		},
+		{
+			"item": "ammo_ak",
+			"chance": 0.15,
+			"amount": 1
+		},
+		{
+			"item": "ammo_oc",
+			"chance": 0.03,
+			"amount": 1
+		},
+		{
+			"item": "antirad",
+			"chance": 0.15,
+			"amount": 1
+		},
+	]
+  },
+  "bandit": {
+	"weapons": ["w_ak"],
+	"texture": ["pbandit","pbandit_noglass"],
+	"attack_sound": "rifle_sound.wav",
+	"miss_sounds": ["whine_1","whine_2","whine_3","whine_4","whine_5"],
+	"damage": [1.0,3.5],
+	"health": [5,10],
+	"accuracy": 0.45,
+	"exp": [1,2],
+	"attack_delay": [4,5],
+	"money": [15,35],
+	"loot": [
+		{
+			"item": "medkit",
+			"chance": 0.15,
+			"amount": 1
+		},
+		{
+			"item": "ammo_viper5",
+			"chance": 0.15,
+			"amount": 1
+		}
+	]
+  },
+  "soldier": {
+	"weapons": ["w_ak","w_groza"],
+	"attack_sound": "rifle_sound.wav",
+	"miss_sounds": ["whine_1","whine_2","whine_3","whine_4","whine_5"],
+	"texture": ["psoldier"],
+	"accuracy": 0.85,
+	"damage": [5,8],
+	"health": [20,35],
+	"exp": [5,8],
+	"attack_delay": [2,5],
+	"money": [35,65],
+	"loot": [
+		{
+			"item": "medkit",
+			"chance": 0.15,
+			"amount": 1
+		},
+		{
+			"item": "antirad",
+			"chance": 0.03,
+			"amount": 1
+		},
+		{
+			"item": "medkit_army",
+			"chance": 0.13,
+			"amount": 1
+		},
+		{
+			"item": "ammo_ak",
+			"chance": 0.18,
+			"amount": 1
+		}
+	]
+  },
+  "mercenary": {
+	"weapons": ["w_groza","w_lr300"],
+	"attack_sound": "rifle_sound.wav",
+	"miss_sounds": ["whine_1","whine_2","whine_3","whine_4","whine_5"],
+	"texture": ["pkiller"],
+	"accuracy": 0.7,
+	"damage": [4,6],
+	"health": [12,20],
+	"exp": [10,20],
+	"attack_delay": [1,5],
+	"money": [35,125],
+	"loot": [
+		{
+			"item": "medkit_army",
+			"chance": 0.15,
+			"amount": 1
+		},
+		{
+			"item": "antirad",
+			"chance": 0.1,
+			"amount": 1
+		},
+		{
+			"item": "ammo_lr",
+			"chance": 0.25,
+			"amount": 1
+		},
+		{
+			"item": "ammo_oc",
+			"chance": 0.15,
+			"amount": 1
+		}
+	]
+  },
+"manikovsky_ai": {
+	"weapons": ["w_lr300"],
+	"attack_sound": "rifle_sound.wav",
+	"miss_sounds": ["whine_1","whine_2","whine_3","whine_4","whine_5"],
+	"texture": ["pscientist"],
+	"accuracy": 0.9,
+	"damage": [4,5],
+	"health": [10,15],
+	"exp": [35,35],
+	"attack_delay": [0.2,0.3],
+	"money": [250,250],
+	"loot": [
+		{
+			"item": "medkit_army",
+			"chance": 0.45,
+			"amount": 1
+		},
+		{
+			"item": "medkit",
+			"chance": 0.25,
+			"amount": 1
+		},
+		{
+			"item": "antirad",
+			"chance": 0.25,
+			"amount": 1
+		}
+	]
+  },
+}

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crp7hubj0x3w3"
+path="res://.godot/imported/railroad.obj-154c493ffe02bd86cc7812fa005e9af1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/railroad.obj-154c493ffe02bd86cc7812fa005e9af1.mesh"]
+
+source_file="res://assets/models/railroad.obj"
+dest_files=["res://.godot/imported/railroad.obj-154c493ffe02bd86cc7812fa005e9af1.mesh", "res://.godot/imported/railroad.obj-154c493ffe02bd86cc7812fa005e9af1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

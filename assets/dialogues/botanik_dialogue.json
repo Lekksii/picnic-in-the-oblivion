@@ -1,0 +1,53 @@
+{
+  "start_dialogue": "0",
+  "dialogues": {
+    "0": {
+      "text": "dlg.botan.0.text",
+      "answers": [
+        {
+          "text": "dlg.botan.0.answer.1",
+          "go_to": "1"
+        }
+      ]
+    },
+    "1": {
+      "text": "dlg.botan.1.text",
+      "answers": [
+        {
+          "text": "dlg.botan.1.answer.1",
+          "go_to": "2"
+        }
+      ]
+    },
+    "2": {
+      "text": "dlg.botan.2.text",
+      "answers": [
+        {
+          "text": "dlg.botan.2.answer.1",
+          "go_to": "3"
+        }
+      ]
+    },
+    "3": {
+      "text": "dlg.botan.3.text",
+      "answers": [
+        {
+          "text": "dlg.botan.3.answer.1",
+          "go_to": "4"
+        }
+      ]
+    },
+    "4": {
+      "text": "dlg.botan.4.text",
+      "answers": [
+        {
+          "text": "dlg.many.times.answer.1",
+          "go_to": "close_dialog",
+          "action": {
+            "add_e_key": ["botanik.no.dialogue","botanik.dialogue.done"]
+          }
+        }
+      ]
+    }
+  }
+}

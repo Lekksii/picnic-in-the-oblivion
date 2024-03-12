@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgjuofj60xovc"
+path="res://.godot/imported/grass_line.obj-99da67fbc8819ca244c37d174657ea97.mesh"
+
+[deps]
+
+files=["res://.godot/imported/grass_line.obj-99da67fbc8819ca244c37d174657ea97.mesh"]
+
+source_file="res://assets/models/grass_line.obj"
+dest_files=["res://.godot/imported/grass_line.obj-99da67fbc8819ca244c37d174657ea97.mesh", "res://.godot/imported/grass_line.obj-99da67fbc8819ca244c37d174657ea97.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

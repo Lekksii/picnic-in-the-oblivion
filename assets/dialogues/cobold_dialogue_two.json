@@ -1,0 +1,72 @@
+{
+	"start_dialogue": "cb0",
+	"dialogues": {
+		"cb0": {
+			"text": "cobold.first.group.text.0",
+			"answers": [
+				{
+					"text": "cobold.first.group.answer.0",
+					"go_to": "cb1"
+				}
+			]
+		},
+		"cb1": {
+			"text": "cobold.first.group.text.1",
+			"answers": [
+				{
+					"text": "cobold.first.group.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"cobold.second.dlg.done"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 404,
+			"y": 407
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 750,
+			"y": 407
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1109,
+			"y": 408
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1480,
+			"y": 400
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1853,
+			"y": 590
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1867,
+			"y": 531
+		}
+	]
+}

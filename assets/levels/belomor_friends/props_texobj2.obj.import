@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4nr7nhr0bys2"
+path="res://.godot/imported/props_texobj2.obj-7fd85d05e4e712ac2b2f691cfdd5aca7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj2.obj-7fd85d05e4e712ac2b2f691cfdd5aca7.mesh"]
+
+source_file="res://assets/levels/belomor_friends/props_texobj2.obj"
+dest_files=["res://.godot/imported/props_texobj2.obj-7fd85d05e4e712ac2b2f691cfdd5aca7.mesh", "res://.godot/imported/props_texobj2.obj-7fd85d05e4e712ac2b2f691cfdd5aca7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

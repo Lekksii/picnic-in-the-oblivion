@@ -1,0 +1,14 @@
+{
+  "start_dialogue": "rusty_0_0",
+  "dialogues": {
+	"rusty_0_0": {
+	  "text": "dlg.rusty.quest.artefact.no.complete.0_0.text",
+	  "answers": [
+		{
+		  "text": "dlg.many.times.answer.0",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

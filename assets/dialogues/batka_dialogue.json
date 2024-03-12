@@ -1,0 +1,211 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.batya.text.0",
+			"answers": [
+				{
+					"text": "dlg.batya.answer.0",
+					"go_to": "friend"
+				}
+			]
+		},
+		"friend": {
+			"text": "dlg.batya.text.1",
+			"answers": [
+				{
+					"text": "dlg.batya.answer.1",
+					"go_to": "help"
+				}
+			]
+		},
+		"help": {
+			"text": "dlg.batya.text.2",
+			"answers": [
+				{
+					"text": "dlg.batya.answer.2.quest",
+					"go_to": "battery"
+				},
+				{
+					"text": "dlg.batya.answer.2.coffee",
+					"go_to": "coffee",
+					"condition_money": 2500
+				},
+				{
+					"text": "dlg.batya.answer.2.bye",
+					"go_to": "bye"
+				}
+			]
+		},
+		"bye": {
+			"text": "dlg.batya.text.3.bye",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"battery": {
+			"text": "dlg.batya.text.3.battery",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"batka.first.dialogue",
+							"batka.battery.quest"
+						]
+					}
+				}
+			]
+		},
+		"coffee": {
+			"text": "dlg.batya.text.4.gived.coffee",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"batka.talk.done",
+							"batka.first.dialogue",
+							"batka.second.dialogue",
+							"batka.info.about.cap"
+						],
+						"del_money": 2500
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 140,
+			"y": 320
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 760,
+			"y": 320
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 460,
+			"y": 320
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1080,
+			"y": 320
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 351,
+			"size_y": 211,
+			"x": 1380,
+			"y": 320
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 258,
+			"size_y": 307,
+			"x": 1740,
+			"y": 320
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1740,
+			"y": 640
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1740,
+			"y": 960
+		},
+		{
+			"_type": "answer",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 2060,
+			"y": 960
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 2370,
+			"y": 960
+		},
+		{
+			"_type": "answer",
+			"size_x": 236,
+			"size_y": 180,
+			"x": 2680,
+			"y": 1200
+		},
+		{
+			"_type": "answer",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 2075,
+			"y": 645
+		},
+		{
+			"_type": "end_action",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 2085,
+			"y": 330
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 2420,
+			"y": 320
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2780,
+			"y": 460
+		},
+		{
+			"_type": "answer",
+			"size_x": 279,
+			"size_y": 217,
+			"x": 2746,
+			"y": 558
+		},
+		{
+			"_type": "action",
+			"size_x": 330,
+			"size_y": 70,
+			"x": 3140,
+			"y": 660
+		},
+		{
+			"_type": "end_action",
+			"size_x": 343,
+			"size_y": 70,
+			"x": 3080,
+			"y": 780
+		}
+	]
+}

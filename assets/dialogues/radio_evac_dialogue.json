@@ -1,0 +1,37 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "radio.evac.text.0",
+			"answers": [
+				{
+					"text": "radio.evac.answer.0",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "radio.evac.text.1",
+			"answers": [
+				{
+					"text": "radio.evac.answer.1",
+					"go_to": "third"
+				}
+			]
+		},
+		"third": {
+			"text": "radio.evac.text.2",
+			"answers": [
+				{
+					"text": "radio.evac.answer.2",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"radio.evacuation"
+						]
+					}
+				}
+			]
+		}
+	}
+}

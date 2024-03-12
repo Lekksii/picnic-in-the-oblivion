@@ -1,0 +1,62 @@
+{
+  "start_dialogue": "0",
+  "dialogues": {
+	"0": {
+	  "text": "dlg.galosh.0.text",
+	  "answers": [
+		{
+		  "text": "dlg.galosh.0.answer.1",
+		  "go_to": "1"
+		}
+	  ]
+	},
+	"1": {
+	  "text": "dlg.galosh.1.text",
+	  "answers": [
+		{
+		  "text": "dlg.galosh.1.answer.1",
+		  "go_to": "2.1"
+		},
+		{
+		  "text": "dlg.galosh.1.answer.2",
+		  "go_to": "2.2"
+		},
+		{
+		  "condition_has_not": "galosh.art.quest.added",
+		  "text": "dlg.galosh.1.answer.3",
+		  "go_to": "2.3"
+		}
+	  ]
+	},
+	"2.1": {
+	  "text": "dlg.galosh.2.text",
+	  "answers": [
+		{
+		  "text": "dlg.many.times.answer.2",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	},
+	"2.2": {
+	  "text": "dlg.galosh.3.text",
+	  "answers": [
+		{
+		  "text": "dlg.galosh.4.answer.1",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	},
+	"2.3": {
+	  "text": "dlg.galosh.4.text",
+	  "answers": [
+		{
+		  "text": "dlg.galosh.4.answer.1",
+		  "go_to": "close_dialog",
+		  "action": {
+			"add_e_key": ["galosh.no.dialogue","galosh.art.quest.added"]
+		  }
+		}
+	  ]
+	}
+  }
+}

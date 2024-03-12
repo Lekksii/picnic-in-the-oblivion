@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://d21yqv2mweayp"]
+
+[ext_resource type="Script" path="res://scripts/GUI/parameter.gd" id="1_3hr6u"]
+[ext_resource type="Texture2D" uid="uid://c8hmfxx25vl88" path="res://assets/ui/armor_stat.png" id="2_vobmr"]
+[ext_resource type="Theme" uid="uid://bwkf21e1tyodp" path="res://themes/regular_font.tres" id="3_e4v8n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kypl4"]
+
+[node name="parameter" type="Panel"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 54)
+offset_left = -95.0
+offset_right = 95.0
+offset_bottom = 54.0
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("1_3hr6u")
+
+[node name="container" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_right = 4.0
+offset_bottom = -9.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="icon" type="TextureRect" parent="container"]
+custom_minimum_size = Vector2(36, 36)
+layout_mode = 2
+texture = ExtResource("2_vobmr")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="separator" type="Container" parent="container"]
+custom_minimum_size = Vector2(8, 0)
+layout_mode = 2
+
+[node name="containerText" type="HBoxContainer" parent="container"]
+layout_mode = 2
+size_flags_horizontal = 4
+alignment = 1
+
+[node name="parameterText" type="Label" parent="container/containerText"]
+custom_minimum_size = Vector2(128, 0)
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3_e4v8n")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "+000%"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true

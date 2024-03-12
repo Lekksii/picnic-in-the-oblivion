@@ -1,0 +1,371 @@
+{
+  "barrel_1":{
+    "preview": {
+      "name": "Barrel 1",
+      "pos": [0,-0.09,0],
+      "rot": [0,0,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "barrel_2":{
+    "preview": {
+      "name": "Barrel 2",
+      "pos": [0,-0.09,0],
+      "rot": [0,0,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "concrete_block":{
+    "preview": {
+      "name": "Concrete block",
+      "pos": [0,-0.07,0],
+      "rot": [0,0,0],
+      "scale": 0.1
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "concrete_fence":{
+    "preview": {
+      "name": "Fence concreate",
+      "pos": [0,-0.09,0],
+      "rot": [0,180,0],
+      "scale": 0.05
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "concrete_slabs":{
+    "preview": {
+      "name": "Slabs",
+      "pos": [0,-0.04,0],
+      "rot": [0,120,0],
+      "scale": 0.05
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "concrete_tube":{
+    "preview": {
+      "name": "Tube",
+      "pos": [-0.08,-0.02,0],
+      "rot": [0,-45,0],
+      "scale": 0.02
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "door_1":{
+    "preview": {
+      "name": "Door 1",
+      "pos": [0.05,-0.1,0],
+      "rot": [0,-180,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "door_2":{
+    "preview": {
+      "name": "Door 2",
+      "pos": [0.05,-0.1,0],
+      "rot": [0,-180,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "door_stud_1":{
+    "preview": {
+      "name": "Door stud 1",
+      "pos": [0,-0.1,0],
+      "rot": [0,180,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "door_stud_2":{
+    "preview": {
+      "name": "Door stud 2",
+      "pos": [0,-0.1,0],
+      "rot": [0,180,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "forest_1":{
+    "preview": {
+      "name": "Forest",
+      "pos": [0,-0.08,0],
+      "rot": [0,180,0],
+      "scale": 0.04
+    },
+    "texture": "textures/texforest1.png"
+  },
+  "garbage":{
+    "preview": {
+      "name": "Garbage",
+      "pos": [-0.01,-0.02,0],
+      "rot": [-29.6,34.25,20.23],
+      "scale": 0.1
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "industry_tube":{
+    "preview": {
+      "name": "Industry tube",
+      "pos": [0,-0.02,0],
+      "rot": [-15.12,136.55,0.48],
+      "scale": 0.01
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "lamp_1":{
+    "preview": {
+      "name": "Lamp 1",
+      "pos": [0.03,0.04,0],
+      "rot": [47.11,-205.16,-3.32],
+      "scale": 0.13
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "lamp_2":{
+    "preview": {
+      "name": "Lamp 2",
+      "pos": [0,0,0],
+      "rot": [90,0,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "lamp_3":{
+    "preview": {
+      "name": "Lamp 3",
+      "pos": [0,0,0],
+      "rot": [90,0,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "metal_case":{
+    "preview": {
+      "name": "Mtl case",
+      "pos": [0,-0.1,0],
+      "rot": [0,180,0],
+      "scale": 0.1
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "metal_gate":{
+    "preview": {
+      "name": "Mtl gate",
+      "pos": [-0.01,-0.12,0],
+      "rot": [0,90,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "metal_vent":{
+    "preview": {
+      "name": "Mtl vent",
+      "pos": [-0.01,-0.06,0],
+      "rot": [0,-43.38,0],
+      "scale": 0.05
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "old_tree":{
+    "preview": {
+      "name": "Old tree",
+      "pos": [0,-0.11,0],
+      "rot": [0,0,0],
+      "scale": 0.05
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "rad":{
+    "preview": {
+      "name": "Rad",
+      "pos": [0,-0.02,0],
+      "rot": [-32.58,0,0],
+      "scale": 0.08
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "sky_1":{
+    "preview": {
+      "name": "Sky day",
+      "pos": [0,-0.07,0],
+      "rot": [0,0,0],
+      "scale": 0.01
+    },
+    "texture": "textures/texsky1.png"
+  },
+  "sky_2":{
+    "preview": {
+      "name": "Sky evening",
+      "pos": [0,-0.07,0],
+      "rot": [0,0,0],
+      "scale": 0.01
+    },
+    "texture": "textures/texsky2.png"
+  },
+  "sky_3":{
+    "preview": {
+      "name": "Sky night",
+      "pos": [0,-0.07,0],
+      "rot": [0,0,0],
+      "scale": 0.01
+    },
+    "texture": "textures/texsky3.png"
+  },
+  "stone_1":{
+    "preview": {
+      "name": "Stone 1",
+      "pos": [0,-0.04,0],
+      "rot": [-24.21,0,0],
+      "scale": 0.1
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "stone_2":{
+    "preview": {
+      "name": "Stone 2",
+      "pos": [0,-0.04,0],
+      "rot": [-24.21,0,0],
+      "scale": 0.1
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "tree_4sided":{
+    "preview": {
+      "name": "Tree 1",
+      "pos": [0,-0.12,0],
+      "rot": [0,180,0],
+      "scale": 0.03
+    },
+    "texture": "textures/textree1.png"
+  },
+  "tree_faced":{
+    "preview": {
+      "name": "Tree 2",
+      "pos": [0,-0.12,0],
+      "rot": [0,180,0],
+      "scale": 0.03
+    },
+    "texture": "textures/textree1.png"
+  },
+  "uaz":{
+    "preview": {
+      "name": "UAZ",
+      "pos": [0,-0.07,0],
+      "rot": [0,0,0],
+      "scale": 0.06
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "underground_section_end":{
+    "preview": {
+      "name": "Underground 1 ",
+      "pos": [0,-0.08,0],
+      "rot": [90,0,0],
+      "scale": 0.03
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "underground_section_forward":{
+    "preview": {
+      "name": "Underground 2",
+      "pos": [0,-0.12,0],
+      "rot": [90,0,0],
+      "scale": 0.03
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "underground_section_turned":{
+    "preview": {
+      "name": "Underground 3",
+      "pos": [0.03,-0.12,0],
+      "rot": [0,0,0],
+      "scale": 0.03
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "village_house":{
+    "preview": {
+      "name": "House",
+      "pos": [0,-0.09,0],
+      "rot": [0,137.74,0],
+      "scale": 0.04
+    },
+    "texture": "textures/texobj2.png"
+  },
+  "window":{
+    "preview": {
+      "name": "Window",
+      "pos": [0,-0.11,0],
+      "rot": [0,180,0],
+      "scale": 0.14
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "window_sill":{
+    "preview": {
+      "name": "Window sill",
+      "pos": [0,-0.07,0],
+      "rot": [0,180,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_box":{
+    "preview": {
+      "name": "Wood box",
+      "pos": [0,-0.08,0],
+      "rot": [0,0,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_box_green":{
+    "preview": {
+      "name": "Green box",
+      "pos": [0,-0.06,0],
+      "rot": [27.47,147.07,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_fence":{
+    "preview": {
+      "name": "Wood fence",
+      "pos": [0,-0.07,0],
+      "rot": [0,180,0],
+      "scale": 0.07
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_panel":{
+    "preview": {
+      "name": "Wood panel",
+      "pos": [0,-0.11,0],
+      "rot": [0,180,0],
+      "scale": 0.15
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_reel":{
+    "preview": {
+      "name": "Wood reel",
+      "pos": [0,-0.1,0],
+      "rot": [0,0,0],
+      "scale": 0.09
+    },
+    "texture": "textures/texobj1.png"
+  },
+  "wood_table":{
+    "preview": {
+      "name": "Wood table",
+      "pos": [0.06,-0.09,0],
+      "rot": [-15.78,-125.21,23.58],
+      "scale": 0.11
+    },
+    "texture": "textures/texobj1.png"
+  }
+}

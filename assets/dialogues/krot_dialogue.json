@@ -1,0 +1,254 @@
+{
+	"start_dialogue": "krot_start",
+	"dialogues": {
+		"krot_start": {
+			"text": "dlg.krot.start",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.friend",
+					"go_to": "krot_friend"
+				},
+				{
+					"text": "dlg.krot.answer.0",
+					"go_to": "krot_zone"
+				},
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"krot_friend": {
+			"text": "dlg.krot.text.friend",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"krot_zone": {
+			"text": "dlg.krot.text.1",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.warehouse",
+					"go_to": "krot_warehouse",
+					"condition_money": 50,
+					"action": {
+						"del_money": 50
+					}
+				},
+				{
+					"text": "dlg.krot.answer.road",
+					"go_to": "krot_road",
+					"condition_money": 50,
+					"action": {
+						"del_money": 50
+					}
+				},
+				{
+					"text": "dlg.krot.answer.underground",
+					"go_to": "krot_canal",
+					"condition_money": 50,
+					"action": {
+						"del_money": 50
+					}
+				},
+				{
+					"text": "dlg.krot.answer.no",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"krot_warehouse": {
+			"text": "dlg.krot.text.warehouse",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"krot_road": {
+			"text": "dlg.krot.text.road",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"krot_canal": {
+			"text": "dlg.krot.text.underground",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 353,
+			"size_y": 186,
+			"x": 489,
+			"y": 286
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 860,
+			"y": 280
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 860,
+			"y": 600
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 860,
+			"y": 920
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1220,
+			"y": 1140
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1200,
+			"y": 280
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1200,
+			"y": 600
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1540,
+			"y": 280
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1880,
+			"y": 520
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1560,
+			"y": 600
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1566,
+			"y": 938
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1566,
+			"y": 1260
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1568,
+			"y": 1584
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1900,
+			"y": 680
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1900,
+			"y": 980
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1900,
+			"y": 1260
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1968,
+			"y": 1794
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 2273,
+			"y": 631
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 2274,
+			"y": 983
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 2277,
+			"y": 1315
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2650,
+			"y": 878
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2668,
+			"y": 1231
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2670,
+			"y": 1560
+		}
+	]
+}

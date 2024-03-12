@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bh1vx8gs23ihr"
+path="res://.godot/imported/exterior.obj-5dfe6e3972b0bdfcb94ccdc8b8d61313.mesh"
+
+[deps]
+
+files=["res://.godot/imported/exterior.obj-5dfe6e3972b0bdfcb94ccdc8b8d61313.mesh"]
+
+source_file="res://assets/levels/garbage_camp/exterior.obj"
+dest_files=["res://.godot/imported/exterior.obj-5dfe6e3972b0bdfcb94ccdc8b8d61313.mesh", "res://.godot/imported/exterior.obj-5dfe6e3972b0bdfcb94ccdc8b8d61313.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,31 @@
+[gd_scene load_steps=7 format=3 uid="uid://hkgppebk53o1"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_0glg7"]
+[ext_resource type="ArrayMesh" uid="uid://b083bbswirk7b" path="res://assets/models/underground_doorhole.obj" id="2_2cgjq"]
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="3_j8kww"]
+[ext_resource type="ArrayMesh" uid="uid://4nwlwx2jnjrq" path="res://assets/models/underground_door.obj" id="4_hft34"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xfqfa"]
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("1_0glg7")
+metallic_specular = 0.0
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fw2gw"]
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("3_j8kww")
+metallic_specular = 0.0
+texture_filter = 0
+
+[node name="UndergroundDoorhole" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_xfqfa")
+mesh = ExtResource("2_2cgjq")
+
+[node name="UndergroundDoor" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.01, 0, -0.00197428, 0, 1.01, 0, 0.00197428, 0, 1.01, 0.000478745, -0.011633, -0.000728607)
+material_override = SubResource("StandardMaterial3D_fw2gw")
+mesh = ExtResource("4_hft34")
+skeleton = NodePath("../..")

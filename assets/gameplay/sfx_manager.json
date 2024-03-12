@@ -1,0 +1,24 @@
+{
+	"_comment": "THIS FILE CONTROLS WHAT KIND OF SOUND WILL BE PLAYED WHEN OPENING WINDOWS, LOOTING, ITEM TAKING ETC.",
+	"_comment": "WRITE ONLY FILE NAME OF SOUND. BEFORE DON'T FORGET TO PLACE *.WAV OR *.MP3 TO 'ASSETS/SOUNDS/'",
+	
+	"on_dialogue_open": "click_sound",
+	"on_loot_open": "click_sound",
+	"on_pause_open": "no_snd",
+	"on_trade_open": "click_sound",
+	"on_dialogue_replic_click": "click_sound",
+	"on_item_use": "click_sound",
+	"on_usable_zone_used": "click_sound",
+	"on_loot_money_used": "no_snd",
+	"on_skill_click": "click_sound",
+	"on_map_marker_click": "click_sound",
+	"on_pause_resume_click": "click_sound",
+	"on_pause_mainmenu_click": "click_sound",
+	"on_pause_options_click": "click_sound",
+	"on_pause_inv_click": "click_sound",
+	"on_pause_map_click": "click_sound",
+	"on_pause_character_click": "click_sound",
+	"on_pause_journal_click": "click_sound",
+	"on_msg_btn_click": "click_sound",
+	"geiger_sound": ["geiger_1","geiger_2","geiger_3","geiger_4","geiger_5","geiger_6","geiger_7"]
+}

@@ -1,0 +1,1133 @@
+{
+	"weather_color": "4a739f",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"id": "spawn_point",
+			"position": [
+				2.84,
+				1.7,
+				9.9
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/levels/harya_outfit_road/props_texobj1",
+			"name": "props_texobj1",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/levels/harya_outfit_road/props_texobj2",
+			"name": "props_texobj2",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest",
+			"position": [
+				-16.12,
+				-3.43,
+				47.67
+			],
+			"rotation": [
+				0,
+				-170.97,
+				0
+			],
+			"scale": [
+				2.73,
+				2.73,
+				2.73
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest9",
+			"position": [
+				-34.93,
+				-7.62,
+				67.61
+			],
+			"rotation": [
+				0,
+				-170.97,
+				0
+			],
+			"scale": [
+				2.73,
+				2.73,
+				2.73
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest2",
+			"position": [
+				-32.15,
+				-4.15,
+				27.34
+			],
+			"rotation": [
+				0,
+				125.62,
+				0
+			],
+			"scale": [
+				3.45,
+				3.45,
+				3.45
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest3",
+			"position": [
+				-35.03,
+				-2.5,
+				7.2
+			],
+			"rotation": [
+				0,
+				110.62,
+				0
+			],
+			"scale": [
+				3.45,
+				3.45,
+				3.45
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest10",
+			"position": [
+				-19.52,
+				-0.95,
+				25.98
+			],
+			"rotation": [
+				0,
+				111.52,
+				0
+			],
+			"scale": [
+				2.31,
+				2.31,
+				2.31
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest4",
+			"position": [
+				-26.98,
+				-5.5,
+				-10.7
+			],
+			"rotation": [
+				0,
+				65.62,
+				0
+			],
+			"scale": [
+				3.45,
+				3.45,
+				3.45
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest5",
+			"position": [
+				-12.16,
+				-2.49,
+				-30.7
+			],
+			"rotation": [
+				0,
+				38.05,
+				0
+			],
+			"scale": [
+				3.45,
+				3.45,
+				3.45
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest6",
+			"position": [
+				-21.2,
+				-0.14,
+				-0.35
+			],
+			"rotation": [
+				0,
+				71.99,
+				0
+			],
+			"scale": [
+				2.22,
+				2.22,
+				2.22
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest7",
+			"position": [
+				6.79,
+				-4.37,
+				-47.51
+			],
+			"rotation": [
+				0,
+				10.9,
+				0
+			],
+			"scale": [
+				3.89,
+				3.89,
+				3.89
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest8",
+			"position": [
+				21.71,
+				-1.46,
+				-23.76
+			],
+			"rotation": [
+				0,
+				-35.67,
+				0
+			],
+			"scale": [
+				2.86,
+				2.86,
+				2.86
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"lit": true,
+			"model": "assets/models/sky_1",
+			"name": "skybox_1",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				14.08,
+				14.08,
+				14.08
+			],
+			"texture": "texsky1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_1",
+			"name": "stone_1",
+			"position": [
+				8.25,
+				0,
+				6.11
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_2",
+			"name": "stone_2",
+			"position": [
+				-11.22,
+				0,
+				0.3
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_1",
+			"name": "stone_3",
+			"position": [
+				-7.82,
+				0,
+				18.61
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_1",
+			"position": [
+				-2.97,
+				-0.29,
+				14.64
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_2",
+			"position": [
+				-6.66,
+				-0.29,
+				27.04
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_3",
+			"position": [
+				-14.03,
+				-0.29,
+				25.19
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_4",
+			"position": [
+				-16.55,
+				-0.2,
+				13.41
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_5",
+			"position": [
+				-18.52,
+				-0.2,
+				8.98
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_6",
+			"position": [
+				-7.63,
+				-0.57,
+				11.11
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_7",
+			"position": [
+				-14.87,
+				-0.57,
+				-2.18
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_8",
+			"position": [
+				-12.94,
+				-0.57,
+				-6.79
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_9",
+			"position": [
+				-3.92,
+				-0.57,
+				-6.61
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_10",
+			"position": [
+				-5.25,
+				-0.57,
+				-18.09
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_11",
+			"position": [
+				-0.56,
+				-0.57,
+				-29.11
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_12",
+			"position": [
+				13.43,
+				-0.57,
+				-21.37
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_13",
+			"position": [
+				16.87,
+				-0.57,
+				-13.08
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_14",
+			"position": [
+				16.87,
+				-0.57,
+				1.86
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_15",
+			"position": [
+				16.87,
+				-0.57,
+				13.95
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_16",
+			"position": [
+				10.21,
+				-0.57,
+				9.38
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_17",
+			"position": [
+				12.82,
+				-0.57,
+				24.28
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_18",
+			"position": [
+				4.18,
+				-0.57,
+				25.77
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_19",
+			"position": [
+				-4.63,
+				-0.57,
+				38.44
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_20",
+			"position": [
+				9.23,
+				0,
+				16.02
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_21",
+			"position": [
+				2.91,
+				0,
+				39.03
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_22",
+			"position": [
+				12.16,
+				0,
+				-4.36
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_23",
+			"position": [
+				-14.84,
+				0,
+				-18.41
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_24",
+			"position": [
+				-13.8,
+				0,
+				4.34
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_25",
+			"position": [
+				-12.72,
+				0,
+				17.8
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_26",
+			"position": [
+				-8.84,
+				0,
+				22.56
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_27",
+			"position": [
+				-14.15,
+				0,
+				36.46
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_28",
+			"position": [
+				-26.64,
+				0,
+				14.6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_29",
+			"position": [
+				-5.93,
+				0,
+				1.75
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree2.png",
+			"billboard": true
+		},
+		{
+			"hostile_id": "harya_road_eyezone1",
+			"id": "hostile_eyezone",
+			"name": "harya_road_eyezone1",
+			"position": [
+				2.97,
+				2.2,
+				9.93
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right",
+				"shoot_sit_right",
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				8.7,
+				0.33,
+				4.37
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-42.59,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "harya_road_eyezone1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right",
+				"shoot_sit_right",
+				"shoot_stand_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-2.01,
+				0.03,
+				4.55
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				47.48,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "harya_road_eyezone1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right",
+				"shoot_sit_right",
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				3.69,
+				0.03,
+				-2.71
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-3.46,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "harya_road_eyezone1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				8.33,
+				3.36,
+				4.88
+			],
+			"rotation": [
+				0,
+				-36.61,
+				0
+			],
+			"scale": [
+				0.63,
+				6.42,
+				0.63
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				-0.41,
+				0.67,
+				4.51
+			],
+			"rotation": [
+				0,
+				56.41,
+				0
+			],
+			"scale": [
+				2.69,
+				2.76,
+				1.91
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block3",
+			"position": [
+				5.78,
+				1.01,
+				-0.86
+			],
+			"rotation": [
+				0,
+				-18.59,
+				0
+			],
+			"scale": [
+				2.35,
+				1.82,
+				1.91
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block4",
+			"position": [
+				4.06,
+				0.67,
+				-1.44
+			],
+			"rotation": [
+				0,
+				-18.59,
+				0
+			],
+			"scale": [
+				1.18,
+				1.18,
+				1.91
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpojeyu6nu3bu"]
+
+[ext_resource type="Texture2D" uid="uid://cuiewq8xfghu0" path="res://assets/ui/editor/waypoints.png" id="1_ftd6v"]
+
+[node name="waypoint_icon" type="TextureRect"]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -32.0
+offset_top = -29.5
+offset_right = 32.0
+offset_bottom = 29.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("1_ftd6v")
+stretch_mode = 5

@@ -1,0 +1,14 @@
+{
+  "start_dialogue": "0",
+  "dialogues": {
+	"0": {
+	  "text": "dlg.zabor.4.text",
+	  "answers": [
+		{
+		  "text": "dlg.many.times.answer.1",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

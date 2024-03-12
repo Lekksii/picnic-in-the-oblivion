@@ -1,0 +1,134 @@
+[editor_metadata]
+
+executable_path="D:/Programming/Godot_v4.2.1-stable_win64.exe"
+use_advanced_connections=false
+
+[debug_options]
+
+run_live_debug=true
+run_reload_scripts=true
+run_debug_collisions=false
+server_keep_open=true
+run_deploy_remote_debug=true
+
+[color_picker]
+
+recent_presets=PackedColorArray(0.10748, 0.10748, 0.10748, 1, 0.125911, 0.125911, 0.125911, 1, 0.151276, 0.151276, 0.151276, 1, 0.136826, 0.136826, 0.136826, 1, 0, 0, 0, 1, 0.4, 0.384314, 0.372549, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0.933333, 0.615686, 0.192157, 1)
+presets=PackedColorArray(0.290196, 0.45098, 0.623529, 1, 0.223529, 0.180392, 0.239216, 1, 0.0392157, 0.0392157, 0.0392157, 1, 0.4, 0.384314, 0.372549, 1, 0.933333, 0.615686, 0.192157, 1, 0.909804, 0, 0, 1, 0.662745, 0.647059, 0.635294, 1, 0.2, 0.898039, 0.27451, 1, 0.156863, 0.745098, 0.219608, 1)
+
+[dialog_bounds]
+
+project_settings=Rect2(281, 94, 900, 691)
+export=Rect2(371, 38, 1027, 981)
+create_new_node=Rect2(510, 190, 900, 700)
+search_help=Rect2(480, 270, 960, 540)
+editor_settings=Rect2(593, 182, 900, 700)
+
+[recent_files]
+
+scenes=["res://engine_objects/custom_button.tscn", "res://game.tscn", "res://engine_objects/player_answer.tscn", "res://engine_objects/npc.tscn", "res://engine_objects/parameter_bar.tscn", "res://engine_objects/inv_parameter_red.tscn", "res://engine_objects/inv_parameter_green.tscn", "res://engine_objects/inv_parameter.tscn", "res://bug_trap.tscn", "res://video_puppet.tscn"]
+scripts=["Control", "res://assets/dialogues/hootalin_dialogue.json", "Label", "res://assets/levels/village_e3/level.json", "res://assets/dialogues/##dialogue_structure##.json", "res://assets/dialogues/rusty_dialogue_1.json", "Dictionary", "res://assets/levels/shlang_cd_underground/level.json", "res://scripts/editor_list_object.gd", "res://assets/levels/intro/level.json"]
+
+[script_setup]
+
+last_selected_language="GDScript"
+
+[project_settings]
+
+advanced_mode=true
+
+[inspector_options]
+
+material_preview_on_sphere=true
+
+[export_options]
+
+default_filename="picnic"
+
+[linked_properties]
+
+Node3D:scale=true
+Control:scale=true
+Sprite3D:scale=true
+TextureRect:scale=true
+Panel:scale=true
+Label:scale=true
+VBoxContainer:scale=true
+ScrollContainer:scale=true
+Button:scale=true
+MultiNodeEdit:scale=true
+Camera3D:scale=true
+Label3D:scale=true
+EditorDebuggerRemoteObject:scale=true
+DirectionalLight3D:scale=true
+StandardMaterial3D:uv1_scale=true
+StandardMaterial3D:uv2_scale=true
+CSGSphere3D:scale=true
+MeshInstance3D:scale=true
+OmniLight3D:scale=true
+LightmapProbe:scale=true
+SubViewportContainer:scale=true
+NinePatchRect:scale=true
+TextureProgressBar:scale=true
+SpotLight3D:scale=true
+EditorDebuggerRemoteObject:uv1_scale=true
+EditorDebuggerRemoteObject:uv2_scale=true
+AnimatedSprite3D:scale=true
+RayCast3D:scale=true
+CollisionShape3D:scale=true
+StaticBody3D:scale=true
+ColorRect:scale=true
+HBoxContainer:scale=true
+GridContainer:scale=true
+Container:scale=true
+VSeparator:scale=true
+AnimationTrackKeyEdit:value=true
+Skeleton3D:scale=true
+AnimatedSprite2D:scale=false
+RichTextLabel:scale=true
+CanvasLayer:scale=true
+Sprite2D:scale=true
+Area3D:scale=true
+Path3D:scale=true
+PathFollow3D:scale=true
+OccluderInstance3D:scale=true
+BoneAttachment3D:scale=true
+PhysicalBone3D:scale=true
+HSeparator:scale=true
+LineEdit:scale=true
+CenterContainer:scale=true
+TabBar:scale=true
+TabContainer:scale=true
+SpinBox:scale=true
+ItemList:scale=true
+Decal:scale=true
+AudioStreamPlayer3D:scale=true
+AudioListener3D:scale=true
+AspectRatioContainer:scale=true
+HSlider:scale=true
+VisibleOnScreenNotifier3D:scale=true
+
+[texture_region_editor]
+
+snap_step=Vector2(8, 8)
+snap_separation=Vector2(0, 0)
+snap_mode=1
+
+[shader_setup]
+
+last_selected_mode=0
+last_selected_language="Shader"
+
+[scripts_panel]
+
+show_scripts_panel=true
+
+[2d_editor]
+
+grid_offset=Vector2(0, 0)
+grid_step=Vector2(5, 5)
+primary_grid_steps=8
+snap_rotation_offset=0.0
+snap_rotation_step=0.261799
+snap_scale_step=0.01
+primary_grid_step=Vector2i(8, 8)

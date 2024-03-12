@@ -1,0 +1,14 @@
+{
+	"start_dialogue": "hootalin_nodlg",
+	"dialogues": {
+		"hootalin_nodlg": {
+			"text": "hootalin.text.2",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	}
+}

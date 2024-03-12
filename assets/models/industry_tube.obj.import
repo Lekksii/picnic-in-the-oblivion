@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cg60duxqbnv7j"
+path="res://.godot/imported/industry_tube.obj-8a0346579414b78dc4a344a646387f4c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/industry_tube.obj-8a0346579414b78dc4a344a646387f4c.mesh"]
+
+source_file="res://assets/models/industry_tube.obj"
+dest_files=["res://.godot/imported/industry_tube.obj-8a0346579414b78dc4a344a646387f4c.mesh", "res://.godot/imported/industry_tube.obj-8a0346579414b78dc4a344a646387f4c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

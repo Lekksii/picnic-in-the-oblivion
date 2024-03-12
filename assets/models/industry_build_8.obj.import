@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7ojx3p1a6vcx"
+path="res://.godot/imported/industry_build_8.obj-8a5dc0a693f60d82e48acba0c7d533cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/industry_build_8.obj-8a5dc0a693f60d82e48acba0c7d533cf.mesh"]
+
+source_file="res://assets/models/industry_build_8.obj"
+dest_files=["res://.godot/imported/industry_build_8.obj-8a5dc0a693f60d82e48acba0c7d533cf.mesh", "res://.godot/imported/industry_build_8.obj-8a5dc0a693f60d82e48acba0c7d533cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

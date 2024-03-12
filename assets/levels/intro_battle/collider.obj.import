@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjq0h15ug83ju"
+path="res://.godot/imported/collider.obj-c0f3620ec456b9b4011f4442f89451fa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/collider.obj-c0f3620ec456b9b4011f4442f89451fa.mesh"]
+
+source_file="res://assets/levels/intro_battle/collider.obj"
+dest_files=["res://.godot/imported/collider.obj-c0f3620ec456b9b4011f4442f89451fa.mesh", "res://.godot/imported/collider.obj-c0f3620ec456b9b4011f4442f89451fa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

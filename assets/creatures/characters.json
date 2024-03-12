@@ -1,0 +1,489 @@
+{
+  "rusty_profile":{
+	"name": "npc.rusty.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_arm",
+	"weapon": "w_groza",
+	"gasmask": true,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "rusty.first.dialogue.done",
+		"dialogue": "rusty_dialogue_0"
+	  },
+	  {
+		"has_event_key": "rusty.first.dialogue.done.not.correct",
+		"dialogue": "rusty_dialogue_0_again"
+	  },
+	  {
+		"has_event_key": "rusty.second.dialogue.start",
+		"dont_has_event_key": "rusty.second.dialogue.done",
+		"dialogue": "rusty_dialogue_1"
+	  },
+	  {
+		"has_event_key": "rusty.quest.whistle.not.complete",
+		"dont_has_event_key": "rusty.whistle.dialogue.done",
+		"dialogue": "rusty_no_dialogue_quest_bandits"
+	  },
+	  {
+		"has_event_key": "rusty.quest.bandits.not.complete",
+		"dialogue": "rusty_no_dialogue_quest_bandits"
+	  },
+	  {
+		"has_event_key": "whistler.quest.done",
+		"dont_has_event_key": "rusty.whistle.complete.quest",
+		"dialogue": "rusty_dialogue_2"
+	  },
+	  {
+		"has_event_key": "rusty.no.dialogue",
+		"dialogue": "no_dialogue_rusty"
+	  }
+	]
+  },
+  "galosh_profile":{
+	"name": "npc.galosh.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_lr300",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"has_event_key": "galosh.dialogue.done",
+		"dialogue": "galosh_no_dialogue"
+	  },
+	  {
+		"dont_has_event_key": "galosh.dialogue.done",
+		"dialogue": "galosh_dialogue"
+	  }
+	]
+  },
+  "botan_profile":{
+	"name": "npc.botan.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "botanik.dialogue.done",
+		"dialogue": "botanik_dialogue"
+	  },
+	  {
+		"has_event_key": "botanik.no.dialogue",
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "zabor_profile":{
+	"name": "npc.zabor.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "zabor.dialogue.done",
+		"dialogue": "zabor_dialogue"
+	  },
+	  {
+		"has_event_key": "zabor.no.dialogue",
+		"dialogue": "zabor_no_dialogue"
+	  }
+	]
+  },
+  "village_trader_profile":{
+	"name": "npc.village.trader.name",
+	"trader_profile": "village_trader",
+	"texture": "pstalker",
+	"idle_animation": "sit_on_greenbox_2",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "whistler_profile":{
+	"name": "npc.svistun.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"has_event_key": "rusty.quest.whistle.not.complete",
+		"dialogue": "whistler_dialogue"
+	},
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "coward_profile":{
+	"name": "npc.trus.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+		{
+		"dont_has_event_key": "coward.talk.done",
+		"dialogue": "coward_dialogue",	
+		},
+	  {
+		"has_event_key": "coward.talk.done",
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "harya_profile":{
+	"name": "npc.harya.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+		{
+			"dont_has_event_key": "harya.gived.quest.bandits",
+			"dialogue": "harya_dialogue"
+		},
+		{
+			"has_event_key": "harya.gived.quest.bandits",
+			"dont_has_event_key": "harya.bandits.completed",
+			"dialogue": "harya_dialogue",
+			"start_phrase_id": "harya_start_quest_accepted"
+		},
+		{
+			"has_event_key": "harya.bandits.completed",
+			"dont_has_event_key": "harya.second.dialogue",
+			"dialogue": "harya_completed_bandits"
+		},
+	  {
+		"has_event_key": "harya.talk.done",
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "krot_profile":{
+	"name": "npc.krot.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "krot_dialogue"
+	  }
+	]
+  },
+  "batka_profile":{
+	"name": "npc.batka.name",
+	"trader_profile": null,
+	"texture": "psoldier",
+	"idle_animation": "idle",
+	"weapon": "w_groza",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "batka.first.dialogue",
+		"dialogue": "batka_dialogue"
+	  },
+	  {
+		"dont_has_event_key": "batka.second.dialogue",
+		"has_event_key": "batka.battery.quest",
+		"dialogue": "batka_second_dialogue"
+	  },
+	{
+		"has_event_key": "manikovsky.kill",
+		"dont_has_event_key": "batka.talk.done",
+		"dialogue": "batka_third_dialogue"
+	},
+	  {
+		"has_event_key": "batka.talk.done",
+		"dialogue": "batka_no_dialogue"
+	  },
+	]
+  },
+  "captain_profile":{
+	"name": "npc.cap.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "cap.dialogue.done",
+		"dialogue": "captain_dialogue"
+	  }
+	]
+  },
+  "manikovsky_profile":{
+	"name": "npc.manikovsky.name",
+	"trader_profile": null,
+	"texture": "pscientist",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_groza",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "manikovsky.dialogue.done",
+		"dialogue": "manikovsky_dialogue"
+	  }
+	]
+  },
+  "kaizanovsky_profile":{
+	"name": "npc.kaizanovsky.name",
+	"trader_profile": null,
+	"texture": "pscientist",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_groza",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+		{
+		"dont_has_event_key": "kaizanovsky.no.dialogue",
+		"dialogue": "kaizanovsky_dialogue"
+	  },
+	  {
+		"has_event_key": "kaizanovsky.no.dialogue",
+		"dont_has_event_key": "cobold.second.dlg.done",
+		"dialogue": "kaizanovsky_no_dialogue"
+	  },
+	 {
+		"has_event_key": "cobold.second.dlg.done",
+		"dont_has_event_key": "kaizanovsky.dead",
+		"dialogue": "kaizanovsky_dialogue_final"
+	 }
+	]
+  },
+  "belomor_profile":{
+	"name": "npc.belomor.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "belomor.friends.quest",
+		"dialogue": "belomor_dialogue"
+	  },
+	{
+		"dont_has_event_key": "belomor.no.dialogue",
+		"has_event_key": "belomor.friends.quest.completed",
+		"dialogue": "belomor_dialogue_quest_completed"
+	},
+	{
+		"has_event_key": "belomor.no.dialogue",
+		"dialogue": "belomor_no_dialogue"
+	}
+	]
+  },
+	"gutalin_profile":{
+	"name": "npc.gutalin.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_groza",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "hootalin.no.dialogue",
+		"dialogue": "hootalin_dialogue"
+	  },
+	  {
+		"has_event_key": "hootalin.no.dialogue",
+		"dialogue": "hootalin_no_dialogue"
+	  }
+	]
+  },
+  "shlang_profile":{
+	"name": "npc.shlang.name",
+	"trader_profile": null,
+	"texture": "psoldier",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_lr300",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "shlang.cd.disk",
+		"dialogue": "shlang_dialogue"
+	  },
+	{
+		"has_event_key": "shlang.cd.disk",
+		"dont_has_event_key": "shlang.cd.found",
+		"dialogue": "shlang_quest_no_dialogue"
+	  },
+	{
+		"has_event_key": "shlang.cd.found",
+		"dont_has_event_key": "shlang.no.dialogue",
+		"dialogue": "shlang_quest_completed_dialogue"
+	},
+	{
+		"has_event_key": "shlang.no.dialogue",
+		"dialogue": "no_dialogue"
+	}
+	]
+  },
+  "scientists_group_one_trader_profile":{
+	"name": "npc.village.trader.name",
+	"trader_profile": "first_group_trader",
+	"texture": "pstalker",
+	"idle_animation": "sit_on_greenbox_2",
+	"weapon": "w_groza",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "garbage_trader_profile":{
+	"name": "npc.village.trader.name",
+	"trader_profile": "garbage_trader",
+	"texture": "pstalker",
+	"idle_animation": "sit_on_greenbox_2",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "cobold_profile":{
+	"name": "npc.kobold.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle",
+	"gasmask": true,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+	  {
+		"dont_has_event_key": "cobold.first.dlg.done",
+		"dialogue": "cobold_dialogue_one"
+	  },
+	  {
+		"dont_has_event_key": "cobold.second.dlg.done",
+		"dialogue": "cobold_dialogue_two"
+	  }
+	]
+  },
+  "ai_test_stalker":{
+	"name": "npc.village.trader.name",
+	"trader_profile": "garbage_trader",
+	"texture": "pstalker",
+	"idle_animation": "sit_on_greenbox_2",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+"betrayer_story":{
+	"name": "npc.stalker",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "weapon_stand_idle_story",
+	"weapon": "w_ak",
+	"gasmask": false,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+"player_story":{
+	"name": "npc.stalker",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "idle_weapon",
+	"weapon": "w_ak",
+	"gasmask": true,
+	"gasmask_type": "antigas",
+	"weapon_hold": "r_hand",
+	"dialogues": [
+	  {
+		"dialogue": "no_dialogue"
+	  }
+	]
+  },
+  "zob_profile":{
+	"name": "npc.zob.name",
+	"trader_profile": null,
+	"texture": "pstalker",
+	"idle_animation": "sit_ground",
+	"weapon": "w_lr300",
+	"gasmask": true,
+	"gasmask_type": "antigas",
+	"weapon_hold": "backpack",
+	"dialogues": [
+		{
+			"dont_has_event_key": "zob.quest",
+			"dialogue": "zob_dialogue"
+		},
+		{
+			"has_event_key": "zob.quest.completed",
+			"dont_has_event_key": "zob.no.dialogue",
+			"dialogue": "zob_dialogue",
+			"start_phrase_id": "completed_quest"
+		},
+		{
+			"has_event_key": "zob.no.dialogue",
+			"dialogue": "zob_dialogue",
+			"start_phrase_id": "no_dialogue"
+		}
+	]
+  },
+}

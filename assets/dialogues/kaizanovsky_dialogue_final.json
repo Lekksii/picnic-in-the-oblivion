@@ -1,0 +1,49 @@
+{
+	"start_dialogue": "kz0",
+	"dialogues": {
+		"kz0": {
+			"text": "kaizanovsky.final.text.0",
+			"answers": [
+				{
+					"text": "kaizanovsky.final.answer.0",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"kaizanovsky.dead"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 400,
+			"y": 400
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 740,
+			"y": 400
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1091,
+			"y": 572
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1089,
+			"y": 639
+		}
+	]
+}

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6e4ajuyrhs0j"
+path="res://.godot/imported/fps_hands.obj-19230a5b59f563443b3e2dc7e09aed84.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fps_hands.obj-19230a5b59f563443b3e2dc7e09aed84.mesh"]
+
+source_file="res://assets/models/fps_hands.obj"
+dest_files=["res://.godot/imported/fps_hands.obj-19230a5b59f563443b3e2dc7e09aed84.mesh", "res://.godot/imported/fps_hands.obj-19230a5b59f563443b3e2dc7e09aed84.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

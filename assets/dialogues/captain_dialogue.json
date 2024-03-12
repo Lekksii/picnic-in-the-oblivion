@@ -1,0 +1,37 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "cap.text.0",
+			"answers": [
+				{
+					"text": "cap.answer.0",
+					"go_to": "first"
+				}
+			]
+		},
+		"first": {
+			"text": "cap.text.1",
+			"answers": [
+				{
+					"text": "cap.answer.1",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "cap.text.2",
+			"answers": [
+				{
+					"text": "cap.answer.2",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"cap.dialogue.done"
+						]
+					}
+				}
+			]
+		}
+	}
+}

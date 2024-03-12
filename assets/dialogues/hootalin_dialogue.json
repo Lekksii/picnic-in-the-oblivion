@@ -1,0 +1,125 @@
+{
+	"start_dialogue": "hootalin_start",
+	"dialogues": {
+		"hootalin_start": {
+			"text": "hootalin.text.0",
+			"answers": [
+				{
+					"text": "hootalin.answer.0",
+					"go_to": "hootalin_second",
+					"condition_money": 600,
+					"action": {
+						"del_money": 600,
+						"add_e_key": "hootalin.skill"
+					}
+				},
+				{
+					"text": "hootalin.answer.1",
+					"go_to": "hootalin_nomoney"
+				}
+			]
+		},
+		"hootalin_nomoney": {
+			"text": "hootalin.text.2",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"hootalin_second": {
+			"text": "hootalin.text.1",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"hootalin.no.dialogue"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 493,
+			"y": 372
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 900,
+			"y": 360
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 900,
+			"y": 620
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 2020,
+			"y": 800
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1260,
+			"y": 360
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1260,
+			"y": 620
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1600,
+			"y": 360
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1600,
+			"y": 620
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 2020,
+			"y": 520
+		},
+		{
+			"_type": "action",
+			"size_x": 315,
+			"size_y": 59,
+			"x": 2020,
+			"y": 580
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1260,
+			"y": 540
+		}
+	]
+}

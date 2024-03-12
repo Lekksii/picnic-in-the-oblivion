@@ -1,0 +1,38 @@
+{
+  "start_dialogue": "start",
+  "dialogues": {
+    "start": {
+      "text": "dlg.no.dialog.text",
+      "answers": [
+        {
+          "text": "1",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "2",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "3",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "4",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "5",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "6",
+          "go_to": "close_dialog"
+        },
+        {
+          "text": "7",
+          "go_to": "close_dialog"
+        }
+      ]
+    }
+  }
+}

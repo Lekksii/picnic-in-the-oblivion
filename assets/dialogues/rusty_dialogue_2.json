@@ -1,0 +1,150 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.rusty.0.again.0_0.text",
+			"answers": [
+				{
+					"text": "dlg.rusty.quest.artefact.complete.0.answer.1",
+					"go_to": "end",
+					"condition_has": "whistler.alive"
+				},
+				{
+					"text": "dlg.rusty.quest.artefact.complete.0.answer.2",
+					"go_to": "end2"
+				}
+			]
+		},
+		"end": {
+			"text": "dlg.rusty.quest.artefact.complete.1.text",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"rusty.no.dialogue",
+							"rusty.second.dialogue.done",
+							"rusty.whistle.complete.quest"
+						],
+						"add_quest": [
+							"quest_talk_radio"
+						],
+						"add_item": [
+							"radio_first"
+						]
+					}
+				}
+			]
+		},
+		"end2": {
+			"text": "dlg.rusty.quest.artefact.complete.2.text",
+			"answers": [
+				{
+					"condition_has_items": ["af_bengal"],
+					"text": "dlg.rusty.quest.artefact.complete.2.answer.1",
+					"go_to": "end3"
+				},
+				{
+					"text": "dlg.rusty.quest.artefact.complete.4.answer.1",
+					"go_to": "end4"
+				}
+			]
+		},
+		"end3": {
+			"text": "dlg.rusty.quest.artefact.complete.3.text",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"rusty.no.dialogue",
+							"rusty.second.dialogue.done",
+							"rusty.whistle.complete.quest"
+						],
+						"add_quest": [
+							"quest_talk_radio"
+						],
+						"del_item": ["af_bengal"],
+						"add_item": [
+							"radio_first"
+						]
+					}
+				}
+			]
+		},
+		"end4": {
+			"text": "dlg.rusty.quest.artefact.complete.4.text",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"rusty.no.dialogue",
+							"rusty.second.dialogue.done",
+							"rusty.whistle.complete.quest"
+						],
+						"add_quest": [
+							"quest_talk_radio"
+						],
+						"add_item": [
+							"radio_first"
+						]
+					}
+				}
+			]
+		},
+	},
+	"dialogue_editor": [
+		{
+			"size_x": 282,
+			"size_y": 205,
+			"x": 497,
+			"y": 514
+		},
+		{
+			"size_x": 298,
+			"size_y": 264,
+			"x": 939,
+			"y": 430
+		},
+		{
+			"size_x": 306,
+			"size_y": 220,
+			"x": 939,
+			"y": 748
+		},
+		{
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1331,
+			"y": 454
+		},
+		{
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1980,
+			"y": 640
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 1660,
+			"y": 440
+		},
+		{
+			"size_x": 236,
+			"size_y": 68,
+			"x": 1980,
+			"y": 740
+		},
+		{
+			"size_x": 297,
+			"size_y": 70,
+			"x": 1980,
+			"y": 825
+		}
+	]
+}

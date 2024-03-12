@@ -1,0 +1,34 @@
+[
+	{
+	"type": "label",
+	"name":"test_custom_ui_file",
+	"enabled": true,
+	"transform":{
+		"x": 0,
+		"y": 64,
+		"width": -1,
+		"height": 32
+	},
+	"text": "",
+	"text_align_h":"center",
+	"text_align_v":"center",
+	"color": "red",
+	"parent": null
+	},
+	{
+	"type": "label",
+	"name":"test_custom_ui_file2",
+	"enabled": true,
+	"transform":{
+		"x": 0,
+		"y": 16,
+		"width": -1,
+		"height": 32
+	},
+	"text": "",
+	"text_align_h":"center",
+	"text_align_v":"center",
+	"color": "red",
+	"parent": "test_custom_ui_file"
+	}
+]

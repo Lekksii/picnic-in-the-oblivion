@@ -1,0 +1,59 @@
+{
+	"start_dialogue": "harya_comp_start",
+	"dialogues": {
+		"harya_comp_start": {
+			"text": "dlg.harya.text.completed",
+			"answers": [
+				{
+					"text": "dlg.krot.answer.bye",
+					"go_to": "close_dialog",
+					"action": {
+						"add_item": [
+							"antigas_armor"
+						],
+						"add_e_key": [
+							"harya.second.dialogue"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 532,
+			"y": 601
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 880,
+			"y": 600
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1220,
+			"y": 856
+		},
+		{
+			"_type": "action",
+			"size_x": 268,
+			"size_y": 70,
+			"x": 1222,
+			"y": 935
+		},
+		{
+			"_type": "action",
+			"size_x": 314,
+			"size_y": 70,
+			"x": 1225,
+			"y": 1025
+		}
+	]
+}

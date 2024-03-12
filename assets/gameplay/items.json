@@ -1,0 +1,321 @@
+{
+	"medkit": {
+		"name": "itm.medkit.name",
+		"caption": "itm.medkit.caption",
+		"icon": "assets/ui/items/medkit.png",
+		"price": 100,
+		"weight": 0.1,
+		"type": "usable",
+		"on_use": {
+			"heal": 25
+		}
+	},
+	"medkit_army": {
+		"name": "itm.army.medkit.name",
+		"caption": "itm.army.medkit.caption",
+		"icon": "assets/ui/items/medkit_army.png",
+		"price": 200,
+		"weight": 0.12,
+		"type": "usable",
+		"on_use": {
+			"heal": 75
+		}
+	},
+	"antirad": {
+		"name": "itm.antirad.name",
+		"caption": "itm.antirad.caption",
+		"icon": "assets/ui/items/antirad.png",
+		"price": 250,
+		"weight": 0.3,
+		"type": "usable",
+		"on_use": {
+			"radiation": true
+		}
+	},
+	"af_sparkle": {
+		"name": "itm.af.sparkle.name",
+		"caption": "itm.af.sparkle.caption",
+		"icon": "assets/ui/items/art_sparkle.png",
+		"price": 450,
+		"weight": 0.35,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"max_hp": 50,
+			"accuracy": -25
+		}
+	},
+	"af_bengal": {
+		"name": "itm.af.bengal.name",
+		"caption": "itm.af.bengal.caption",
+		"icon": "assets/ui/items/af_bengal.png",
+		"price": 600,
+		"weight": 0.6,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"accuracy": 6,
+			"weight": -15,
+			"rad_resist": -5
+		}
+	},
+	"af_fireball": {
+		"name": "itm.af.fireball.name",
+		"caption": "itm.af.fireball.caption",
+		"icon": "assets/ui/items/af_fireball.png",
+		"price": 500,
+		"weight": 0.5,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"armor": 10,
+			"weight": -10
+		}
+	},
+	"af_crystal": {
+		"name": "itm.af.crystal.name",
+		"caption": "itm.af.crystal.caption",
+		"icon": "assets/ui/items/af_crystal.png",
+		"price": 750,
+		"weight": 0.6,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"weight": 15,
+			"armor": -5
+		}
+	},
+	"af_dummy": {
+		"name": "itm.af.dummy.name",
+		"caption": "itm.af.dummy.caption",
+		"icon": "assets/ui/items/af_dummy.png",
+		"price": 500,
+		"weight": 0.45,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"anomaly_resist": 15
+		}
+	},
+	"flashlight": {
+		"name": "itm.flashlight.name",
+		"caption": "itm.flashlight.caption",
+		"icon": "assets/ui/items/flashlight.png",
+		"price": 0,
+		"weight": 0.25,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"action": "flashlight"
+		}
+	},
+	"af_medusa": {
+		"name": "itm.af.medusa.name",
+		"caption": "itm.af.medusa.caption",
+		"icon": "assets/ui/items/af_medusa.png",
+		"price": 400,
+		"weight": 0.35,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"armor": 5,
+			"rad_resist": -10
+		}
+	},
+	"af_battery": {
+		"name": "itm.af.battery.name",
+		"caption": "itm.af.battery.caption",
+		"icon": "assets/ui/items/af_battery.png",
+		"price": 800,
+		"weight": 0.7,
+		"slot": "belt",
+		"type": "equipment",
+		"on_use": {
+			"max_hp": 20,
+			"weight": 10,
+			"rad_resist": 10,
+			"anomaly_resist": -60
+		}
+	},
+	"stalker_outfit": {
+		"name": "itm.stalker.outfit.name",
+		"caption": "itm.stalker.outfit.caption",
+		"icon": "assets/ui/items/stalker_armor.png",
+		"price": 1200,
+		"weight": 11,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 30,
+			"rad_resist": 15,
+			"anomaly_resist": 20
+		}
+	},
+	"jacket": {
+		"name": "itm.jacket.name",
+		"caption": "itm.jacket.caption",
+		"icon": "assets/ui/items/jacket.png",
+		"price": 200,
+		"weight": 3,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 10,
+			"rad_resist": 0,
+			"anomaly_resist": 10
+		}
+	},
+	"jacket_bandit": {
+		"name": "itm.jacket.bandit.name",
+		"caption": "itm.jacket.bandit.caption",
+		"icon": "assets/ui/items/jacket_bandit.png",
+		"price": 400,
+		"weight": 4.5,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 15,
+			"rad_resist": 0,
+			"anomaly_resist": 10
+		}
+	},
+	"ecolog_suit": {
+		"name": "itm.ecolog.suit.name",
+		"caption": "itm.ecolog.suit.caption",
+		"icon": "assets/ui/items/ecolog_outfit.png",
+		"price": 4000,
+		"weight": 8,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 20,
+			"rad_resist": 80,
+			"anomaly_resist": 90
+		}
+	},
+	"military_armor": {
+		"name": "itm.army.outfit.name",
+		"caption": "itm.army.outfit.caption",
+		"icon": "assets/ui/items/military_armor.png",
+		"price": 3000,
+		"weight": 5.5,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 45,
+			"rad_resist": 20,
+			"anomaly_resist": 30
+		}
+	},
+	"antigas_armor": {
+		"name": "itm.antigas.outfit.name",
+		"caption": "itm.antigas.outfit.caption",
+		"icon": "assets/ui/items/antigas_jacket.png",
+		"price": 850,
+		"weight": 7,
+		"slot": "outfit",
+		"type": "equipment",
+		"on_use": {
+			"armor": 25,
+			"rad_resist": 5,
+			"anomaly_resist": 5
+		}
+	},
+	"w_viper5": {
+		"name": "itm.viper5.name",
+		"caption": "itm.viper5.caption",
+		"icon": "assets/ui/items/w_viper5.png",
+		"price": 850,
+		"weight": 2.88,
+		"slot": "rifle",
+		"type": "weapon",
+		"profile": "w_viper5"
+	},
+	"w_ak": {
+		"name": "itm.ak.name",
+		"caption": "itm.ak.caption",
+		"icon": "assets/ui/items/w_ak.png",
+		"price": 1500,
+		"weight": 3.07,
+		"slot": "rifle",
+		"type": "weapon",
+		"profile": "w_ak"
+	},
+	"w_pistol": {
+		"name": "itm.pistol.name",
+		"caption": "itm.pistol.caption",
+		"icon": "assets/ui/items/w_pistol.png",
+		"price": 0,
+		"weight": 0.83,
+		"slot": "pistol",
+		"type": "weapon",
+		"profile": "w_pistol"
+	},
+	"w_lr": {
+		"name": "itm.lr.name",
+		"caption": "itm.lr.caption",
+		"icon": "assets/ui/items/w_lr.png",
+		"price": 2000,
+		"weight": 4.95,
+		"slot": "rifle",
+		"type": "weapon",
+		"profile": "w_lr"
+	},
+	"w_groza": {
+		"name": "itm.groza.name",
+		"caption": "itm.groza.caption",
+		"icon": "assets/ui/items/w_groza.png",
+		"price": 2500,
+		"weight": 2.74,
+		"slot": "rifle",
+		"type": "weapon",
+		"profile": "w_groza"
+	},
+	"ammo_ak": {
+		"name": "itm.ammo.ak.name",
+		"caption": "itm.ammo.ak.caption",
+		"icon": "assets/ui/items/ammo_ak.png",
+		"price": 60,
+		"weight": 0.3,
+		"type": "item"
+	},
+	"ammo_viper5": {
+		"name": "itm.ammo.viper5.name",
+		"caption": "itm.ammo.viper5.caption",
+		"icon": "assets/ui/items/ammo_viper5.png",
+		"price": 45,
+		"weight": 0.17,
+		"type": "item"
+	},
+	"ammo_lr": {
+		"name": "itm.ammo.lr.name",
+		"caption": "itm.ammo.lr.caption",
+		"icon": "assets/ui/items/ammo_lr.png",
+		"price": 140,
+		"weight": 0.13,
+		"type": "item"
+	},
+	"ammo_oc": {
+		"name": "itm.ammo.oc.name",
+		"caption": "itm.ammo.oc.caption",
+		"icon": "assets/ui/items/ammo_oc.png",
+		"price": 100,
+		"weight": 0.3,
+		"type": "item"
+	},
+	"radio_first": {
+		"name": "itm.radio.name",
+		"caption": "itm.radio.caption",
+		"icon": "assets/ui/items/hand_radio.png",
+		"price": 0,
+		"weight": 0,
+		"type": "usable",
+		"on_use": {
+			
+		},
+		"dialogue": {
+			"id": "radio_dialogue_first",
+			"name": "npc.radio"
+		}
+	}
+}

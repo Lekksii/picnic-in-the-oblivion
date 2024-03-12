@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djhhn820vrbwt"
+path="res://.godot/imported/l_0_0_dead_stalkers.obj-419f9a4dde4992af2693afd15d7c65d1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/l_0_0_dead_stalkers.obj-419f9a4dde4992af2693afd15d7c65d1.mesh"]
+
+source_file="res://assets/levels/intro/l_0_0_dead_stalkers.obj"
+dest_files=["res://.godot/imported/l_0_0_dead_stalkers.obj-419f9a4dde4992af2693afd15d7c65d1.mesh", "res://.godot/imported/l_0_0_dead_stalkers.obj-419f9a4dde4992af2693afd15d7c65d1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

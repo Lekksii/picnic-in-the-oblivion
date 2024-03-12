@@ -1,0 +1,174 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.batya.text.battery.not.completed",
+			"answers": [
+				{
+					"text": "dlg.batya.answer.not.completed.found",
+					"go_to": "completed",
+					"condition_has_items": ["af_battery"]
+				},
+				{
+					"text": "dlg.batya.answer.not.completed.not.found",
+					"go_to": "completed_not_found",
+					"condition_has": "loot.batka.art.found",
+					"condition_has_not_items": ["af_battery"]
+				},
+				{
+					"text": "dlg.batya.answer.not.completed.coffee",
+					"go_to": "coffee",
+					"condition_money": 2500
+				},
+				{
+					"text": "dlg.batya.answer.not.completed.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		},
+		"completed": {
+			"text": "dlg.batya.text.4.battery.found",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"batka.talk.done",
+							"batka.second.dialogue",
+							"batka.info.about.cap"
+						],
+						"del_item": ["af_battery"]
+					}
+				}
+			]
+		},
+		"completed_not_found": {
+			"text": "dlg.batya.text.4.battery.not.found",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"batka.talk.done",
+							"batka.second.dialogue",
+							"batka.info.about.cap"
+						]
+					}
+				}
+			]
+		},
+		"coffee": {
+			"text": "dlg.batya.text.4.gived.coffee",
+			"answers": [
+				{
+					"text": "dlg.many.times.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"loot.batka.art.found",
+							"batka.second.dialogue",
+							"batka.talk.done",
+							"batka.info.about.cap"
+						],
+						"del_money": 2500
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 281,
+			"size_y": 205,
+			"x": 533,
+			"y": 570
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 880,
+			"y": 560
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 880,
+			"y": 880
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 880,
+			"y": 1200
+		},
+		{
+			"_type": "answer",
+			"size_x": 236,
+			"size_y": 180,
+			"x": 1194,
+			"y": 1435
+		},
+		{
+			"_type": "answer",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1200,
+			"y": 560
+		},
+		{
+			"_type": "end_action",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1200,
+			"y": 880
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1560,
+			"y": 560
+		},
+		{
+			"_type": "action",
+			"size_x": 449,
+			"size_y": 70,
+			"x": 1900,
+			"y": 860
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1900,
+			"y": 800
+		},
+		{
+			"_type": "answer",
+			"size_x": 279,
+			"size_y": 208,
+			"x": 1900,
+			"y": 1220
+		},
+		{
+			"_type": "action",
+			"size_x": 328,
+			"size_y": 70,
+			"x": 2360,
+			"y": 1340
+		},
+		{
+			"_type": "end_action",
+			"size_x": 382,
+			"size_y": 70,
+			"x": 2340,
+			"y": 1200
+		}
+	]
+}

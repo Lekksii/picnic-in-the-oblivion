@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c70ejf2jaf2nd"]
+
+[ext_resource type="Texture2D" uid="uid://bf5hpe8gthkdx" path="res://assets/ui/intro_screen.png" id="1_i0smt"]
+
+[node name="tutorial_1" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_i0smt")

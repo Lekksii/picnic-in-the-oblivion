@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dhl3bv5xrk5ko"
+path="res://.godot/imported/storage_room.obj-3ddc383c3c07dad86f113a581ee32c62.mesh"
+
+[deps]
+
+files=["res://.godot/imported/storage_room.obj-3ddc383c3c07dad86f113a581ee32c62.mesh"]
+
+source_file="res://assets/models/storage_room.obj"
+dest_files=["res://.godot/imported/storage_room.obj-3ddc383c3c07dad86f113a581ee32c62.mesh", "res://.godot/imported/storage_room.obj-3ddc383c3c07dad86f113a581ee32c62.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

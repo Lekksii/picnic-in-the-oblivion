@@ -1,0 +1,74 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "shlang.quest.completed.text",
+			"answers": [
+				{
+					"text": "shlang.quest.completed.answer",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "shlang.quest.completed.text.1",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"shlang.complete.quest",
+							"shlang.no.dialogue"
+						],
+						"add_money": 2000
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 366,
+			"y": 388
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 700,
+			"y": 400
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1059,
+			"y": 373
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1438,
+			"y": 466
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1780,
+			"y": 640
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1778,
+			"y": 712
+		}
+	]
+}

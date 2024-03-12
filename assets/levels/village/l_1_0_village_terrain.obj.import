@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d23jbk4qi16j7"
+path="res://.godot/imported/l_1_0_village_terrain.obj-59df02a83f0a87ecb682a1e21de8e1ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/l_1_0_village_terrain.obj-59df02a83f0a87ecb682a1e21de8e1ee.mesh"]
+
+source_file="res://assets/levels/village/l_1_0_village_terrain.obj"
+dest_files=["res://.godot/imported/l_1_0_village_terrain.obj-59df02a83f0a87ecb682a1e21de8e1ee.mesh", "res://.godot/imported/l_1_0_village_terrain.obj-59df02a83f0a87ecb682a1e21de8e1ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

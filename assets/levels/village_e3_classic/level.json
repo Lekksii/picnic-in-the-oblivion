@@ -1,0 +1,274 @@
+{
+	"weather_color": "4a739f",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"uid": "skybox",
+			"model": "assets/models/sky_1",
+			"texture": "texsky1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"lit": true,
+			"collider": null,
+			"scale": 8,
+			"billboard": false
+		},
+		{
+			"model": "assets/models/tree_faced",
+			"texture": "textree1.png",
+			"position": [
+				-5.47,
+				0,
+				8.32
+			],
+			"rotation": [
+				0,
+				13,
+				0
+			],
+			"collider": null,
+			"scale": 1,
+			"double_sided": true,
+			"lit": true,
+			"alpha": true,
+			"billboard": true
+		},
+		{
+			"model": "assets/models/tree_faced",
+			"texture": "textree1.png",
+			"position": [
+				1.48,
+				0,
+				14.8
+			],
+			"rotation": [
+				0,
+				24,
+				0
+			],
+			"collider": null,
+			"scale": 1,
+			"double_sided": true,
+			"lit": true,
+			"alpha": true,
+			"billboard": true
+		},
+		{
+			"model": "assets/models/tree_faced",
+			"texture": "textree1.png",
+			"position": [
+				-18.6,
+				0,
+				-2.5
+			],
+			"rotation": [
+				0,
+				-36,
+				0
+			],
+			"collider": null,
+			"scale": 1,
+			"double_sided": true,
+			"lit": true,
+			"alpha": true,
+			"billboard": true
+		},
+		{
+			"id": "spawn_point",
+			"position": [
+				10.92,
+				1.5,
+				-12.07
+			],
+			"rotation": [
+				0,
+				-176.6,
+				0
+			]
+		},
+		{
+			"id": "npc",
+			"profile": "rusty_profile",
+			"position": [
+				9.03,
+				0.15,
+				-9.71
+			],
+			"rotation": [
+				0,
+				132.26,
+				0
+			]
+		},
+		{
+			"id": "npc",
+			"profile": "botan_profile",
+			"position": [
+				12.63,
+				0.14,
+				-2.59
+			],
+			"rotation": [
+				0,
+				-89.64,
+				0
+			]
+		},
+		{
+			"id": "npc",
+			"profile": "zabor_profile",
+			"position": [
+				9.6,
+				0.18,
+				-2.7
+			],
+			"rotation": [
+				0,
+				85.61,
+				0
+			],
+			"collider": {
+				"pos": [
+					0,
+					0.5,
+					0
+				],
+				"size": [
+					0.3,
+					1.2,
+					0.3
+				]
+			}
+		},
+		{
+			"id": "npc",
+			"profile": "galosh_profile",
+			"position": [
+				9.48,
+				0.2,
+				-7.8
+			],
+			"rotation": [
+				0,
+				109.85,
+				0
+			]
+		},
+		{
+			"id": "npc",
+			"profile": "village_trader_profile",
+			"position": [
+				-1.18,
+				0,
+				-4.67
+			],
+			"rotation": [
+				0,
+				109.8,
+				0
+			]
+		},
+		{
+			"model": "assets/levels/village_e3/terrain",
+			"texture": "objects/terrain_type2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"collider": null,
+			"lit": true,
+			"scale": 1,
+			"billboard": false
+		},
+		{
+			"id": "animated3dsprite",
+			"sequence": "fire",
+			"position": [
+				11.38,
+				1.38,
+				-2.3
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"collider": null,
+			"scale": 0.8,
+			"billboard": true
+		},
+		{
+			"model": "assets/levels/village_e3/houses",
+			"texture": "texobj2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				180,
+				0
+			],
+			"lit": true,
+			"collider": null,
+			"scale": 1,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/village_e3/forest",
+			"texture": "texforest1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"collider": null,
+			"scale": 1,
+			"double_sided": true,
+			"lit": true,
+			"alpha": true,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/village_e3/fences_boxes_barrels",
+			"texture": "texobj1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				180,
+				0
+			],
+			"collider": null,
+			"lit": true,
+			"scale": 1,
+			"double_sided": true,
+			"billboard": false
+		}
+	]
+}

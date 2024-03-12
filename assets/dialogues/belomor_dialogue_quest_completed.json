@@ -1,0 +1,72 @@
+{
+	"start_dialogue": "belomor_0",
+	"dialogues": {
+		"belomor_0": {
+			"text": "belomor.quest.done.text.0",
+			"answers": [
+				{
+					"text": "belomor.quest.done.answer.0",
+					"go_to": "belomor_1"
+				}
+			]
+		},
+		"belomor_1": {
+			"text": "belomor.quest.done.text.1",
+			"answers": [
+				{
+					"text": "belomor.quest.done.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"belomor.no.dialogue"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 422,
+			"y": 415
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 785,
+			"y": 418
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1150,
+			"y": 421
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1500,
+			"y": 420
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1840,
+			"y": 580
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 1840,
+			"y": 651
+		}
+	]
+}

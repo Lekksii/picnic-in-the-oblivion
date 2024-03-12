@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4i0qtukx1ys5"
+path="res://.godot/imported/props_texobj2.obj-4a986b6b8c977b6ccd643c627339619a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj2.obj-4a986b6b8c977b6ccd643c627339619a.mesh"]
+
+source_file="res://assets/levels/harya_outfit_road/props_texobj2.obj"
+dest_files=["res://.godot/imported/props_texobj2.obj-4a986b6b8c977b6ccd643c627339619a.mesh", "res://.godot/imported/props_texobj2.obj-4a986b6b8c977b6ccd643c627339619a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

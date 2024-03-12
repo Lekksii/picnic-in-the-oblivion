@@ -1,0 +1,37 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "belomor.no.dialogue",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 418,
+			"y": 431
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 765,
+			"y": 430
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1100,
+			"y": 600
+		}
+	]
+}

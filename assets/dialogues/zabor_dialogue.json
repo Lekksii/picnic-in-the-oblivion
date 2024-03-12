@@ -1,0 +1,44 @@
+{
+  "start_dialogue": "0",
+  "dialogues": {
+    "0": {
+      "text": "dlg.zabor.0.text",
+      "answers": [
+        {
+          "text": "dlg.zabor.0.answer.1",
+          "go_to": "1"
+        }
+      ]
+    },
+    "1": {
+      "text": "dlg.zabor.1.text",
+      "answers": [
+        {
+          "text": "dlg.zabor.1.answer.1",
+          "go_to": "2"
+        }
+      ]
+    },
+    "2": {
+      "text": "dlg.zabor.2.text",
+      "answers": [
+        {
+          "text": "dlg.zabor.2.answer.1",
+          "go_to": "3"
+        }
+      ]
+    },
+    "3": {
+      "text": "dlg.zabor.3.text",
+      "answers": [
+        {
+          "text": "dlg.zabor.3.answer.1",
+          "go_to": "close_dialog",
+          "action": {
+            "add_e_key": ["zabor.no.dialogue","zabor.dialogue.done"]
+          }
+        }
+      ]
+    }
+  }
+}

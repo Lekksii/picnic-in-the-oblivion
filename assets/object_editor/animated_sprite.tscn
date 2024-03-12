@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://mtwupa281dd4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u0l5t"]
+
+[node name="AnimatedSprite" type="AnimatedSprite3D"]
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_u0l5t")
+autoplay = "default"

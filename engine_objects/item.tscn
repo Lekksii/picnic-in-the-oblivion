@@ -1,0 +1,87 @@
+[gd_scene load_steps=6 format=3 uid="uid://cj75c115jgpss"]
+
+[ext_resource type="Texture2D" uid="uid://dmr5t384sjiam" path="res://assets/ui/items/af_fireball.png" id="1_657dc"]
+[ext_resource type="Script" path="res://scripts/GUI/item.gd" id="2_ijtmn"]
+[ext_resource type="Theme" uid="uid://bvft1ophxax1r" path="res://themes/basic_editor.tres" id="3_14kyb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lj1dc"]
+bg_color = Color(0.933333, 0.615686, 0.192157, 1)
+draw_center = false
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.933333, 0.615686, 0.192157, 1)
+
+[sub_resource type="Theme" id="Theme_bi6ra"]
+Panel/styles/panel = SubResource("StyleBoxFlat_lj1dc")
+
+[node name="item" type="TextureRect" node_paths=PackedStringArray("equipped_text", "stack_text", "icon")]
+z_as_relative = false
+custom_minimum_size = Vector2(38, 38)
+offset_right = 38.0
+offset_bottom = 38.0
+texture = ExtResource("1_657dc")
+expand_mode = 3
+stretch_mode = 5
+script = ExtResource("2_ijtmn")
+equipped_text = NodePath("equippedText")
+stack_text = NodePath("stackCount")
+icon = NodePath(".")
+
+[node name="equippedText" type="Label" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+z_index = 1
+layout_mode = 2
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_14kyb")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "E"
+horizontal_alignment = 2
+vertical_alignment = 2
+clip_text = true
+metadata/_edit_lock_ = true
+
+[node name="stackCount" type="Label" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+z_index = 1
+layout_mode = 2
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -34.0
+offset_right = -2.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("3_14kyb")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "x1"
+horizontal_alignment = 2
+vertical_alignment = 2
+clip_text = true
+metadata/_edit_lock_ = true
+
+[node name="selector" type="Panel" parent="."]
+visible = false
+show_behind_parent = true
+z_index = 1
+y_sort_enabled = true
+layout_mode = 2
+offset_right = 38.0
+offset_bottom = 38.0
+mouse_filter = 2
+theme = SubResource("Theme_bi6ra")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

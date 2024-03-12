@@ -1,0 +1,27 @@
+{
+  "start_dialogue": "rusty_0_0",
+  "dialogues": {
+	"rusty_0_0": {
+	  "text": "dlg.rusty.0.again.0_0.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.again.0_0.answer.1",
+		  "go_to": "rusty_0_1"
+		}
+	  ]
+	},
+	"rusty_0_1": {
+	  "text": "dlg.rusty.0.again.0_1.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.again.0_1.answer.1",
+		  "go_to": "close_dialog",
+		  "action": {
+			"add_e_key": ["rusty.quest.bandits.not.complete"],
+			"add_quest": ["quest_rusty_0"]
+		  }
+		}
+	  ]
+	}
+  }
+}

@@ -1,0 +1,304 @@
+[gd_scene load_steps=13 format=3 uid="uid://d2gb84pwk8sh4"]
+
+[ext_resource type="Texture2D" uid="uid://bkloxqkpw84sy" path="res://Icon.png" id="1_mli4p"]
+[ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="2_2iv5t"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wkafx"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kskbg"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+border_width_top = 1
+border_color = Color(0.709804, 0.709804, 0.709804, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hh6wp"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_bottom = 1
+border_color = Color(0.996078, 0.996078, 0.996078, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nax1n"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_right = 1
+border_color = Color(0.996078, 0.996078, 0.996078, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ihwql"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fqis"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p1r53"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k7e8r"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yfdfj"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.92549, 0.92549, 0.92549, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kj4fm"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.341176, 0.537255, 0.690196, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[node name="Panel" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_wkafx")
+
+[node name="IconImage" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 1
+offset_left = 23.0
+offset_top = 11.0
+offset_right = 84.0
+offset_bottom = 77.0
+texture = ExtResource("1_mli4p")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="SorryLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 107.0
+offset_top = 9.0
+offset_right = 569.0
+offset_bottom = 89.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_2iv5t")
+theme_override_font_sizes/font_size = 16
+text = "A crash has been detected!
+ 
+This is game crash client report.
+Many thanks in advance and sorry for the inconvenience."
+
+[node name="HSeparator" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 11.0
+offset_top = -51.5
+offset_right = -11.0
+offset_bottom = -48.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_kskbg")
+
+[node name="LightLine" type="Panel" parent="HSeparator"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hh6wp")
+
+[node name="LightLineRight" type="Panel" parent="HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nax1n")
+
+[node name="DarkLineLeft" type="Panel" parent="HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ihwql")
+
+[node name="Group" type="Panel" parent="."]
+z_index = 1
+z_as_relative = false
+layout_mode = 0
+offset_left = 17.0
+offset_top = 115.0
+offset_right = 553.0
+offset_bottom = 259.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6fqis")
+
+[node name="title" type="Label" parent="Group"]
+z_index = 2
+z_as_relative = false
+offset_left = 12.0
+offset_top = -8.0
+offset_right = 100.0
+offset_bottom = 11.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_2iv5t")
+theme_override_font_sizes/font_size = 16
+text = "Description"
+
+[node name="Group" type="Panel" parent="Group/title"]
+z_index = 1
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_right = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_p1r53")
+
+[node name="HSeparator" type="Panel" parent="Group"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 8.0
+offset_top = -62.0
+offset_right = -7.0
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_kskbg")
+
+[node name="LightLine" type="Panel" parent="Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hh6wp")
+
+[node name="LightLineRight" type="Panel" parent="Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nax1n")
+
+[node name="DarkLineLeft" type="Panel" parent="Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ihwql")
+
+[node name="ErrorRichLabel" type="RichTextLabel" parent="Group"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 15.0
+offset_right = 524.0
+offset_bottom = 129.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.603922, 0.603922, 0.603922, 1)
+theme_override_fonts/normal_font = ExtResource("2_2iv5t")
+theme_override_font_sizes/normal_font_size = 16
+text = "Wait for bug..."
+
+[node name="OK" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -155.0
+offset_top = -43.0
+offset_right = -30.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("2_2iv5t")
+theme_override_styles/normal = SubResource("StyleBoxFlat_k7e8r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yfdfj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_kj4fm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_k7e8r")
+text = "OK"
+
+[node name="Copy" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -291.0
+offset_top = -43.0
+offset_right = -166.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("2_2iv5t")
+theme_override_styles/normal = SubResource("StyleBoxFlat_k7e8r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yfdfj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_kj4fm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_k7e8r")
+text = "Copy error"

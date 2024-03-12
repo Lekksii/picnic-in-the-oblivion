@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdu82c7b0ewf8"
+path="res://.godot/imported/pripyat_house.obj-efd5f6baa9f93d4bd1fd140a3c66974d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pripyat_house.obj-efd5f6baa9f93d4bd1fd140a3c66974d.mesh"]
+
+source_file="res://assets/models/pripyat_house.obj"
+dest_files=["res://.godot/imported/pripyat_house.obj-efd5f6baa9f93d4bd1fd140a3c66974d.mesh", "res://.godot/imported/pripyat_house.obj-efd5f6baa9f93d4bd1fd140a3c66974d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

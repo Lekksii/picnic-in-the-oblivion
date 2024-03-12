@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgod44ncg54sl"
+path="res://.godot/imported/props_texw3.obj-4077e06c8c35b3b551483a474a6d2fbf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texw3.obj-4077e06c8c35b3b551483a474a6d2fbf.mesh"]
+
+source_file="res://assets/levels/galosh_art/props_texw3.obj"
+dest_files=["res://.godot/imported/props_texw3.obj-4077e06c8c35b3b551483a474a6d2fbf.mesh", "res://.godot/imported/props_texw3.obj-4077e06c8c35b3b551483a474a6d2fbf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

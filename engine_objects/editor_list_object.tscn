@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://by3ljnu7bhy6l"]
+
+[ext_resource type="Theme" uid="uid://bvft1ophxax1r" path="res://themes/basic_editor.tres" id="1_3hrui"]
+[ext_resource type="Script" path="res://scripts/editor_list_object.gd" id="2_tefcv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i0cte"]
+
+[node name="editor_list_object" type="Button"]
+theme = ExtResource("1_3hrui")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 0.654902, 0.141176, 1)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_i0cte")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_i0cte")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_i0cte")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_i0cte")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_i0cte")
+text = "object_node_number_0"
+alignment = 0
+script = ExtResource("2_tefcv")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,0 +1,132 @@
+[
+  {
+	"id": "quest_find_cap",
+	"title": "quest.radio.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "belomors_friends",
+	"title": "quest.belomor.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "harya_bandits_outfit",
+	"title": "quest.harya.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "batka_find_battery",
+	"title": "quest.batka.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "find_kaizanovsky",
+	"title": "quest.manikovsky.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "shlang_cd",
+	"title": "quest.shlang.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "kaizanovsky_second_group",
+	"title": "quest.kaizanovsky.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "arrive_to_exit",
+	"title": "quest.radio.1.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "eliminate_manikovsky_quest",
+	"title": "quest.cap.0.name",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "quest_find_camp",
+	"title": "quest.trus.0.name",
+	"map_spot_id": "find_camp_spot",
+	"money": 0,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "quest_rusty_1",
+	"title": "quest.rusty.1.name",
+	"quest_items": ["af_bengal"],
+	"money": 300,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+	"id": "quest_galosh",
+	"title": "quest.galosh.0.name",
+	"money": 150,
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+  "id": "quest_rusty_0",
+	"title": "quest.rusty.0.name",
+	"money": 250,
+	"add_e_key": ["rusty.second.dialogue.start"],
+	"del_e_key": ["rusty.no.dialogue"],
+	"reward": [],
+	"map_spot_id": null
+  },
+  {
+  "id": "quest_talk_radio",
+  "title": "quest.radio.use.name",
+  "money": 0,
+  "reward": [],
+  "map_spot_id": null
+  },
+{
+  "id": "quest_ask_about_scientists",
+  "title": "quest.ask.scientists",
+  "money": 0,
+  "reward": [],
+  "map_spot_id": null
+  },
+  {
+  "id": "quest_find_cap_agroprom_underground",
+  "title": "quest.0.name",
+  "money": 0,
+  "reward": [],
+  "map_spot_id": null
+  },
+{
+  "id": "quest_zob_kill_merc",
+  "title": "quest.zob.name",
+  "money": 0,
+  "reward": [],
+  "map_spot_id": null
+  },
+{
+  "id": "sos_signal",
+  "title": "quest.sos.name",
+  "money": 250,
+  "reward": [],
+  "map_spot_id": null
+  }
+]

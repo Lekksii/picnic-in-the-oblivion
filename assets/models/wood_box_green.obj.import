@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://or3yrlorfbdx"
+path="res://.godot/imported/wood_box_green.obj-99fc03a372d008962bed587313fcac4b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wood_box_green.obj-99fc03a372d008962bed587313fcac4b.mesh"]
+
+source_file="res://assets/models/wood_box_green.obj"
+dest_files=["res://.godot/imported/wood_box_green.obj-99fc03a372d008962bed587313fcac4b.mesh", "res://.godot/imported/wood_box_green.obj-99fc03a372d008962bed587313fcac4b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

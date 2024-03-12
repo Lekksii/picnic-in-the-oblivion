@@ -1,0 +1,60 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.galosh.no.dialogue.0.text",
+			"answers": [
+				{
+					"text": "dlg.galosh.no.dialogue.0.answer.1",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "dlg.galosh.no.dialogue.1.text",
+			"answers": [
+				{
+					"text": "...",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 334,
+			"y": 20
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1000,
+			"y": 100
+		},
+		{
+			"_type": "answer",
+			"size_x": 294,
+			"size_y": 216,
+			"x": 680,
+			"y": 80
+		},
+		{
+			"_type": "answer",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1300,
+			"y": 200
+		},
+		{
+			"_type": "end_action",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1600,
+			"y": 420
+		}
+	]
+}

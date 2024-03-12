@@ -1,0 +1,118 @@
+{
+	"start_dialogue": "cb0",
+	"dialogues": {
+		"cb0": {
+			"text": "cobold.text.0",
+			"answers": [
+				{
+					"text": "cobold.answer.0",
+					"go_to": "cb1"
+				}
+			]
+		},
+		"cb1": {
+			"text": "cobold.text.1",
+			"answers": [
+				{
+					"text": "cobold.answer.1",
+					"go_to": "cb2"
+				}
+			]
+		},
+		"cb2": {
+			"text": "cobold.text.2",
+			"answers": [
+				{
+					"text": "cobold.answer.2",
+					"go_to": "cb3"
+				}
+			]
+		},
+		"cb3": {
+			"text": "cobold.text.3",
+			"answers": [
+				{
+					"text": "cobold.answer.3",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"cobold.first.dlg.done"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 409,
+			"y": 398
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 745,
+			"y": 399
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1093,
+			"y": 400
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1430,
+			"y": 397
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1742,
+			"y": 401
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2075,
+			"y": 404
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 2409,
+			"y": 401
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2775,
+			"y": 398
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 3141,
+			"y": 559
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 3140,
+			"y": 634
+		}
+	]
+}

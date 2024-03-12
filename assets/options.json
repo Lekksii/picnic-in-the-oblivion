@@ -1,0 +1,90 @@
+{
+	"current_language": "ru",
+	"music_and_sound": true,
+	"first_launch": false,
+	"aim_assist": true,
+	"casual_gameplay": true,
+	"languages": {
+		"en": {
+			"name": "lang.en"
+		},
+		"ru": {
+			"name": "lang.ru"
+		},
+		"ua": {
+			"name": "lang.ua"
+		}
+	},
+	"mouse_sensitivity": 0.19,
+	"mouse_smooth": 17,
+	"vsync": true,
+	"ssao": false,
+	"glow": true,
+	"corpses": false,
+	"volumetric_fog": false,
+	"dithering": true,
+	"sky_shader": true,
+	"pixelation": true,
+	"volume_master": 0,
+	"volume_fx": -8,
+	"volume_music": -8,
+	"volume_ambient": -8,
+	"volume_ambient_sfx": -20,
+	"camera_sway": true,
+	"scale_3d_render": 1,
+	"show_fps": false,
+	"tutorials": true,
+	"autoreload": true,
+	"input_map": [
+		{
+			"action_id": "use",
+			"key_code": "F"
+		},
+		{
+			"action_id": "pause",
+			"key_code": [
+				"Escape",
+				"Tab"
+			]
+		},
+		{
+			"action_id": "take_all",
+			"key_code": "Space"
+		},
+		{
+			"action_id": "wpn1",
+			"key_code": "1"
+		},
+		{
+			"action_id": "wpn2",
+			"key_code": "2"
+		},
+		{
+			"action_id": "inventory",
+			"key_code": "I"
+		},
+		{
+			"action_id": "pda",
+			"key_code": [
+				"P",
+				"M"
+			]
+		},
+		{
+			"action_id": "journal",
+			"key_code": "J"
+		},
+		{
+			"action_id": "stats",
+			"key_code": "C"
+		},
+		{
+			"action_id": "reload",
+			"key_code": "R"
+		},
+		{
+			"action_id": "screenshot",
+			"key_code": "F12"
+		}
+	]
+}

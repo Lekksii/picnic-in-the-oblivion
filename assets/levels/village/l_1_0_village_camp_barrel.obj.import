@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3ytri13bn107"
+path="res://.godot/imported/l_1_0_village_camp_barrel.obj-0f6683194e76318b822159f0730bd394.mesh"
+
+[deps]
+
+files=["res://.godot/imported/l_1_0_village_camp_barrel.obj-0f6683194e76318b822159f0730bd394.mesh"]
+
+source_file="res://assets/levels/village/l_1_0_village_camp_barrel.obj"
+dest_files=["res://.godot/imported/l_1_0_village_camp_barrel.obj-0f6683194e76318b822159f0730bd394.mesh", "res://.godot/imported/l_1_0_village_camp_barrel.obj-0f6683194e76318b822159f0730bd394.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

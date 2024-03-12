@@ -1,0 +1,50 @@
+[
+	{
+		"id": "radiation_tip",
+		"topic_img": "rad_icn.png",
+		"topic_img_size": 64,
+		"text": "rad.tip.text"
+	},
+	{
+		"id": "interaction_tip",
+		"topic_img": "crosshair.png",
+		"topic_img_size": 128,
+		"text": "interaction.tip.text"
+	},
+	{
+		"id": "pda_tip",
+		"topic_img": "items/pda.png",
+		"topic_img_size": 96,
+		"text": "pda.tip.text"
+	},
+	{
+		"id": "first_battle_tip",
+		"topic_img": "crosshair_weapon_hit_headshot.png",
+		"topic_img_size": 128,
+		"text": "first.battle.tip.text"
+	},
+	{
+		"id": "radiation_tip_mob",
+		"topic_img": "rad_icn.png",
+		"topic_img_size": 64,
+		"text": "rad.tip.text.mobile"
+	},
+	{
+		"id": "interaction_tip_mob",
+		"topic_img": "crosshair.png",
+		"topic_img_size": 128,
+		"text": "interaction.tip.text.mobile"
+	},
+	{
+		"id": "pda_tip_mob",
+		"topic_img": "items/pda.png",
+		"topic_img_size": 96,
+		"text": "pda.tip.text.mobile"
+	},
+	{
+		"id": "first_battle_tip_mob",
+		"topic_img": "crosshair_weapon_hit_headshot.png",
+		"topic_img_size": 128,
+		"text": "first.battle.tip.text.mobile"
+	}
+]

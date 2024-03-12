@@ -1,0 +1,55 @@
+{
+  "village_trader": {
+	"dont_want_to_buy": [
+	  "w_pistol",
+	  "radio_first",
+	  "flashlight"
+	],
+	"items": [
+	  "medkit",
+	  "antirad",
+	  "w_viper5",
+	  "ammo_viper5",
+	  "jacket",
+	  "jacket_bandit"
+	]
+  },
+  "garbage_trader": {
+	"dont_want_to_buy": [
+	  "w_pistol",
+	  "radio_first",
+	  "flashlight"
+	],
+	"items": [
+	  "medkit",
+	  "medkit_army",
+	  "antirad",
+	  "w_ak",
+	  "ammo_ak",
+	  "antigas_armor",
+	  "stalker_outfit",
+	  "w_groza",
+	  "ammo_oc"
+	]
+  },
+"first_group_trader": {
+	"dont_want_to_buy": [
+	  "w_pistol",
+	  "radio_first",
+	  "flashlight"
+	],
+	"items": [
+	  "medkit",
+	  "medkit_army",
+	  "antirad",
+	  "w_ak",
+	  "ammo_ak",
+	  "stalker_outfit",
+	  "military_armor",
+	  "w_groza",
+	  "ammo_oc",
+	  "w_lr",
+	  "ammo_lr"
+	]
+  }
+}

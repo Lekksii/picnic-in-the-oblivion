@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbgn5hsmn25v1"
+path="res://.godot/imported/props_texobj1.obj-b69d4de15b4737fa29e2c2e9bd2d0feb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj1.obj-b69d4de15b4737fa29e2c2e9bd2d0feb.mesh"]
+
+source_file="res://assets/levels/manikovsky/props_texobj1.obj"
+dest_files=["res://.godot/imported/props_texobj1.obj-b69d4de15b4737fa29e2c2e9bd2d0feb.mesh", "res://.godot/imported/props_texobj1.obj-b69d4de15b4737fa29e2c2e9bd2d0feb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

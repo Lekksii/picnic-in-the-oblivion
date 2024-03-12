@@ -1,0 +1,474 @@
+{
+	"weather_color": "4a739f",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"uid": "skybox",
+			"model": "assets/models/sky_1",
+			"texture": "texsky1.png",
+			"position": [
+				0,
+				-4.63,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"lit": true,
+			"collider": null,
+			"scale": 8,
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"id": "spawn_point",
+			"position": [
+				-0.33,
+				1.85,
+				-8.34
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"scale": 1,
+			"color": [
+				238,
+				157,
+				49,
+				128
+			]
+		},
+		{
+			"model": "assets/levels/intro/terrain_intro",
+			"texture": "objects/terrain_type2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"lit": true,
+			"scale": 1,
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/intro_battle/intro_battle_rocks",
+			"texture": "texobj2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"lit": true,
+			"scale": 1,
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/intro/l_0_0_forest",
+			"texture": "texforest1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"alpha": true,
+			"lit": true,
+			"scale": 1,
+			"double_sided": true,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/intro_battle/intro_battle_tree",
+			"texture": "texobj1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"lit": true,
+			"scale": 1,
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_1",
+			"position": [
+				-4.96,
+				0,
+				-12.89
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_2",
+			"position": [
+				3.9,
+				0,
+				-15.48
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_3",
+			"position": [
+				-3.01,
+				0,
+				-23.42
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_4",
+			"position": [
+				5.15,
+				0,
+				-24.84
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_5",
+			"position": [
+				2.65,
+				0,
+				-33.85
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_6",
+			"position": [
+				11.65,
+				0,
+				-33.16
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_7",
+			"position": [
+				-3.03,
+				0,
+				6.92
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_8",
+			"position": [
+				4.29,
+				0,
+				7.91
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_9",
+			"position": [
+				4.03,
+				0,
+				19.84
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_10",
+			"position": [
+				-4.17,
+				0,
+				18.3
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_11",
+			"position": [
+				-3.18,
+				0,
+				32.68
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_12",
+			"position": [
+				-14.69,
+				0,
+				34.06
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				5.27,
+				0.28,
+				-4.41
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-127.42,
+				0
+			],
+			"zone_id": "eyezone_battle_intro",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false,
+			"animations": [
+				"shoot_stand_left"
+			],
+			"start_animation": "shoot_sit_start"
+		},
+		{
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-4.63,
+				0.14,
+				-1.08
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				150.68,
+				0
+			],
+			"zone_id": "eyezone_battle_intro",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false,
+			"animations": [
+				"shoot_sit_right",
+				"shoot_sit_up"
+			],
+			"start_animation": "shoot_sit_start"
+		},
+		{
+			"hostile_id": "eyezone_battle_intro",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battle_intro",
+			"position": [
+				-0.36,
+				2.35,
+				-8.2
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				4,
+				8
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				4.87,
+				1.72,
+				-4.87
+			],
+			"rotation": [
+				0,
+				13.08,
+				0
+			],
+			"scale": [
+				0.59,
+				3.2,
+				0.94
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				-5.09,
+				0.43,
+				-2.48
+			],
+			"rotation": [
+				0.16,
+				-27.38,
+				90.5
+			],
+			"scale": [
+				1.11,
+				3.18,
+				0.94
+			]
+		}
+	]
+}

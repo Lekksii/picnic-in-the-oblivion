@@ -1,0 +1,72 @@
+{
+	"start_dialogue": "coward_start",
+	"dialogues": {
+		"coward_start": {
+			"text": "dlg.coward.0",
+			"answers": [
+				{
+					"text": "dlg.coward.answer.0",
+					"go_to": "coward_second"
+				}
+			]
+		},
+		"coward_second": {
+			"text": "dlg.coward.1",
+			"answers": [
+				{
+					"text": "dlg.coward.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"coward.talk.done"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 444,
+			"y": 288
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 760,
+			"y": 280
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1080,
+			"y": 280
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 1440,
+			"y": 280
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1769,
+			"y": 515
+		},
+		{
+			"_type": "action",
+			"size_x": 335,
+			"size_y": 70,
+			"x": 1764,
+			"y": 600
+		}
+	]
+}

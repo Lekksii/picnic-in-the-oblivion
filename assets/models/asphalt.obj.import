@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d4chxcnxmpor3"
+path="res://.godot/imported/asphalt.obj-41c7c75a61f630f66068193835523aff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/asphalt.obj-41c7c75a61f630f66068193835523aff.mesh"]
+
+source_file="res://assets/models/asphalt.obj"
+dest_files=["res://.godot/imported/asphalt.obj-41c7c75a61f630f66068193835523aff.mesh", "res://.godot/imported/asphalt.obj-41c7c75a61f630f66068193835523aff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2hmy67pntkyi"]
+
+[ext_resource type="Script" path="res://engine_objects/parameter_bar.gd" id="1_a752t"]
+[ext_resource type="Theme" uid="uid://bwkf21e1tyodp" path="res://themes/regular_font.tres" id="2_uvv0w"]
+[ext_resource type="Texture2D" uid="uid://desa5ip8r0awp" path="res://assets/ui/blue_bar_empty.png" id="3_h2gcw"]
+[ext_resource type="Texture2D" uid="uid://bjvw1oefua6vy" path="res://assets/ui/blue_bar.png" id="4_bjarj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kypl4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_aa6u6"]
+
+[node name="parameter_bar" type="Panel"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 64)
+offset_bottom = 64.0
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("1_a752t")
+
+[node name="container" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VSeparator" type="VSeparator" parent="container"]
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_uvv0w")
+theme_override_colors/font_color = Color(0.662745, 0.647059, 0.635294, 1)
+theme_override_font_sizes/font_size = 24
+text = "TEXT"
+clip_text = true
+uppercase = true
+
+[node name="ParameterProgress" type="TextureProgressBar" parent="container"]
+custom_minimum_size = Vector2(244, 18)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+value = 32.0
+nine_patch_stretch = true
+texture_under = ExtResource("3_h2gcw")
+texture_progress = ExtResource("4_bjarj")
+
+[node name="parameterText2" type="Label" parent="container"]
+visible = false
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_uvv0w")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+text = "TEXT"
+clip_text = true
+uppercase = true
+
+[node name="icon" type="TextureRect" parent="container"]
+visible = false
+layout_mode = 2
+expand_mode = 2
+stretch_mode = 5

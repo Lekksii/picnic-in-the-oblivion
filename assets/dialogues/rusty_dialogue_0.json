@@ -1,0 +1,71 @@
+{
+  "start_dialogue": "rusty_0_0",
+  "dialogues": {
+	"rusty_0_0": {
+	  "text": "dlg.rusty.0.0_0.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_0.answer.1",
+		  "go_to": "rusty_0_1"
+		}
+	  ]
+	},
+	"rusty_0_1": {
+	  "text": "dlg.rusty.0.0_1.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_1.answer.1",
+		  "go_to": "rusty_0_2"
+		}
+	  ]
+	},
+	"rusty_0_2": {
+	  "text": "dlg.rusty.0.0_2.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_2.answer.1",
+		  "go_to": "rusty_0_3"
+		}
+	  ]
+	},
+	"rusty_0_3": {
+	  "text": "dlg.rusty.0.0_3.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_3.answer.1",
+		  "go_to": "close_dialog",
+		  "action": {
+			"add_e_key": ["rusty.no.dialogue","rusty.first.dialogue.done"],
+			"add_quest": ["quest_rusty_0"]
+		  }
+		},
+		{
+		  "text": "dlg.rusty.0.0_3.answer.2",
+		  "go_to": "rusty_0_3_1"
+		},
+		{
+		  "text": "dlg.rusty.0.0_3.answer.3",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	},
+	"rusty_0_3_1": {
+	  "text": "dlg.rusty.0.0_3.1.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_3.1.answer.1",
+		  "go_to": "rusty_0_3_2"
+		}
+	  ]
+	},
+	"rusty_0_3_2": {
+	  "text": "dlg.rusty.0.0_3.2.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_3.2.answer.1",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

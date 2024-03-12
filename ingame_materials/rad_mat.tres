@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cxf43fylk0cu8"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_8jqje"]
+[ext_resource type="Texture2D" uid="uid://b7qci4x51hoip" path="res://assets/textures/texobj2_emission.png" id="2_ykhas"]
+
+[resource]
+shading_mode = 2
+diffuse_mode = 3
+specular_mode = 2
+albedo_texture = ExtResource("1_8jqje")
+metallic_specular = 0.0
+emission_enabled = true
+emission_energy_multiplier = 1.1
+emission_texture = ExtResource("2_ykhas")
+texture_filter = 0
+proximity_fade_distance = 0.0
+distance_fade_mode = 1
+distance_fade_max_distance = 15.0

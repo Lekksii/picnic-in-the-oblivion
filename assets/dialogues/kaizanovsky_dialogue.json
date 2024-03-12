@@ -1,0 +1,155 @@
+{
+	"start_dialogue": "kz0",
+	"dialogues": {
+		"kz0": {
+			"text": "kaizanovsky.text.0",
+			"answers": [
+				{
+					"text": "kaizanovsky.answer.0",
+					"go_to": "kz1"
+				}
+			]
+		},
+		"kz1": {
+			"text": "kaizanovsky.text.1",
+			"answers": [
+				{
+					"text": "kaizanovsky.answer.1.manikovsky.dead",
+					"go_to": "kz2",
+					"condition_has": "manikovsky.kill"
+				},
+				{
+					"text": "kaizanovsky.answer.1.manikovsky.alive",
+					"go_to": "kz2",
+					"condition_has": "manikovsky.alive"
+				}
+			]
+		},
+		"kz2": {
+			"text": "kaizanovsky.text.2",
+			"answers": [
+				{
+					"text": "kaizanovsky.answer.2",
+					"go_to": "kz3"
+				}
+			]
+		},
+		"kz3": {
+			"text": "kaizanovsky.text.3",
+			"answers": [
+				{
+					"text": "kaizanovsky.answer.3",
+					"go_to": "kz4"
+				}
+			]
+		},
+		"kz4": {
+			"text": "kaizanovsky.text.4",
+			"answers": [
+				{
+					"text": "kaizanovsky.answer.4",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"kaizanovsky.no.dialogue",
+							"kaizanovsky.second.group.quest"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 409,
+			"y": 406
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 793,
+			"y": 400
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1100,
+			"y": 420
+		},
+		{
+			"_type": "answer",
+			"size_x": 341,
+			"size_y": 243,
+			"x": 1448,
+			"y": 422
+		},
+		{
+			"_type": "answer",
+			"size_x": 348,
+			"size_y": 243,
+			"x": 1446,
+			"y": 694
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1924,
+			"y": 421
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2262,
+			"y": 426
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 2587,
+			"y": 421
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2924,
+			"y": 428
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 3266,
+			"y": 422
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 3612,
+			"y": 422
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 3972,
+			"y": 607
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 3969,
+			"y": 679
+		}
+	]
+}

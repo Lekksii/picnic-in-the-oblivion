@@ -1,0 +1,27 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://wq7nrallofwf"]
+
+[ext_resource type="FontFile" uid="uid://w8euiy645per" path="res://assets/fonts/SM3DBold.ttf" id="1_loril"]
+[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular.ttf" id="1_whnah"]
+[ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="2_j7v8e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2n7g"]
+content_margin_left = 16.0
+content_margin_right = 16.0
+bg_color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ldblx"]
+bg_color = Color(0, 0, 0, 1)
+
+[resource]
+default_font = ExtResource("2_j7v8e")
+default_font_size = 0
+Button/fonts/font = ExtResource("1_loril")
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("1_loril")
+LineEdit/styles/focus = SubResource("StyleBoxFlat_t2n7g")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_t2n7g")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_t2n7g")
+RichTextLabel/fonts/bold_font = ExtResource("1_loril")
+RichTextLabel/fonts/normal_font = ExtResource("1_whnah")
+TooltipLabel/fonts/font = ExtResource("1_loril")
+TooltipPanel/styles/panel = SubResource("StyleBoxFlat_ldblx")

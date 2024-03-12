@@ -1,0 +1,37 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.batya.no.dialogue",
+			"answers": [
+				{
+					"text": "dlg.batya.answer.2.bye",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 311,
+			"y": 353
+		},
+		{
+			"_type": "answer",
+			"size_x": 259,
+			"size_y": 307,
+			"x": 689,
+			"y": 351
+		},
+		{
+			"_type": "end_action",
+			"size_x": 236,
+			"size_y": 57,
+			"x": 1020,
+			"y": 580
+		}
+	]
+}

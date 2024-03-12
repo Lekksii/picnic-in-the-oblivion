@@ -1,0 +1,490 @@
+{
+	"weather_color": "0a0a0a",
+	"daylight": false,
+	"fog": true,
+	"light": [
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 16.4287090301514,
+			"energy": 1,
+			"name": "point_light",
+			"position": [
+				4,
+				1.83,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 16.4287090301514,
+			"energy": 1,
+			"name": "point_light2",
+			"position": [
+				-4.01,
+				1.83,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		}
+	],
+	"level_data": [
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/levels/first_group/props_texobj1",
+			"name": "texobj1_props",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/levels/first_group/props_texobj2",
+			"name": "texobj2_props",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "npc_texobj2.png",
+			"billboard": false
+		},
+		{
+			"id": "spawn_point",
+			"position": [
+				-2.68,
+				1.6,
+				1.41
+			],
+			"rotation": [
+				0,
+				-75,
+				0
+			]
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/wood_reel",
+			"name": "wood_reel",
+			"position": [
+				-6.72,
+				0,
+				2.7
+			],
+			"rotation": [
+				0,
+				-165,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/wood_box",
+			"name": "wood_box",
+			"position": [
+				-6.88,
+				0,
+				0.89
+			],
+			"rotation": [
+				0,
+				23.71,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/wood_box",
+			"name": "wood_box2",
+			"position": [
+				-6.88,
+				0,
+				-0.27
+			],
+			"rotation": [
+				0,
+				-2.51,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/wood_box",
+			"name": "wood_box3",
+			"position": [
+				-6.88,
+				0.99,
+				0.34
+			],
+			"rotation": [
+				0,
+				-10.61,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/wood_panel",
+			"name": "wood_panel",
+			"position": [
+				-7.22,
+				0,
+				1.68
+			],
+			"rotation": [
+				-32.88,
+				86.8,
+				1.74
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_vent",
+			"name": "metal_vent",
+			"position": [
+				-7.45,
+				2.52,
+				-2.87
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_vent",
+			"name": "metal_vent2",
+			"position": [
+				-7.45,
+				2.52,
+				-1.5
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_case",
+			"name": "metal_case",
+			"position": [
+				-6.28,
+				0,
+				-3.98
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage",
+			"position": [
+				-7.45,
+				0,
+				-3.66
+			],
+			"rotation": [
+				0,
+				65.87,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage2",
+			"position": [
+				7.91,
+				0,
+				3.93
+			],
+			"rotation": [
+				0,
+				65.87,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage3",
+			"position": [
+				7.72,
+				0,
+				-3.84
+			],
+			"rotation": [
+				0,
+				65.87,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				-0.39,
+				0.4,
+				-1.74
+			],
+			"rotation": [
+				0,
+				14.89,
+				0
+			],
+			"scale": [
+				1.16,
+				1,
+				1.96
+			]
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/w_lr300",
+			"name": "w_lr300",
+			"position": [
+				-0.66,
+				0.96,
+				-2.11
+			],
+			"rotation": [
+				2.1,
+				136.34,
+				-91.52
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc",
+			"position": [
+				1.13,
+				0,
+				-1.57
+			],
+			"profile": "shlang_profile",
+			"rotation": [
+				0,
+				-66.69,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc5",
+			"position": [
+				1.9,
+				0,
+				2.57
+			],
+			"profile": "belomor_profile",
+			"rotation": [
+				0,
+				-149.9,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc2",
+			"position": [
+				-1.54,
+				0,
+				-2.53
+			],
+			"profile": "gutalin_profile",
+			"rotation": [
+				0,
+				-6.69,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc4",
+			"position": [
+				-5.91,
+				0,
+				-1.1
+			],
+			"profile": "kaizanovsky_profile",
+			"rotation": [
+				0,
+				80.3,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc3",
+			"position": [
+				-3.47,
+				0,
+				-3.09
+			],
+			"profile": "scientists_group_one_trader_profile",
+			"rotation": [
+				0,
+				2.38,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_gate",
+			"name": "metal_gate",
+			"position": [
+				-0.87,
+				0,
+				4.22
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": [
+				1.5,
+				1.5,
+				1.5
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		}
+	]
+}

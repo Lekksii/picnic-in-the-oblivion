@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://c6r8uf7v2xa4y"]
+
+[node name="PointLight" type="OmniLight3D"]

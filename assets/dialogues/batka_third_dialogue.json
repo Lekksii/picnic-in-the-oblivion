@@ -1,0 +1,29 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "batka.scientists.group.0.text",
+			"answers": [
+				{
+					"text": "batka.scientists.group.0.answer",
+					"go_to": "second"
+				}
+			]
+		},
+		"second": {
+			"text": "batka.scientists.group.1.text",
+			"answers": [
+				{
+					"text": "batka.scientists.group.1.answer",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"batka.talk.done",
+							"scientists.in.zone"
+						]
+					}
+				}
+			]
+		}
+	}
+}

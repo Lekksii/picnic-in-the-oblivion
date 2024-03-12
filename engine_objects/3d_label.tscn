@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://fpw76ki8mh6e"]
+
+[ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="1_7jusw"]
+
+[node name="3d_label" type="Label3D"]
+billboard = 1
+texture_filter = 0
+text = "0,1 0,2 0,3"
+font = ExtResource("1_7jusw")

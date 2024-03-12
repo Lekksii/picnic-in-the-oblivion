@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btcs12i3o2sh5"
+path="res://.godot/imported/corpse.obj-84f9d7b98d2f2159e4017a39411ce7e1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/corpse.obj-84f9d7b98d2f2159e4017a39411ce7e1.mesh"]
+
+source_file="res://assets/models/corpse.obj"
+dest_files=["res://.godot/imported/corpse.obj-84f9d7b98d2f2159e4017a39411ce7e1.mesh", "res://.godot/imported/corpse.obj-84f9d7b98d2f2159e4017a39411ce7e1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

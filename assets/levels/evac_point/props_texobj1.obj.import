@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cyj4qukv6meu3"
+path="res://.godot/imported/props_texobj1.obj-83cd7d97b29c0f4326b08b0297af5bda.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj1.obj-83cd7d97b29c0f4326b08b0297af5bda.mesh"]
+
+source_file="res://assets/levels/evac_point/props_texobj1.obj"
+dest_files=["res://.godot/imported/props_texobj1.obj-83cd7d97b29c0f4326b08b0297af5bda.mesh", "res://.godot/imported/props_texobj1.obj-83cd7d97b29c0f4326b08b0297af5bda.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

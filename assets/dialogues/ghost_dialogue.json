@@ -1,0 +1,141 @@
+{
+	"start_dialogue": "gh0",
+	"dialogues": {
+		"gh0": {
+			"text": "ghost.text.0",
+			"answers": [
+				{
+					"text": "ghost.answer.0",
+					"go_to": "gh1"
+				}
+			]
+		},
+		"gh1": {
+			"text": "ghost.text.1",
+			"answers": [
+				{
+					"text": "ghost.answer.1",
+					"go_to": "gh2"
+				}
+			]
+		},
+		"gh2": {
+			"text": "ghost.text.2",
+			"answers": [
+				{
+					"text": "ghost.answer.2",
+					"go_to": "gh3"
+				}
+			]
+		},
+		"gh3": {
+			"text": "ghost.text.3",
+			"answers": [
+				{
+					"text": "ghost.answer.3",
+					"go_to": "gh4"
+				}
+			]
+		},
+		"gh4": {
+			"text": "ghost.text.4",
+			"answers": [
+				{
+					"text": "ghost.answer.4",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"the.end"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 403,
+			"y": 396
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 740,
+			"y": 400
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1069,
+			"y": 403
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1400,
+			"y": 400
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1749,
+			"y": 396
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2100,
+			"y": 400
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 2441,
+			"y": 399
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 2776,
+			"y": 396
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 3110,
+			"y": 399
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 3460,
+			"y": 400
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 3820,
+			"y": 560
+		},
+		{
+			"_type": "action",
+			"size_x": 290,
+			"size_y": 59,
+			"x": 3823,
+			"y": 622
+		}
+	]
+}

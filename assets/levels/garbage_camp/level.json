@@ -1,0 +1,431 @@
+{
+	"weather_color": "0a0a0a",
+	"daylight": false,
+	"fog": true,
+	"light": [
+		{
+			"type": "point",
+			"position": [
+				0.8,
+				2.25,
+				1.55
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 12.2814464569092,
+			"shadows": false,
+			"energy": 1,
+			"color": [
+				238,
+				157,
+				49
+			],
+			"name": "campfire"
+		},
+		{
+			"type": "point",
+			"position": [
+				0.49,
+				2.14,
+				3.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 1.46097767353058,
+			"shadows": false,
+			"energy": 1,
+			"color": [
+				238,
+				157,
+				49
+			],
+			"name": "campfire2"
+		},
+		{
+			"type": "point",
+			"position": [
+				1.25,
+				1.18,
+				2.49
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 1.46097767353058,
+			"shadows": false,
+			"energy": 1,
+			"color": [
+				238,
+				157,
+				49
+			],
+			"name": "campfire3"
+		},
+		{
+			"type": "point",
+			"position": [
+				-1.47,
+				1.57,
+				5.22
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 1.46097767353058,
+			"shadows": false,
+			"energy": 1,
+			"color": [
+				238,
+				157,
+				49
+			],
+			"name": "campfire4"
+		}
+	],
+	"level_data": [
+		{
+			"uid": "skybox",
+			"model": "assets/models/sky_1",
+			"texture": "texsky3.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"collider": null,
+			"scale": 8,
+			"name": "skybox",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "spawn_point",
+			"model": "sphere",
+			"position": [
+				2.55,
+				1.7,
+				3.89
+			],
+			"rotation": [
+				0,
+				25.5,
+				0
+			],
+			"collider": null,
+			"scale": 1,
+			"color": [
+				238,
+				157,
+				49,
+				128
+			],
+			"name": "SpawnPoint"
+		},
+		{
+			"id": "animated3dsprite",
+			"sequence": "fire",
+			"position": [
+				0.8,
+				1.35,
+				1.64
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"collider": null,
+			"scale": 0.75,
+			"billboard": true,
+			"3d_sound": {
+				"volume_db": -38,
+				"audio": "assets/sounds/ambient_sfx/campfire.mp3",
+				"max_distance": 8
+			}
+		},
+		{
+			"model": "assets/levels/garbage_camp/exterior",
+			"texture": "texobj2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"ambient": "exterior_shadow_fill",
+			"shader": false,
+			"collider": null,
+			"scale": 1,
+			"name": "exterior",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/garbage_camp/interior",
+			"texture": "texobj1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"ambient": "interior_shadow_fill",
+			"shader": false,
+			"collider": null,
+			"scale": 1,
+			"name": "interior",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"double_sided": true
+		},
+		{
+			"model": "assets/levels/garbage_camp/uaz",
+			"texture": "texobj1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"ambient": "exterior_shadow_fill",
+			"shader": false,
+			"collider": null,
+			"scale": 1,
+			"name": "uaz",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"profile": "garbage_trader_profile",
+			"position": [
+				-2,
+				0,
+				6.23
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"collider": {
+				"pos": [
+					0,
+					0.5,
+					0
+				],
+				"size": [
+					0.3,
+					1.2,
+					0.3
+				]
+			},
+			"ambient": "npc_shadow_fill",
+			"shader": false,
+			"name": "trader",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"profile": "harya_profile",
+			"position": [
+				0.13,
+				0,
+				2.75
+			],
+			"rotation": [
+				0,
+				45,
+				0
+			],
+			"ambient": "npc_shadow_fill",
+			"shader": false,
+			"name": "harya",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"profile": "krot_profile",
+			"position": [
+				1.81,
+				0,
+				0.72
+			],
+			"rotation": [
+				0,
+				-45,
+				0
+			],
+			"collider": {
+				"pos": [
+					0,
+					0.5,
+					0
+				],
+				"size": [
+					0.3,
+					1.2,
+					0.3
+				]
+			},
+			"ambient": "npc_shadow_fill",
+			"shader": false,
+			"name": "krot",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"profile": "batka_profile",
+			"position": [
+				3.43,
+				0,
+				2.08
+			],
+			"rotation": [
+				0,
+				-25,
+				0
+			],
+			"ambient": "npc_shadow_fill",
+			"shader": false,
+			"name": "batka",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/door_1",
+			"name": "door_1",
+			"position": [
+				6.05,
+				0,
+				7.02
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/barrel_2",
+			"name": "barrel_2",
+			"position": [
+				5.06,
+				0,
+				6.57
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/barrel_1",
+			"name": "barrel_1",
+			"position": [
+				4.23,
+				0,
+				6.59
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false,
+			"double_sided": true
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_case",
+			"name": "metal_case",
+			"position": [
+				2.59,
+				0,
+				6.98
+			],
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		}
+	]
+}

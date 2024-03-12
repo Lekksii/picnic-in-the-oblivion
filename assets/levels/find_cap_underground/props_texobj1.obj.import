@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pfi3g1kjgyyl"
+path="res://.godot/imported/props_texobj1.obj-142cca0788079386c51412822d1b5721.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj1.obj-142cca0788079386c51412822d1b5721.mesh"]
+
+source_file="res://assets/levels/find_cap_underground/props_texobj1.obj"
+dest_files=["res://.godot/imported/props_texobj1.obj-142cca0788079386c51412822d1b5721.mesh", "res://.godot/imported/props_texobj1.obj-142cca0788079386c51412822d1b5721.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

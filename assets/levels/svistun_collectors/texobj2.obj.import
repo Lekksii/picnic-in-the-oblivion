@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5kca3hw6hk2d"
+path="res://.godot/imported/texobj2.obj-67170cddb05eea06d53449e5b1a142a6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/texobj2.obj-67170cddb05eea06d53449e5b1a142a6.mesh"]
+
+source_file="res://assets/levels/svistun_collectors/texobj2.obj"
+dest_files=["res://.godot/imported/texobj2.obj-67170cddb05eea06d53449e5b1a142a6.mesh", "res://.godot/imported/texobj2.obj-67170cddb05eea06d53449e5b1a142a6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

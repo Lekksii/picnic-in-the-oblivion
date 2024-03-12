@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bixhi81iwx2y1"
+path="res://.godot/imported/props_texobj1.obj-7c6f92ec00d0e59ab1c81e411003d5fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/props_texobj1.obj-7c6f92ec00d0e59ab1c81e411003d5fe.mesh"]
+
+source_file="res://assets/levels/batka_find_battery/props_texobj1.obj"
+dest_files=["res://.godot/imported/props_texobj1.obj-7c6f92ec00d0e59ab1c81e411003d5fe.mesh", "res://.godot/imported/props_texobj1.obj-7c6f92ec00d0e59ab1c81e411003d5fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,4254 @@
+{
+	"weather_color": "0a0a0a",
+	"daylight": false,
+	"fog": true,
+	"light": [
+		{
+			"type": "point",
+			"position": [
+				13.2,
+				3.2,
+				-13.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_room0"
+		},
+		{
+			"type": "point",
+			"position": [
+				17.86,
+				2.09,
+				-10.57
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 8.43906784057617,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_room1"
+		},
+		{
+			"type": "point",
+			"position": [
+				23.61,
+				3.09,
+				-6.28
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 4.19175910949707,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_room0"
+		},
+		{
+			"type": "point",
+			"position": [
+				10.68,
+				1.72,
+				34.15
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_room_svistun"
+		},
+		{
+			"type": "point",
+			"position": [
+				51.19,
+				2.01,
+				20.94
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_3"
+		},
+		{
+			"type": "point",
+			"position": [
+				47.96,
+				2.01,
+				25.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 2.9760000705719,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_4"
+		},
+		{
+			"type": "point",
+			"position": [
+				46.04,
+				1.4,
+				21.52
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 6.68808841705322,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_7"
+		},
+		{
+			"type": "point",
+			"position": [
+				44.8,
+				1.4,
+				29.93
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 2.9760000705719,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_8"
+		},
+		{
+			"type": "point",
+			"position": [
+				42.46,
+				1.32,
+				32.26
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 6.4518837928772,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_9"
+		},
+		{
+			"type": "point",
+			"position": [
+				54,
+				2.62,
+				17.1
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_5"
+		},
+		{
+			"type": "point",
+			"position": [
+				58.16,
+				1.73,
+				10.66
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 2.41973614692688,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_10"
+		},
+		{
+			"type": "point",
+			"position": [
+				22.6,
+				1.98,
+				44.54
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp1_tunnel_6"
+		},
+		{
+			"type": "point",
+			"position": [
+				29.43,
+				1.9,
+				-1.73
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				248,
+				0,
+				0
+			],
+			"name": "lamp1_red_tunnel1"
+		},
+		{
+			"type": "point",
+			"position": [
+				35.42,
+				1.9,
+				2.73
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				248,
+				0,
+				0
+			],
+			"name": "lamp2_red_tunnel1"
+		},
+		{
+			"type": "point",
+			"position": [
+				39.9,
+				2.05,
+				11.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 7.56096076965332,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				248,
+				0,
+				0
+			],
+			"name": "lamp1_red_tunnel2"
+		},
+		{
+			"type": "point",
+			"position": [
+				27.16,
+				1.69,
+				27.35
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				0,
+				248,
+				0
+			],
+			"name": "rad1"
+		},
+		{
+			"type": "point",
+			"position": [
+				32.12,
+				1.69,
+				30.3
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				0,
+				248,
+				0
+			],
+			"name": "rad4"
+		},
+		{
+			"type": "point",
+			"position": [
+				61.5,
+				1.12,
+				10.22
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 11.0340261459351,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				0,
+				248,
+				0
+			],
+			"name": "rad2"
+		},
+		{
+			"type": "point",
+			"position": [
+				36.73,
+				0.93,
+				34.84
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 2.55900001525879,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				0,
+				248,
+				0
+			],
+			"name": "rad3"
+		},
+		{
+			"type": "point",
+			"position": [
+				21.47,
+				1.72,
+				34.76
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_tunnel6"
+		},
+		{
+			"type": "point",
+			"position": [
+				18.12,
+				1.61,
+				39.1
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_tunnel7"
+		},
+		{
+			"type": "point",
+			"position": [
+				19.33,
+				3.09,
+				50.89
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_tunnel_7"
+		},
+		{
+			"type": "point",
+			"position": [
+				16.75,
+				2.92,
+				54.39
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_tunnel_8"
+		},
+		{
+			"type": "point",
+			"position": [
+				12.46,
+				2.98,
+				60.24
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"distance": 5,
+			"energy": 1,
+			"shadows": false,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"name": "lamp2_tunnel_9"
+		}
+	],
+	"level_data": [
+		{
+			"id": "spawn_point",
+			"position": [
+				12.7,
+				1.55,
+				-14.18
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"name": "SpawnPoint"
+		},
+		{
+			"id": "radiation",
+			"position": [
+				57.87,
+				1.98,
+				12.24
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"size": [
+				16.47,
+				4.54,
+				7.84
+			],
+			"name": "tunnel_1_rad"
+		},
+		{
+			"id": "radiation",
+			"position": [
+				28.65,
+				1.98,
+				29.43
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"size": [
+				16.47,
+				4.54,
+				7.84
+			],
+			"name": "tunnel_2_rad"
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				25.04,
+				1.23,
+				-5
+			],
+			"waypoints": "svistun_wp_0",
+			"target_position": [
+				27.75,
+				1.55,
+				-2.84
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				-127,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				26.71,
+				1.23,
+				-3.74
+			],
+			"waypoints": "svistun_wp_1_return",
+			"target_position": [
+				24.2434387207031,
+				1.55000000000291,
+				-5.459876537323
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red10",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				51.0940017700195,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				38.1,
+				1.23,
+				4.83
+			],
+			"waypoints": "svistun_wp_1",
+			"target_position": [
+				39.6100000000006,
+				1.55,
+				6.7100000000064
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red2",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				39.17,
+				1.23,
+				6.01
+			],
+			"waypoints": "svistun_wp_2_return",
+			"target_position": [
+				37.3045539855957,
+				1.55000000000291,
+				4.31034183502197
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red11",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				51.0940017700195,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				41.03,
+				1.23,
+				17.55
+			],
+			"waypoints": "svistun_wp_2",
+			"target_position": [
+				42.5800000000017,
+				1.55,
+				18.7400000000052
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red3",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				-127,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				41.73,
+				1.23,
+				18.08
+			],
+			"waypoints": "svistun_wp_2",
+			"target_position": [
+				40.6180839538574,
+				1.55000000000291,
+				16.8106918334961
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red12",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				6.09400129318237,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				48.72,
+				1.23,
+				23.4
+			],
+			"waypoints": "svistun_wp_3_last_points",
+			"target_position": [
+				40.6180839538574,
+				1.55000000000291,
+				16.8106918334961
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				3.87,
+				2.22,
+				0.05
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red15",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				6.09400129318237,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				49.66,
+				1.23,
+				21.94
+			],
+			"waypoints": "svistun_wp_3",
+			"target_position": [
+				53.6900000000023,
+				1.55,
+				17.75
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.2,
+				2.22,
+				0.16
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red4",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				51.76,
+				1.23,
+				20.56
+			],
+			"waypoints": "$to_this_door",
+			"target_position": [
+				53.6900000000023,
+				1.55,
+				17.75
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.2,
+				2.22,
+				0.16
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red14",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				52.98,
+				1.08,
+				18.78
+			],
+			"waypoints": "",
+			"target_position": [
+				51.1779999999999,
+				1.55,
+				21.4159999999974
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red10_back",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				143,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				47.45,
+				1.23,
+				24.75
+			],
+			"waypoints": "svistun_wp_4",
+			"target_position": [
+				45.4499999999971,
+				1.55,
+				28.9300000000076
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.26,
+				2.22,
+				0.14
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red5",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				143,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				46.93,
+				1.23,
+				26.99
+			],
+			"waypoints": "$to_this_door",
+			"target_position": [
+				45.4499999999971,
+				1.55,
+				28.9300000000076
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.26,
+				2.22,
+				0.14
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red13",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				143,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				46.06,
+				1.23,
+				28.15
+			],
+			"waypoints": "$to_this_door",
+			"target_position": [
+				47.330680847168,
+				1.54999995231628,
+				26.508487701416
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.26,
+				2.22,
+				0.14
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red16",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-39.2849998474121,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				37.36,
+				1.23,
+				35.33
+			],
+			"waypoints": "svistun_wp_5",
+			"target_position": [
+				34.6100000000006,
+				1.55,
+				32.2600000000093
+			],
+			"rotation": [
+				0,
+				-108.07,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				2.55,
+				2.22,
+				0.52
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red6",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				53,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				35.43,
+				1.23,
+				32.74
+			],
+			"waypoints": "svistun_wp_6_return",
+			"target_position": [
+				38.1903114318848,
+				1.54999995231628,
+				35.5579986572266
+			],
+			"rotation": [
+				0,
+				-129.57,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.1,
+				1.91,
+				0.52
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red17",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-54.2850036621094,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				30.18,
+				1.23,
+				28.23
+			],
+			"waypoints": "svistun_wp_6_back_only_waypoints",
+			"target_position": [
+				38.1903114318848,
+				1.54999995231628,
+				35.5579986572266
+			],
+			"rotation": [
+				0,
+				-129.57,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				2.1,
+				1.91,
+				0.52
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red18",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-54.2850036621094,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				24.13,
+				1.23,
+				29.57
+			],
+			"waypoints": "svistun_wp_6",
+			"target_position": [
+				22.9600000000064,
+				1.55,
+				32.7600000000093
+			],
+			"rotation": [
+				0,
+				-38.89,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.63,
+				2.22,
+				0.98
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red7",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				0,
+				143,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				23.57,
+				1.23,
+				32.06
+			],
+			"waypoints": "",
+			"target_position": [
+				24.9341373443604,
+				1.54999995231628,
+				29.1977920532227
+			],
+			"rotation": [
+				0,
+				-38.89,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.63,
+				2.22,
+				0.33
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red19",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-69.2850036621094,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				18.57,
+				1.23,
+				37.02
+			],
+			"waypoints": "svistun_wp_7",
+			"target_position": [
+				11.9191455841064,
+				1.54999995231628,
+				35.2547569274902
+			],
+			"rotation": [
+				0,
+				-72.46,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.37,
+				2.22,
+				0.09
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red8",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				65.7150192260742,
+				0
+			],
+			"condition": "svistun.last.enemies.killed"
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				18.16,
+				1.23,
+				37.56
+			],
+			"waypoints": "svistun_wp_7_last_points",
+			"target_position": [
+				24.9341373443604,
+				1.54999995231628,
+				29.1977920532227
+			],
+			"rotation": [
+				0,
+				143.49,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.1,
+				2.22,
+				0.07
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red23",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-69.2850036621094,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				19.69,
+				1.23,
+				43.25
+			],
+			"waypoints": "svistun_wp_9",
+			"target_position": [
+				11.9191455841064,
+				1.54999995231628,
+				35.2547569274902
+			],
+			"rotation": [
+				0,
+				-132.46,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.09,
+				2.22,
+				0.34
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red20",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				65.7150192260742,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				17.43,
+				1.23,
+				39.22
+			],
+			"waypoints": "svistun_wp_9_last_points",
+			"target_position": [
+				19.1774349212646,
+				1.55000007152557,
+				51.1450424194336
+			],
+			"rotation": [
+				0,
+				53.17,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.09,
+				2.22,
+				0.09
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red22",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				143.185012817383,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				14.57,
+				1.23,
+				37.03
+			],
+			"waypoints": "",
+			"target_position": [
+				11.9191455841064,
+				1.54999995231628,
+				35.2547569274902
+			],
+			"rotation": [
+				0,
+				53.17,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.09,
+				2.22,
+				0.34
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red24",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				65.7150192260742,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				13.64,
+				1.23,
+				36.33
+			],
+			"waypoints": "",
+			"target_position": [
+				14.8476438522339,
+				1.55000007152557,
+				37.2329864501953
+			],
+			"rotation": [
+				0,
+				53.17,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.09,
+				2.22,
+				0.34
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red25",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-125.330993652344,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				21.17,
+				1.23,
+				41.39
+			],
+			"waypoints": "svistun_wp_8_last_points",
+			"target_position": [
+				24.9341373443604,
+				1.54999995231628,
+				29.1977920532227
+			],
+			"rotation": [
+				0,
+				-164.64,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.09,
+				2.22,
+				0.34
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red21",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-69.2850036621094,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				19.35,
+				1.23,
+				40.44
+			],
+			"waypoints": "svistun_wp_8",
+			"target_position": [
+				19.1774349212646,
+				1.55000007152557,
+				51.1450424194336
+			],
+			"rotation": [
+				0,
+				-157,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				2.85,
+				2.22,
+				0.34
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red9",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				143.185012817383,
+				0
+			]
+		},
+		{
+			"id": "transition",
+			"model": "cube",
+			"position": [
+				20.81,
+				1.08,
+				49.1
+			],
+			"waypoints": "",
+			"target_position": [
+				22.3774356842041,
+				1.55000007152557,
+				46.7450408935547
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"name": "transition_to_tunnel_red11_back",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"target_rotation": [
+				-0,
+				-36.8149871826172,
+				0
+			]
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				25.69,
+				1.39,
+				-4.51
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				12.11,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				21.42,
+				1.39,
+				-1.84
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				33.83,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red16",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				26.81,
+				1.39,
+				-8.99
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				33.83,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red17",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				38.39,
+				1.39,
+				5.06
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				12.78,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red2",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				37.21,
+				1.39,
+				15.1
+			],
+			"rotation": [
+				0,
+				113,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				12.78,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red18",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				43.15,
+				1.39,
+				8.95
+			],
+			"rotation": [
+				0,
+				113,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				22.77,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red19",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				41.18,
+				1.39,
+				17.9
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				13.11,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red3",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				43.77,
+				1.39,
+				25.71
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				16.43,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red6",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				46.36,
+				1.39,
+				24.24
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				0.79,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red11",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				49.46,
+				1.39,
+				21.05
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				0.57,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red12",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				38.34,
+				1.39,
+				33.59
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				0.71,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red13",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				26.56,
+				-1.87,
+				29.75
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				0.9,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red14",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				31.22,
+				1.39,
+				28
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				3.81,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red23",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				35.78,
+				1.39,
+				33.78
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				16.7,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red7",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				29.79,
+				1.39,
+				44.79
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				16.7,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red21",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				34.7,
+				1.39,
+				36.49
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				16.7,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red20",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				23.43,
+				1.39,
+				30.81
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				12.43,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red8",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				15.96,
+				1.39,
+				34.35
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				16.48,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red9",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				20.68,
+				1.39,
+				39.28
+			],
+			"rotation": [
+				0,
+				-37,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				0.83,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red15",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				20.34,
+				1.39,
+				41.31
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				20.45,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red24",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				17.59,
+				1.39,
+				39.37
+			],
+			"rotation": [
+				0,
+				53,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				3.98,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red26",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				17.17,
+				1.39,
+				36.61
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				3.98,
+				3.24,
+				0.14
+			],
+			"name": "block_tunnel_red27",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				16.63,
+				1.39,
+				44.87
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				23.12,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red10",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				8.29,
+				1.39,
+				29.05
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				23.12,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red25",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				53.2,
+				1.39,
+				20.26
+			],
+			"rotation": [
+				0,
+				143,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				14.74,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red4",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				51.14,
+				1.39,
+				13.45
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				14.74,
+				3.24,
+				0.34
+			],
+			"name": "block_tunnel_red5",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "block",
+			"model": "cube",
+			"position": [
+				48.75,
+				1.39,
+				23.24
+			],
+			"rotation": [
+				0,
+				-127,
+				0
+			],
+			"collider": "box",
+			"invisible": true,
+			"scale": [
+				7.77,
+				3.24,
+				0.1
+			],
+			"name": "block_tunnel_red22",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"model": "assets/levels/svistun_collectors/texobj1",
+			"texture": "texobj1.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-126.8,
+				0
+			],
+			"ambient": "exterior_shadow_fill",
+			"collider": "mesh",
+			"scale": 1,
+			"name": "interior_1",
+			"alpha": false,
+			"lit": false,
+			"billboard": false,
+			"double_sided": true
+		},
+		{
+			"model": "assets/levels/svistun_collectors/texobj2",
+			"texture": "texobj2.png",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				-126.8,
+				0
+			],
+			"ambient": "exterior_shadow_fill",
+			"collider": null,
+			"double_sided": false,
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"name": "interior_2",
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"id": "sprite3d",
+			"texture": "sglare1_oreol.png",
+			"position": [
+				39.92,
+				2.31,
+				11.73
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"name": "flare1"
+		},
+		{
+			"id": "sprite3d",
+			"texture": "sglare1_oreol.png",
+			"position": [
+				29.41,
+				2.34,
+				-1.76
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"name": "flare2"
+		},
+		{
+			"id": "sprite3d",
+			"texture": "sglare1_oreol.png",
+			"position": [
+				29.41,
+				2.34,
+				-1.76
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"name": "flare3"
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/underground_door",
+			"name": "underground_door",
+			"position": [
+				20.45,
+				-0.03,
+				49.26
+			],
+			"rotation": [
+				0,
+				-126.98,
+				0
+			],
+			"scale": [
+				1.02,
+				1.02,
+				1.02
+			],
+			"texture": "texobj1.png",
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/underground_door",
+			"name": "underground_door2",
+			"position": [
+				53.34,
+				0,
+				18.55
+			],
+			"rotation": [
+				0,
+				53.02,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "captain",
+			"position": [
+				9.73,
+				0,
+				35.07
+			],
+			"profile": "whistler_profile",
+			"rotation": [
+				0,
+				133.16,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_gate",
+			"name": "metal_gate",
+			"position": [
+				12.01,
+				0,
+				-14.72
+			],
+			"rotation": [
+				0,
+				142.86,
+				0
+			],
+			"scale": [
+				1.17,
+				1.17,
+				1.17
+			],
+			"texture": "texobj1.png",
+			"alpha": true,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_0",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_0",
+			"position": [
+				13.6,
+				2.05,
+				-13.58
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"collider": "box",
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"id": "loot_money",
+			"invisible": true,
+			"model": "cube",
+			"name": "loot_zone_money",
+			"position": [
+				16.37,
+				0.27,
+				-7.68
+			],
+			"rotation": [
+				0,
+				21.96,
+				0
+			],
+			"scale": 1,
+			"value": 25,
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				23.59,
+				0,
+				-9.65
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-108.75,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_0",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				19.44,
+				-0.02,
+				-5.09
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-141.54,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_0",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_1",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_1",
+			"position": [
+				28.2,
+				1.59,
+				-2.39
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				36.8,
+				0,
+				2.42
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-119.53,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				31.37,
+				0,
+				0.55
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-131.45,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_2",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_2",
+			"position": [
+				40.69,
+				1.59,
+				7.22
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				40.74,
+				0,
+				11.58
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-178.36,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_2",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				39.34,
+				0,
+				16.39
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-175.28,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_2",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_3",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_3",
+			"position": [
+				43.31,
+				1.59,
+				19.09
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				49.86,
+				0,
+				21.2
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-124.63,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_3",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_stand_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				47.04,
+				0,
+				24.82
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-128.74,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_3",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_4",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_4",
+			"position": [
+				53.92,
+				1.59,
+				17.05
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				58.32,
+				0,
+				8.95
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-38.74,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_4",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				57.82,
+				0,
+				15.15
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-43.87,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_4",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "level_svistun_rad_room",
+			"model": "cube",
+			"position": [
+				57.16,
+				1.51,
+				15.69
+			],
+			"rotation": [
+				0,
+				-50.27,
+				0
+			],
+			"scale": 1,
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_5",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_5",
+			"position": [
+				44.76,
+				1.59,
+				30
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_stand_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				42.46,
+				0,
+				34.1
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				141.26,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_5",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				37.97,
+				0,
+				34.01
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				141.26,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_5",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_6",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_6",
+			"position": [
+				33.73,
+				1.59,
+				31.75
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				31.43,
+				0,
+				28.88
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				54.34,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_6",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				26.02,
+				0,
+				29.36
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				73.62,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_6",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_7",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_7",
+			"position": [
+				22.29,
+				1.59,
+				33.76
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				20.47,
+				0,
+				39.76
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				142.25,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_7",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right",
+				"shoot_stand_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				19.14,
+				0,
+				35.67
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				142.25,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_7",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"hostile_id": "eyezone_svistun_8",
+			"id": "hostile_eyezone",
+			"name": "eyezone_svistun_8",
+			"position": [
+				19.82,
+				1.59,
+				50.75
+			],
+			"rotation": [
+				0,
+				52.54,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				15.27,
+				0,
+				54.91
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				142.25,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_8",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				17.87,
+				0,
+				56.41
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				159.75,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_8",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				14.05,
+				0,
+				61.86
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				142.25,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_svistun_8",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"alpha": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "level_svistun_end_room",
+			"model": "cube",
+			"position": [
+				14.99,
+				1.51,
+				61.23
+			],
+			"rotation": [
+				0,
+				-50.27,
+				0
+			],
+			"scale": 1,
+			"alpha": false,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes",
+			"position": [
+				57.93,
+				1.81,
+				17.43
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes2",
+			"position": [
+				60.27,
+				1.81,
+				14.25
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes3",
+			"position": [
+				62.61,
+				1.81,
+				11.08
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes4",
+			"position": [
+				64.94,
+				1.81,
+				7.9
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes5",
+			"position": [
+				57.93,
+				0.16,
+				17.43
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes6",
+			"position": [
+				60.27,
+				0.16,
+				14.25
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes7",
+			"position": [
+				62.61,
+				0.16,
+				11.08
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes8",
+			"position": [
+				64.94,
+				0.16,
+				7.9
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes13",
+			"position": [
+				11.07,
+				1.81,
+				56.52
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes14",
+			"position": [
+				13.41,
+				1.81,
+				53.34
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes15",
+			"position": [
+				15.75,
+				1.81,
+				50.17
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes16",
+			"position": [
+				18.08,
+				1.81,
+				46.99
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes17",
+			"position": [
+				11.07,
+				0.16,
+				56.52
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes18",
+			"position": [
+				13.41,
+				0.16,
+				53.34
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes19",
+			"position": [
+				15.75,
+				0.16,
+				50.17
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes20",
+			"position": [
+				18.08,
+				0.16,
+				46.99
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes21",
+			"position": [
+				16.92,
+				1.81,
+				60.86
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes22",
+			"position": [
+				19.26,
+				1.81,
+				57.68
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes23",
+			"position": [
+				21.6,
+				1.81,
+				54.51
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes24",
+			"position": [
+				23.93,
+				1.81,
+				51.33
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes25",
+			"position": [
+				16.92,
+				0.16,
+				60.86
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes26",
+			"position": [
+				19.26,
+				0.16,
+				57.68
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes27",
+			"position": [
+				21.6,
+				0.16,
+				54.51
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes28",
+			"position": [
+				23.93,
+				0.16,
+				51.33
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes9",
+			"position": [
+				52.73,
+				0.16,
+				13.53
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes10",
+			"position": [
+				55.07,
+				0.16,
+				10.35
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes11",
+			"position": [
+				57.41,
+				0.16,
+				7.18
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/concrete_tube",
+			"name": "concrete_tubes12",
+			"position": [
+				59.74,
+				0.16,
+				4
+			],
+			"rotation": [
+				0,
+				53.66,
+				0
+			],
+			"scale": [
+				0.39,
+				1.1,
+				1.1
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage",
+			"position": [
+				55.2,
+				0,
+				19.93
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage5",
+			"position": [
+				16.1,
+				0,
+				61.13
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage6",
+			"position": [
+				8.9,
+				0,
+				59.99
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": [
+				1.9,
+				1.9,
+				1.9
+			],
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage7",
+			"position": [
+				23.6,
+				0,
+				52.09
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": [
+				1.9,
+				1.9,
+				1.9
+			],
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage2",
+			"position": [
+				56.3,
+				0,
+				9.43
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage3",
+			"position": [
+				60.3,
+				0,
+				4.73
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": [
+				1.6,
+				1.6,
+				1.6
+			],
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/garbage",
+			"name": "garbage4",
+			"position": [
+				64.1,
+				0,
+				8.23
+			],
+			"rotation": [
+				0,
+				-90,
+				0
+			],
+			"scale": [
+				1.6,
+				1.6,
+				1.6
+			],
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/underground_doorhole",
+			"name": "underground_door_hole",
+			"position": [
+				20.46,
+				0,
+				49.25
+			],
+			"rotation": [
+				0,
+				-127.23,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				16.8,
+				0.59,
+				55.12
+			],
+			"rotation": [
+				0,
+				-30,
+				0
+			],
+			"scale": [
+				3.4,
+				1.21,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				14.94,
+				0.89,
+				61.29
+			],
+			"rotation": [
+				0,
+				-55.22,
+				0
+			],
+			"scale": [
+				1.02,
+				2.17,
+				1
+			]
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/rad",
+			"name": "rad",
+			"position": [
+				33.4,
+				0,
+				29.08
+			],
+			"rotation": [
+				0,
+				-108.56,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/rad",
+			"name": "rad5",
+			"position": [
+				27.12,
+				0,
+				26.63
+			],
+			"rotation": [
+				0,
+				-68.15,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/rad",
+			"name": "rad6",
+			"position": [
+				62.68,
+				0,
+				9.78
+			],
+			"rotation": [
+				0,
+				-68.15,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		}
+	]
+}

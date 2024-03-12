@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7hns5a5ukmgf"]
+
+[ext_resource type="Theme" uid="uid://wq7nrallofwf" path="res://themes/bold_font.tres" id="1_fixpe"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rr5i1"]
+
+[node name="CustomButton" type="Button"]
+offset_right = 85.0
+offset_bottom = 79.0
+theme = ExtResource("1_fixpe")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_rr5i1")
+text = "OK"
+flat = true

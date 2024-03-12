@@ -1,0 +1,14 @@
+{
+  "start_dialogue": "start",
+  "dialogues": {
+	"start": {
+	  "text": "dlg.no.dialog.text",
+	  "answers": [
+		{
+		  "text": "dlg.no.dialog.answer.1",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

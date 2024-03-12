@@ -1,0 +1,148 @@
+{
+	"start_dialogue": "whistler_start",
+	"dialogues": {
+		"whistler_start": {
+			"text": "whistler.0.text",
+			"answers": [
+				{
+					"text": "whistler.answer.1",
+					"go_to": "whistler_second"
+				}
+			]
+		},
+		"whistler_second": {
+			"text": "whistler.1.text",
+			"answers": [
+				{
+					"text": "whistler.answer.2.1",
+					"go_to": "whistler_alive_end",
+					"condition_has_items": ["medkit"]
+				},
+				{
+					"text": "whistler.answer.2.2",
+					"go_to": "whistler_dead_end"
+				}
+			]
+		},
+		"whistler_dead_end": {
+			"text": "whistler.2.text.dead",
+			"answers": [
+				{
+					"text": "whistler.answer.3.end",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"whistler.dead",
+							"whistler.quest.done"
+						],
+						"add_item": [
+							"af_bengal"
+						]
+					}
+				}
+			]
+		},
+		"whistler_alive_end": {
+			"text": "whistler.2.text.alive",
+			"answers": [
+				{
+					"text": "whistler.answer.3.end",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"whistler.alive",
+							"whistler.quest.done"
+						],
+						"del_item": ["medkit"]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"size_x": 282,
+			"size_y": 205,
+			"x": 276,
+			"y": 289
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 620,
+			"y": 300
+		},
+		{
+			"size_x": 282,
+			"size_y": 205,
+			"x": 952,
+			"y": 339
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 1360,
+			"y": 560
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 1360,
+			"y": 240
+		},
+		{
+			"size_x": 282,
+			"size_y": 205,
+			"x": 1717,
+			"y": 244
+		},
+		{
+			"size_x": 353,
+			"size_y": 205,
+			"x": 1731,
+			"y": 569
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 2118,
+			"y": 692
+		},
+		{
+			"size_x": 259,
+			"size_y": 283,
+			"x": 2140,
+			"y": 240
+		},
+		{
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2438,
+			"y": 450
+		},
+		{
+			"size_x": 236,
+			"size_y": 57,
+			"x": 2420,
+			"y": 900
+		},
+		{
+			"size_x": 399,
+			"size_y": 70,
+			"x": 2435,
+			"y": 545
+		},
+		{
+			"size_x": 447,
+			"size_y": 70,
+			"x": 2420,
+			"y": 960
+		},
+		{
+			"size_x": 347,
+			"size_y": 70,
+			"x": 2421,
+			"y": 1057
+		}
+	]
+}

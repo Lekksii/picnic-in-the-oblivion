@@ -1,0 +1,135 @@
+{
+  "garbage_camp_marker": {
+	"name": "quest.trus.0.name",
+	"spot": "area_neutral.png",
+	"type": "camp",
+	"position": [384,388],
+	"level_id": "garbage_camp"
+  },
+  "intro_marker": {
+	"name": "pda.map.intro",
+	"spot": "area_neutral.png",
+	"type": "camp",
+	"position": [276,740],
+	"level_id": "intro_battle"
+  },
+  "find_camp_spot": {
+	  "name": "quest.camp.name",
+	  "spot": "area_neutral.png",
+	  "type": "camp",
+	  "position": [348,776],
+	  "level_id": "village"
+},
+  "harya_bandits_marker": {
+	  "name": "quest.harya.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [412,568],
+	  "level_id": "harya_outfit_road"
+},
+  "batka_battery_marker": {
+	  "name": "quest.batka.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [492,448],
+	  "level_id": "batka_find_battery"
+},
+	"find_whistle_spot": {
+	  "name": "quest.rusty.1.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [512,720],
+	  "level_id": "svistun_collectors"
+	},
+	"coward_find_cap_marker": {
+	  "name": "quest.radio.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [412,568],
+	  "level_id": "radio_quest_coward"
+	},
+	"batka_find_cap_marker": {
+	  "name": "quest.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [128,448],
+	  "level_id": "find_cap_underground"
+	},
+	"kill_manikovsky": {
+	  "name": "quest.cap.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [32,720],
+	  "level_id": "manikovsky"
+	},
+	"find_medusa_spot": {
+	  "name": "quest.galosh.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [448,764],
+	  "level_id": "galosh_art"
+	},
+	"forest_road_spot": {
+	  "name": "quest.rusty.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [428,636],
+	  "level_id": "forest_road"
+	},
+	"harya_outfit_road": {
+	  "name": "quest.harya.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [412,568],
+	  "level_id": "harya_outfit_road"
+	},
+	"evacuation": {
+	  "name": "quest.radio.1.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [152,268],
+	  "level_id": "evac_point"
+	},
+	"first_group": {
+	  "name": "quest.manikovsky.0.name",
+	  "spot": "area_neutral.png",
+	  "type": "camp",
+	  "position": [195,64],
+	  "level_id": "first_group"
+	},
+	"cd_disk": {
+	  "name": "quest.shlang.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [248,192],
+	  "level_id": "shlang_cd_underground"
+	},
+	"belomor_friends": {
+	  "name": "quest.belomor.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [338,34],
+	  "level_id": "belomor_friends"
+	},
+	"second_group": {
+	  "name": "quest.kaizanovsky.0.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [213,54],
+	  "level_id": "second_group_attack"
+	},
+	"city": {
+	  "name": "quest.zob.name",
+	  "spot": "area_enemy.png",
+	  "type": "quest",
+	  "position": [54,32],
+	  "level_id": "city_alley"
+	},
+	"sos": {
+	  "name": "quest.sos.name",
+	  "spot": "marker.png",
+	  "type": "camp",
+	  "position": [118,28],
+	  "level_id": "village_e3"
+	},
+}

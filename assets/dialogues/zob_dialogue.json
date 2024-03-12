@@ -1,0 +1,122 @@
+{
+  "start_dialogue": "start",
+  "dialogues": {
+	"start": {
+	  "text": "zob.text.0",
+	  "answers": [
+		{
+		  "text": "zob.answer.0",
+		  "go_to": "1"
+		}
+	  ]
+	},
+	"1": {
+	  "text": "zob.text.1",
+	  "answers": [
+		{
+		  "text": "zob.answer.1",
+		  "go_to": "2"
+		}
+	  ]
+	},
+	"2": {
+	  "text": "zob.text.2",
+	  "answers": [
+		{
+		  "text": "zob.answer.2",
+		  "go_to": "3"
+		}
+	  ]
+	},
+	"3": {
+	  "text": "zob.text.3",
+	  "answers": [
+		{
+		  "text": "zob.answer.3",
+		  "go_to": "4"
+		}
+	  ]
+	},
+	"4": {
+	  "text": "zob.text.4",
+	  "answers": [
+		{
+		  "text": "zob.answer.4",
+		  "go_to": "5"
+		}
+	  ]
+	},
+	"5": {
+	  "text": "zob.text.5",
+	  "answers": [
+		{
+		  "text": "zob.answer.5",
+		  "go_to": "6"
+		}
+	  ]
+	},
+	"6": {
+	  "text": "zob.text.6",
+	  "answers": [
+		{
+		  "text": "zob.answer.6",
+		  "go_to": "7"
+		}
+	  ]
+	},
+	"7": {
+	  "text": "zob.text.7",
+	  "answers": [
+		{
+		  "text": "zob.answer.7",
+		  "go_to": "8"
+		}
+	  ]
+	},
+	"8": {
+	  "text": "zob.text.8",
+	  "answers": [
+		{
+		  "text": "zob.answer.8",
+		  "go_to": "close_dialog",
+		  "action":{
+			"add_e_key":["zob.quest"]
+		}
+		}
+	  ]
+	},
+	"completed_quest": {
+	  "text": "zob.quest.completed.text.0",
+	  "answers": [
+		{
+		  "text": "zob.quest.completed.answer.0",
+		  "go_to": "completed_quest_1",
+		  "action":{
+			"add_e_key": ["zob.no.dialogue"]
+			}
+		}
+	  ]
+	},
+	"completed_quest_1": {
+	  "text": "zob.quest.completed.text.1",
+	  "answers": [
+		{
+		  "text": "zob.quest.completed.answer.1",
+		  "go_to": "close_dialog",
+		  "action":{
+			"add_e_key": ["zob.gives.reward"]
+			}
+		}
+	  ]
+	},
+	"no_dialogue": {
+	  "text": "zob.no.dialogue.text",
+	  "answers": [
+		{
+		  "text": "zob.no.dialogue.answer",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

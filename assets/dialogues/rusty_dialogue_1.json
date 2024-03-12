@@ -1,0 +1,76 @@
+{
+  "start_dialogue": "intro",
+  "dialogues": {
+	"intro": {
+	  "text": "dlg.rusty.quest.bandits.complete.0.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.0.answer.1",
+		  "go_to": "my_radio_phrase"
+		}
+	  ]
+	},
+	"my_radio_phrase": {
+	  "text": "dlg.rusty.quest.bandits.complete.1.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.1.answer.1",
+		  "go_to": "whistle_help_phrase"
+		}
+	  ]
+	},
+	"whistle_help_phrase": {
+	  "text": "dlg.rusty.quest.bandits.complete.2.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.2.answer.1",
+		  "go_to": "rusty_whistle_agree"
+		},
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.2.answer.2",
+		  "go_to": "rusty_whistle_agressive"
+		},
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.2.answer.3",
+		  "go_to": "rusty_end_dialogue"
+		}
+	  ]
+	},
+	"rusty_whistle_agree": {
+	  "text": "dlg.rusty.quest.bandits.complete.3.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.0.0_3.answer.1",
+		  "go_to": "close_dialog",
+		  "action": {
+			"add_e_key": ["rusty.second.dialogue.done","rusty.quest.whistle.not.complete"],
+			"add_quest": ["quest_rusty_1"]
+		  }
+		}
+	  ]
+	},
+	"rusty_whistle_agressive": {
+	  "text": "dlg.rusty.quest.bandits.complete.2.0.text",
+	  "answers": [
+		{
+		  "text": "dlg.rusty.quest.bandits.complete.0.answer.1",
+		  "go_to": "close_dialog",
+		  "action": {
+			"add_e_key": ["rusty.no.dialogue","rusty.second.dialogue.done"],
+			"add_quest": ["quest_talk_radio"],
+			"add_item": ["radio_first"]
+		  }
+		}
+	  ]
+	},
+	"rusty_end_dialogue": {
+	  "text": "dlg.rusty.quest.bandits.complete.4.text",
+	  "answers": [
+		{
+		  "text": "dlg.many.times.answer.1",
+		  "go_to": "close_dialog"
+		}
+	  ]
+	}
+  }
+}

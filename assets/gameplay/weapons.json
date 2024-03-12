@@ -1,0 +1,74 @@
+{
+  "w_pistol": {
+	"locked": true,
+	"clip_ammo_max": 12,
+	"damage": 3.5,
+	"accuracy": 0.15,
+	"fire_sound": "pistol_sound",
+	"hud": "assets/ui/fort_hud.png",
+	"sparkle_position": [0.021,-0.015, -0.109],
+	"hud_position": [-0.015,0.003, -0.054],
+	"ammo_type": null,
+	"inf_ammo": true,
+	"reload_anim": "reload",
+	"speed": 0.3,
+	"shoot_count": 1
+  },
+  "w_viper5": {
+	"clip_ammo_max": 30,
+	"damage": 5.0,
+	"accuracy": 0.1,
+	"fire_sound": "rifle_sound",
+	"hud": "assets/ui/viper_final_hud.png",
+	"sparkle_position": [0.027,-0.022, -0.109],
+	"hud_position": [-0.02,0.005, -0.054],
+	"ammo_type": "ammo_viper5",
+	"inf_ammo": false,
+	"reload_anim": "reload",
+	"speed": 0.08,
+	"shoot_count": 1
+  },
+  "w_ak": {
+	"clip_ammo_max": 30,
+	"damage": 8.0,
+	"accuracy": 0.25,
+	"fire_sound": "rifle_sound",
+	"hud": "assets/ui/ak74_final_hud.png",
+	"sparkle_position": [0.021,-0.019, -0.109],
+	"hud_position": [-0.021,0.005, -0.054],
+	"ammo_type": "ammo_ak",
+	"reload_anim": "reload",
+	"speed": 0.13,
+	"shoot_count": 1
+  },
+  "w_lr": {
+	"clip_ammo_max": 30,
+	"damage": 13.0,
+	"accuracy": 0.3,
+	"fire_sound": "rifle_sound",
+	"hud": "assets/ui/l85_final_hud.png",
+	"scope": {
+	  "sprite": "assets/ui/scope.png",
+	  "fov": 50
+	},
+	"sparkle_position": [0.023,-0.026, -0.109],
+	"hud_position": [-0.029,0.012, -0.054],
+	"ammo_type": "ammo_lr",
+	"reload_anim": "reload",
+	"speed": 0.14,
+	"shoot_count": 1
+  },
+  "w_groza": {
+	"clip_ammo_max": 21,
+	"damage": 15.0,
+	"accuracy": 0.35,
+	"fire_sound": "rifle_sound",
+	"hud": "assets/ui/groza_final_hud.png",
+	"sparkle_position": [0.027,-0.026, -0.109],
+	"hud_position": [-0.02,0.008, -0.054],
+	"ammo_type": "ammo_oc",
+	"reload_anim": "reload",
+	"speed": 0.13,
+	"shoot_count": 1
+  }
+}

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw0cmpi656p1m"
+path="res://.godot/imported/houses.obj-41551c09b25a6e4b8cab8a2d222d5911.mesh"
+
+[deps]
+
+files=["res://.godot/imported/houses.obj-41551c09b25a6e4b8cab8a2d222d5911.mesh"]
+
+source_file="res://assets/levels/village_e3_classic/houses.obj"
+dest_files=["res://.godot/imported/houses.obj-41551c09b25a6e4b8cab8a2d222d5911.mesh", "res://.godot/imported/houses.obj-41551c09b25a6e4b8cab8a2d222d5911.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

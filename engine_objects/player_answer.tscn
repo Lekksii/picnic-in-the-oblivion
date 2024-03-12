@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx2yny5us4bs2"]
+
+[ext_resource type="Theme" uid="uid://bwkf21e1tyodp" path="res://themes/regular_font.tres" id="1_0nhsn"]
+[ext_resource type="Script" path="res://scripts/GUI/player_answer.gd" id="2_td77a"]
+
+[node name="player_answer" type="Label"]
+custom_minimum_size = Vector2(0, 48)
+size_flags_horizontal = 3
+mouse_filter = 1
+theme = ExtResource("1_0nhsn")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "player.answer
+"
+vertical_alignment = 1
+autowrap_mode = 2
+script = ExtResource("2_td77a")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

@@ -1,0 +1,354 @@
+[gd_scene load_steps=16 format=3 uid="uid://cnljuxkx2cn11"]
+
+[ext_resource type="Texture2D" uid="uid://bprvup7ilw0q1" path="res://IconBug.png" id="1_txjbs"]
+[ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="2_yhdbw"]
+[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular.ttf" id="3_armef"]
+[ext_resource type="FontFile" uid="uid://w8euiy645per" path="res://assets/fonts/SM3DBold.ttf" id="4_0pr34"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pgah1"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k7e8r"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yfdfj"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.92549, 0.92549, 0.92549, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kj4fm"]
+bg_color = Color(0.992157, 0.992157, 0.992157, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.341176, 0.537255, 0.690196, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+anti_aliasing_size = 0.01
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wkafx"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kskbg"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+border_width_top = 1
+border_color = Color(0.709804, 0.709804, 0.709804, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hh6wp"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_bottom = 1
+border_color = Color(0.996078, 0.996078, 0.996078, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nax1n"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_right = 1
+border_color = Color(0.996078, 0.996078, 0.996078, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ihwql"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+draw_center = false
+border_width_left = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fqis"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p1r53"]
+bg_color = Color(0.941176, 0.941176, 0.941176, 1)
+anti_aliasing = false
+
+[node name="BugTrap" type="Panel"]
+process_mode = 2
+custom_minimum_size = Vector2(640, 320)
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_pgah1")
+
+[node name="bug_title" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 8.0
+offset_bottom = 41.0
+grow_horizontal = 2
+text = "Error has been occured"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="bug_button_ok" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 264.0
+offset_top = 256.0
+offset_right = 392.0
+offset_bottom = 294.0
+text = "OK"
+
+[node name="bug_caption" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 16.0
+offset_top = 64.0
+offset_right = 624.0
+offset_bottom = 232.0
+bbcode_enabled = true
+
+[node name="OK" type="Button" parent="."]
+process_mode = 2
+layout_mode = 1
+offset_left = 1568.0
+offset_top = 920.0
+offset_right = 1800.0
+offset_bottom = 1000.0
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("4_0pr34")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_k7e8r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yfdfj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_kj4fm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_k7e8r")
+text = "CLOSE"
+
+[node name="Copy" type="Button" parent="."]
+process_mode = 2
+layout_mode = 1
+offset_left = 1200.0
+offset_top = 920.0
+offset_right = 1520.0
+offset_bottom = 1000.0
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("4_0pr34")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_k7e8r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yfdfj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_kj4fm")
+theme_override_styles/focus = SubResource("StyleBoxFlat_k7e8r")
+text = "Copy error"
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_wkafx")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="IconImage" type="TextureRect" parent="Panel"]
+visible = false
+texture_filter = 1
+layout_mode = 1
+offset_left = 23.0
+offset_top = 11.0
+offset_right = 84.0
+offset_bottom = 77.0
+texture = ExtResource("1_txjbs")
+expand_mode = 5
+stretch_mode = 5
+
+[node name="SorryLabel" type="Label" parent="Panel"]
+visible = false
+layout_mode = 0
+offset_left = 107.0
+offset_top = 9.0
+offset_right = 569.0
+offset_bottom = 89.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_yhdbw")
+theme_override_font_sizes/font_size = 16
+text = "A crash has been detected!
+ 
+This is game crash client report.
+Many thanks in advance and sorry for the inconvenience."
+
+[node name="HSeparator" type="Panel" parent="Panel"]
+visible = false
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 11.0
+offset_top = -51.5
+offset_right = -11.0
+offset_bottom = -48.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_kskbg")
+
+[node name="LightLine" type="Panel" parent="Panel/HSeparator"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hh6wp")
+
+[node name="LightLineRight" type="Panel" parent="Panel/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nax1n")
+
+[node name="DarkLineLeft" type="Panel" parent="Panel/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ihwql")
+
+[node name="Group" type="Panel" parent="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+z_index = 1
+z_as_relative = false
+layout_mode = 0
+offset_left = 17.0
+offset_top = 122.0
+offset_right = 626.0
+offset_bottom = 256.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6fqis")
+
+[node name="title" type="Label" parent="Panel/Group"]
+visible = false
+z_index = 2
+z_as_relative = false
+layout_mode = 0
+offset_left = 12.0
+offset_top = -9.0
+offset_right = 100.0
+offset_bottom = 10.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_yhdbw")
+theme_override_font_sizes/font_size = 16
+text = "Description"
+
+[node name="Group" type="Panel" parent="Panel/Group/title"]
+z_index = 1
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = -3.0
+offset_right = 2.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_p1r53")
+
+[node name="HSeparator" type="Panel" parent="Panel/Group"]
+visible = false
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 8.0
+offset_top = -58.0
+offset_right = -7.0
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_kskbg")
+
+[node name="LightLine" type="Panel" parent="Panel/Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hh6wp")
+
+[node name="LightLineRight" type="Panel" parent="Panel/Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nax1n")
+
+[node name="DarkLineLeft" type="Panel" parent="Panel/Group/HSeparator"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ihwql")
+
+[node name="ErrorRichLabel" type="RichTextLabel" parent="Panel/Group"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -81.0
+offset_right = 1862.0
+offset_bottom = 883.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.909804, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_armef")
+theme_override_fonts/bold_font = ExtResource("4_0pr34")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "Wait for bug..."

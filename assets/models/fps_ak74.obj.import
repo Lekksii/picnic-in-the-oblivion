@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkwt2hhq55j0v"
+path="res://.godot/imported/fps_ak74.obj-d70dacee2858542d2f5c2e9a804c7696.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fps_ak74.obj-d70dacee2858542d2f5c2e9a804c7696.mesh"]
+
+source_file="res://assets/models/fps_ak74.obj"
+dest_files=["res://.godot/imported/fps_ak74.obj-d70dacee2858542d2f5c2e9a804c7696.mesh", "res://.godot/imported/fps_ak74.obj-d70dacee2858542d2f5c2e9a804c7696.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kyclcenifbjr"
+path="res://.godot/imported/rad.obj-9588c390b38897186ed5eb77c3bd1339.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rad.obj-9588c390b38897186ed5eb77c3bd1339.mesh"]
+
+source_file="res://assets/models/rad.obj"
+dest_files=["res://.godot/imported/rad.obj-9588c390b38897186ed5eb77c3bd1339.mesh", "res://.godot/imported/rad.obj-9588c390b38897186ed5eb77c3bd1339.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

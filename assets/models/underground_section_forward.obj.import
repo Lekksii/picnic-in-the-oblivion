@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxqgrii8qn0p8"
+path="res://.godot/imported/underground_section_forward.obj-8c9ef3ce40a76ad197d74709c19edddf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/underground_section_forward.obj-8c9ef3ce40a76ad197d74709c19edddf.mesh"]
+
+source_file="res://assets/models/underground_section_forward.obj"
+dest_files=["res://.godot/imported/underground_section_forward.obj-8c9ef3ce40a76ad197d74709c19edddf.mesh", "res://.godot/imported/underground_section_forward.obj-8c9ef3ce40a76ad197d74709c19edddf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

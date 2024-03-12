@@ -1,0 +1,167 @@
+{
+	"weather_color": "392e3d",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"collider": null,
+			"le_name": "Skybox",
+			"lit": true,
+			"model": "assets/levels/intro/l_0_0_skybox",
+			"name": "skybox",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texsky2.png",
+			"uid": "skybox"
+		},
+		{
+			"id": "spawn_point",
+			"position": [
+				0.07,
+				1.77,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object2",
+			"position": [
+				0,
+				0,
+				-12
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object4",
+			"position": [
+				0,
+				0,
+				6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object5",
+			"position": [
+				0,
+				0,
+				12
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object6",
+			"position": [
+				0,
+				0,
+				-18
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "static_object3",
+			"position": [
+				0,
+				0,
+				-6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		},
+		{
+			"collider": null,
+			"lit": true,
+			"model": "assets/models/barrel_2",
+			"name": "static_object7",
+			"position": [
+				0.92,
+				0.08,
+				-6
+			],
+			"rotation": [
+				0,
+				0,
+				-11.28
+			],
+			"scale": 1,
+			"texture": "texobj1.png"
+		}
+	]
+}

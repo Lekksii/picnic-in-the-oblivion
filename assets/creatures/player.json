@@ -1,0 +1,21 @@
+{
+	"start_money": 0,
+	"start_max_hp": 50.0,
+	"max_weight": 35.0,
+	"casual_mode":{
+		"accuracy": 0.75,
+		"strength": 5
+	},
+	"start_skills":{
+		"accuracy": 0.4,
+		"strength": 0,
+		"armor": 0,
+		"rad_resist": 0,
+		"anom_resist": 0
+	},
+	"start_items": ["w_pistol","flashlight"],
+	"use_items_after_start": ["w_pistol"],
+	"start_quests": [],
+	"start_event_keys": [],
+	"start_level": "intro"
+}

@@ -1,0 +1,3294 @@
+[gd_scene load_steps=56 format=3 uid="uid://bab1dgqpwivsd"]
+
+[ext_resource type="Script" path="res://scripts/GUI.gd" id="1_nfb2i"]
+[ext_resource type="Texture2D" uid="uid://1i5x1r3n4oa1" path="res://assets/ui/fr_game_1.png" id="4_f7340"]
+[ext_resource type="Theme" uid="uid://bvft1ophxax1r" path="res://themes/basic_editor.tres" id="4_mp0qm"]
+[ext_resource type="Texture2D" uid="uid://ypokevf1a4ex" path="res://assets/ui/ammo_hud.png" id="7_vc2oa"]
+[ext_resource type="Texture2D" uid="uid://pik0w07hr2yj" path="res://assets/ui/hp_bar.png" id="8_n4wvd"]
+[ext_resource type="Script" path="res://scripts/ingame/fps.gd" id="9_5ijsh"]
+[ext_resource type="Texture2D" uid="uid://7w48of7vi2gt" path="res://assets/ui/hps.png" id="9_jin4y"]
+[ext_resource type="Texture2D" uid="uid://cmyfqtj0gpouk" path="res://assets/ui/antirad.png" id="10_ollgn"]
+[ext_resource type="Script" path="res://scripts/ingame/pito_ui_text.gd" id="11_2wb54"]
+[ext_resource type="Texture2D" uid="uid://b4e7j5kcuj14o" path="res://assets/ui/crosshair.png" id="11_xgy61"]
+[ext_resource type="Texture2D" uid="uid://bsm635yw5sh0q" path="res://assets/ui/scope.png" id="12_3yytn"]
+[ext_resource type="Texture2D" uid="uid://cafkm5px5u10g" path="res://assets/ui/dmgL.png" id="13_gj3ju"]
+[ext_resource type="Texture2D" uid="uid://b6kfpoy3dv1fq" path="res://assets/ui/dmgR.png" id="14_ptu6v"]
+[ext_resource type="Script" path="res://scripts/GUI/Inventory.gd" id="17_gqr0k"]
+[ext_resource type="Texture2D" uid="uid://c08bp7430dqp8" path="res://assets/ui/inventory.png" id="20_pwsqx"]
+[ext_resource type="Texture2D" uid="uid://xuhgv75urif" path="res://assets/ui/16_9_frame.png" id="23_g703d"]
+[ext_resource type="Script" path="res://scripts/GUI/Slot.gd" id="25_41dec"]
+[ext_resource type="Script" path="res://scripts/GUI/Loot.gd" id="28_168gm"]
+[ext_resource type="Texture2D" uid="uid://vydmmftfj5bq" path="res://assets/ui/i12.png" id="31_ldsu6"]
+[ext_resource type="Texture2D" uid="uid://dm0vnvw025f7y" path="res://assets/ui/character.png" id="31_ot3l4"]
+[ext_resource type="Texture2D" uid="uid://bohkt0y5oth36" path="res://assets/ui/original_wnd_normaka.png" id="32_n4bty"]
+[ext_resource type="Script" path="res://scripts/Journal.gd" id="32_p6brj"]
+[ext_resource type="Texture2D" uid="uid://2i826yh8qiml" path="res://assets/ui/panel_down.png" id="33_8b2ni"]
+[ext_resource type="Texture2D" uid="uid://c53ev0l6371vw" path="res://assets/ui/panel_up.png" id="34_3rj87"]
+[ext_resource type="Texture2D" uid="uid://durdmc0h83rfe" path="res://assets/ui/dialogue_ramka.png" id="34_x6rsf"]
+[ext_resource type="Texture2D" uid="uid://ow8slp1k3ecd" path="res://assets/ui/dialogue_windows.png" id="35_5mk8u"]
+[ext_resource type="Script" path="res://scripts/Dialogue.gd" id="35_qtudl"]
+[ext_resource type="Script" path="res://scripts/PauseMenu.gd" id="37_uw34q"]
+[ext_resource type="Texture2D" uid="uid://hn275c7g20bl" path="res://assets/ui/i2_mm.png" id="38_0s4b8"]
+[ext_resource type="Texture2D" uid="uid://dvnjgu16m3ms6" path="res://assets/ui/i2.png" id="39_2tx4h"]
+[ext_resource type="Texture2D" uid="uid://vkg83vw802f2" path="res://assets/ui/trade_ramka.png" id="39_gq6jm"]
+[ext_resource type="Texture2D" uid="uid://bgiaxu0m4tth5" path="res://assets/ui/loot.png" id="39_rqxcb"]
+[ext_resource type="Texture2D" uid="uid://dgdo6cw2v10on" path="res://assets/ui/trade.png" id="40_107da"]
+[ext_resource type="Texture2D" uid="uid://b6nkno45r4841" path="res://assets/ui/original_wnd_normaka_alpha.png" id="40_ksaf1"]
+[ext_resource type="Script" path="res://scripts/GUI/parameter.gd" id="41_4vu26"]
+[ext_resource type="Texture2D" uid="uid://bp8jjpsnw6hgu" path="res://assets/ui/gsc.png" id="41_60nhi"]
+[ext_resource type="Script" path="res://scripts/Map.gd" id="55_nbi3b"]
+[ext_resource type="Script" path="res://scripts/GUI/Trading.gd" id="59_1rvbc"]
+[ext_resource type="Script" path="res://scripts/MainMenu.gd" id="63_avffg"]
+[ext_resource type="Texture2D" uid="uid://bkcmgcjnadqvd" path="res://engine_objects/icon_godot.svg" id="65_pg8ow"]
+[ext_resource type="Texture2D" uid="uid://bc1a1e5y56qnp" path="res://assets/ui/reffpixels/PayPal.png" id="67_4oxs6"]
+[ext_resource type="Texture2D" uid="uid://hldlvdwqs4nk" path="res://assets/ui/reffpixels/Patreon.png" id="68_ugy71"]
+[ext_resource type="Texture2D" uid="uid://blw5h2m60uhpp" path="res://assets/ui/reffpixels/Twitter.png" id="69_oyqf6"]
+[ext_resource type="Texture2D" uid="uid://c1thdcbht2l3k" path="res://assets/ui/reffpixels/Ko-Fi.png" id="70_2raa4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rw3pa"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1g01y"]
+
+[sub_resource type="Theme" id="Theme_tjcsc"]
+HScrollBar/styles/grabber = SubResource("StyleBoxEmpty_1g01y")
+HScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_1g01y")
+HScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_1g01y")
+HScrollBar/styles/scroll = SubResource("StyleBoxEmpty_1g01y")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ppmn1"]
+
+[sub_resource type="Theme" id="Theme_0n7b2"]
+VScrollBar/icons/decrement = null
+VScrollBar/icons/decrement_highlight = null
+VScrollBar/icons/decrement_pressed = null
+VScrollBar/icons/increment = null
+VScrollBar/styles/grabber = SubResource("StyleBoxEmpty_ppmn1")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_ppmn1")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_ppmn1")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_ppmn1")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ubxnn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5msjn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_brnwr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kypl4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_aa6u6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_owgcl"]
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nfb2i")
+metadata/_edit_lock_ = true
+
+[node name="GAME" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="frame" type="TextureRect" parent="GAME"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_f7340")
+
+[node name="message" type="Label" parent="GAME/frame"]
+layout_mode = 2
+offset_left = 51.0
+offset_top = 646.0
+offset_right = 388.0
+offset_bottom = 681.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+
+[node name="debug_panel" type="Panel" parent="GAME/frame"]
+visible = false
+layout_mode = 0
+offset_left = 1484.0
+offset_top = 120.0
+offset_right = 1861.0
+offset_bottom = 264.0
+
+[node name="pos" type="Label" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1584.0
+offset_top = 120.0
+offset_right = -17.0
+offset_bottom = -855.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "X: 00.00
+Y: 00.00
+Z: 00.00"
+metadata/_edit_lock_ = true
+
+[node name="rot" type="Label" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1504.0
+offset_top = 225.0
+offset_right = -80.0
+offset_bottom = -820.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "(00.00, 00.00, 00.00)"
+horizontal_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="fps" type="Label" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1584.0
+offset_top = 40.0
+offset_right = -264.0
+offset_bottom = -1005.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+text = "999"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("9_5ijsh")
+metadata/_edit_lock_ = true
+
+[node name="ammo_frame" type="TextureRect" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -950.0
+offset_top = -189.0
+offset_right = -571.633
+offset_bottom = -9.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("7_vc2oa")
+expand_mode = 3
+stretch_mode = 6
+flip_h = true
+metadata/_edit_lock_ = true
+
+[node name="ammo_clip" type="Label" parent="GAME/frame/ammo_frame"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 45.0
+offset_top = -6.0
+offset_right = -167.367
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 48
+text = "12"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ammo_all" type="Label" parent="GAME/frame/ammo_frame"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 45.0
+offset_top = 35.0
+offset_right = -167.367
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "120"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="belt_0" type="TextureRect" parent="GAME/frame/ammo_frame"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = -65.0
+offset_right = 105.0
+offset_bottom = -1.0
+stretch_mode = 5
+
+[node name="belt_1" type="TextureRect" parent="GAME/frame/ammo_frame"]
+layout_mode = 0
+offset_left = 105.0
+offset_top = -65.0
+offset_right = 169.0
+offset_bottom = -1.0
+stretch_mode = 5
+
+[node name="belt_2" type="TextureRect" parent="GAME/frame/ammo_frame"]
+layout_mode = 0
+offset_left = 169.0
+offset_top = -65.0
+offset_right = 233.0
+offset_bottom = -1.0
+stretch_mode = 5
+
+[node name="belt_3" type="TextureRect" parent="GAME/frame/ammo_frame"]
+layout_mode = 0
+offset_left = 233.0
+offset_top = -65.0
+offset_right = 297.0
+offset_bottom = -1.0
+stretch_mode = 5
+
+[node name="weapon_icon" type="TextureRect" parent="GAME/frame/ammo_frame"]
+layout_mode = 0
+offset_left = 189.0
+offset_top = 98.0
+offset_right = 357.0
+offset_bottom = 157.0
+stretch_mode = 5
+
+[node name="hp_bar" type="TextureProgressBar" parent="GAME/frame"]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 73.0
+offset_right = 426.0
+offset_bottom = 90.0
+value = 100.0
+nine_patch_stretch = true
+texture_under = ExtResource("8_n4wvd")
+texture_over = ExtResource("8_n4wvd")
+texture_progress = ExtResource("8_n4wvd")
+metadata/_edit_lock_ = true
+
+[node name="hp_bar_frame" type="TextureRect" parent="GAME/frame"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 32.0
+offset_right = 472.0
+offset_bottom = 120.0
+texture = ExtResource("9_jin4y")
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="rad_bar_frame" type="TextureRect" parent="GAME/frame"]
+visible = false
+z_index = 1
+layout_mode = 0
+offset_left = 16.0
+offset_top = 120.0
+offset_right = 472.0
+offset_bottom = 208.0
+texture = ExtResource("10_ollgn")
+stretch_mode = 5
+
+[node name="rad_bar" type="TextureProgressBar" parent="GAME/frame/rad_bar_frame"]
+modulate = Color(0, 1, 0, 1)
+z_as_relative = false
+y_sort_enabled = true
+layout_mode = 0
+offset_left = 94.0
+offset_top = 30.0
+offset_right = 415.0
+offset_bottom = 47.0
+value = 100.0
+nine_patch_stretch = true
+
+[node name="cross" type="TextureRect" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.474
+anchor_right = 0.5
+anchor_bottom = 0.474
+offset_left = -32.0
+offset_top = -31.92
+offset_right = 32.0
+offset_bottom = 32.08
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("11_xgy61")
+expand_mode = 5
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="screen_hint" type="Label" parent="GAME/frame"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 4.0
+offset_bottom = 39.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="lr_scope" type="TextureRect" parent="GAME/frame"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.474
+anchor_right = 0.5
+anchor_bottom = 0.474
+offset_left = -3927.0
+offset_top = -2251.92
+offset_right = 3931.0
+offset_bottom = 2256.08
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("12_3yytn")
+expand_mode = 1
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="DamageLeft" type="TextureRect" parent="GAME/frame"]
+visible = false
+layout_mode = 0
+offset_left = 783.0
+offset_top = 383.0
+offset_right = 925.45
+offset_bottom = 642.0
+texture = ExtResource("13_gj3ju")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="DamageRight" type="TextureRect" parent="GAME/frame"]
+visible = false
+layout_mode = 0
+offset_left = 992.0
+offset_top = 383.0
+offset_right = 1134.45
+offset_bottom = 642.0
+texture = ExtResource("14_ptu6v")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="editor_mode" type="Control" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="top" type="Panel" parent="GAME/editor_mode"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 64.0
+grow_horizontal = 2
+theme = ExtResource("4_mp0qm")
+
+[node name="selection_mode" type="Button" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 56.0
+offset_bottom = 56.0
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="move_mode" type="Button" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 8.0
+offset_right = 104.0
+offset_bottom = 56.0
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="rotate_mode" type="Button" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 8.0
+offset_right = 152.0
+offset_bottom = 56.0
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="scale_mode" type="Button" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 152.0
+offset_top = 8.0
+offset_right = 200.0
+offset_bottom = 56.0
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="light_mode" type="Button" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 8.0
+offset_right = 248.0
+offset_bottom = 56.0
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="level_name" type="Label" parent="GAME/editor_mode/top"]
+layout_mode = 0
+offset_left = 1664.0
+offset_right = 1912.0
+offset_bottom = 65.0
+text = "LEVEL.level"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="camera_pos" type="Label" parent="GAME/editor_mode"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = -17.0
+offset_top = 1040.0
+offset_right = -17.0
+offset_bottom = 1066.0
+grow_horizontal = 2
+theme = ExtResource("4_mp0qm")
+text = "(X, Y, Z)"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="lvl_objects_selector" type="Panel" parent="GAME/editor_mode"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -364.0
+offset_top = -312.0
+offset_right = 364.0
+offset_bottom = 312.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="level_name" type="Label" parent="GAME/editor_mode/lvl_objects_selector"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 26.0
+grow_horizontal = 2
+theme = ExtResource("4_mp0qm")
+text = "OBJECTS LIST"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="GAME/editor_mode/lvl_objects_selector"]
+layout_mode = 2
+offset_left = 17.0
+offset_top = 66.0
+offset_right = 711.0
+offset_bottom = 565.0
+theme = ExtResource("4_mp0qm")
+
+[node name="ObjectList" type="VBoxContainer" parent="GAME/editor_mode/lvl_objects_selector/ScrollContainer"]
+layout_mode = 2
+
+[node name="CloseSelector" type="Button" parent="GAME/editor_mode/lvl_objects_selector"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -58.0
+offset_top = -44.0
+offset_right = 59.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+text = "CLOSE"
+
+[node name="Inventory" type="Panel" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_styles/panel = SubResource("StyleBoxFlat_rw3pa")
+script = ExtResource("17_gqr0k")
+metadata/_edit_lock_ = true
+
+[node name="background" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -49.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("20_pwsqx")
+stretch_mode = 5
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_top = 997.0
+offset_right = 640.0
+offset_bottom = 1025.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 21.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="title" type="Label" parent="GAME/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 11.0
+offset_right = -1692.0
+offset_bottom = -1034.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.inv"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="money" type="Label" parent="GAME/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1014.0
+offset_top = 826.0
+offset_right = -579.0
+offset_bottom = -219.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "0$"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="back_tip" type="Label" parent="GAME/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1720.0
+offset_top = 964.0
+offset_right = -8.0
+offset_bottom = -81.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "inv.back.tip"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="weight" type="Label" parent="GAME/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 565.0
+offset_top = 826.0
+offset_right = -1018.0
+offset_bottom = -207.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "0 kg"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="hp_bar_inv" type="TextureProgressBar" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 641.0
+offset_top = 692.0
+offset_right = 902.0
+offset_bottom = 707.0
+value = 100.0
+nine_patch_stretch = true
+metadata/_edit_lock_ = true
+
+[node name="hp_bar_frame_inv" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 565.0
+offset_top = 638.0
+offset_right = 941.0
+offset_bottom = 752.0
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="ItemsScroll" type="ScrollContainer" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 595.0
+offset_top = 919.0
+offset_right = 1336.0
+offset_bottom = 979.0
+theme = SubResource("Theme_tjcsc")
+vertical_scroll_mode = 0
+metadata/_edit_lock_ = true
+
+[node name="items_list" type="HBoxContainer" parent="GAME/Inventory/ItemsScroll"]
+custom_minimum_size = Vector2(0, 59)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="outfit_slot" type="TextureRect" parent="GAME/Inventory"]
+visible = false
+layout_mode = 0
+offset_left = -630.0
+offset_top = 239.0
+offset_right = -474.0
+offset_bottom = 469.0
+expand_mode = 3
+
+[node name="pistol_slot" type="TextureRect" parent="GAME/Inventory"]
+visible = false
+layout_mode = 0
+offset_left = -630.0
+offset_top = 265.0
+offset_right = -418.0
+offset_bottom = 433.0
+expand_mode = 3
+
+[node name="rifle_slot" type="TextureRect" parent="GAME/Inventory"]
+visible = false
+layout_mode = 0
+offset_left = -630.0
+offset_top = 41.0
+offset_right = -242.869
+offset_bottom = 209.0
+expand_mode = 3
+
+[node name="belt_slots" type="TextureRect" parent="GAME/Inventory"]
+visible = false
+layout_mode = 0
+offset_left = -630.0
+offset_top = 511.0
+offset_right = -24.0
+offset_bottom = 683.0
+expand_mode = 3
+
+[node name="SelectedIcon" type="TextureRect" parent="GAME/Inventory"]
+visible = false
+layout_mode = 0
+offset_left = -243.0
+offset_top = 56.0
+offset_right = -54.0
+offset_bottom = 181.0
+stretch_mode = 5
+
+[node name="RifleSlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 609.0
+offset_top = 206.0
+offset_right = 868.0
+offset_bottom = 260.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="PistolSlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 602.0
+offset_top = 370.0
+offset_right = 683.0
+offset_bottom = 422.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="OutfitSlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 815.0
+offset_top = 352.0
+offset_right = 868.0
+offset_bottom = 433.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="Belt0SlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 602.0
+offset_top = 547.0
+offset_right = 655.0
+offset_bottom = 600.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="Belt1SlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 673.0
+offset_top = 547.0
+offset_right = 726.0
+offset_bottom = 600.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="Belt2SlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 744.0
+offset_top = 547.0
+offset_right = 797.0
+offset_bottom = 600.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="Belt3SlotIcon" type="TextureRect" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 815.0
+offset_top = 547.0
+offset_right = 868.0
+offset_bottom = 600.0
+stretch_mode = 5
+script = ExtResource("25_41dec")
+
+[node name="DescriptionScroll" type="ScrollContainer" parent="GAME/Inventory"]
+layout_mode = 0
+offset_left = 1019.0
+offset_top = 150.0
+offset_right = 1341.0
+offset_bottom = 692.0
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GAME/Inventory/DescriptionScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="selectedItemTitle" type="Label" parent="GAME/Inventory/DescriptionScroll/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="selectedItemDescr" type="Label" parent="GAME/Inventory/DescriptionScroll/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+autowrap_mode = 3
+
+[node name="SelectedParameters" type="GridContainer" parent="GAME/Inventory/DescriptionScroll/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 16
+
+[node name="LoadingScreen" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="title" type="Label" parent="GAME/LoadingScreen"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -24.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+text = "loading"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="Journal" type="ColorRect" parent="GAME" node_paths=PackedStringArray("list_nodes_quests")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("32_p6brj")
+list_nodes_quests = NodePath("VerticalContainer")
+metadata/_edit_lock_ = true
+
+[node name="WND" type="TextureRect" parent="GAME/Journal"]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 1920.0
+offset_bottom = 1000.0
+texture = ExtResource("32_n4bty")
+stretch_mode = 5
+
+[node name="VerticalContainer" type="VBoxContainer" parent="GAME/Journal"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.397
+anchor_top = 0.317
+anchor_right = 0.603
+anchor_bottom = 0.683
+offset_left = 17.7599
+offset_top = -22.36
+offset_right = -23.76
+offset_bottom = 0.359985
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Journal"]
+layout_mode = 0
+offset_top = 918.0
+offset_right = 640.0
+offset_bottom = 946.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Journal"]
+layout_mode = 0
+offset_top = 77.0
+offset_right = 640.0
+offset_bottom = 98.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="title" type="Label" parent="GAME/Journal"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 24.0
+offset_top = -463.0
+offset_right = -1692.0
+offset_bottom = -415.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.journal"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="back" type="Label" parent="GAME/Journal"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 312.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.journal.quest.control.tip"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="BG" type="NinePatchRect" parent="GAME/Journal"]
+layout_mode = 0
+offset_top = -39.0
+offset_right = 1920.0
+offset_bottom = 1115.0
+texture = ExtResource("23_g703d")
+metadata/_edit_lock_ = true
+
+[node name="Dialogue" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("35_qtudl")
+metadata/_edit_lock_ = true
+
+[node name="BG" type="NinePatchRect" parent="GAME/Dialogue"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1440.0
+offset_bottom = -806.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 4)
+texture = ExtResource("34_x6rsf")
+patch_margin_left = 4
+patch_margin_top = 8
+patch_margin_right = 72
+patch_margin_bottom = 7
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="WND" type="TextureRect" parent="GAME/Dialogue"]
+layout_mode = 0
+offset_top = 8.0
+offset_right = 1920.0
+offset_bottom = 974.0
+texture = ExtResource("35_5mk8u")
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Dialogue"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 992.0
+offset_right = 643.0
+offset_bottom = 1020.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+metadata/_edit_lock_ = true
+
+[node name="npc_name" type="Label" parent="GAME/Dialogue"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 613.0
+offset_top = -532.0
+offset_right = -1066.0
+offset_bottom = -484.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "npc.name"
+vertical_alignment = 1
+uppercase = true
+
+[node name="npc_text_scroll" type="ScrollContainer" parent="GAME/Dialogue"]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 97.0
+offset_right = 1324.0
+offset_bottom = 458.0
+theme = SubResource("Theme_0n7b2")
+
+[node name="npc_text_vbox" type="VBoxContainer" parent="GAME/Dialogue/npc_text_scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="npc_text" type="Label" parent="GAME/Dialogue/npc_text_scroll/npc_text_vbox"]
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "npc.text"
+autowrap_mode = 2
+
+[node name="answer_scroll" type="ScrollContainer" parent="GAME/Dialogue"]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 576.0
+offset_right = 1324.0
+offset_bottom = 937.0
+theme = SubResource("Theme_0n7b2")
+metadata/_edit_lock_ = true
+
+[node name="player_answers_list" type="VBoxContainer" parent="GAME/Dialogue/answer_scroll"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Statistic" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="WND" type="TextureRect" parent="GAME/Statistic"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("31_ot3l4")
+stretch_mode = 5
+
+[node name="BG" type="NinePatchRect" parent="GAME/Statistic"]
+layout_mode = 0
+offset_top = -39.0
+offset_right = 1920.0
+offset_bottom = 1115.0
+texture = ExtResource("23_g703d")
+
+[node name="exp_bar" type="TextureProgressBar" parent="GAME/Statistic"]
+modulate = Color(0, 1, 0, 1)
+z_as_relative = false
+y_sort_enabled = true
+layout_mode = 0
+offset_left = 963.0
+offset_top = 168.0
+offset_right = 1274.0
+offset_bottom = 176.0
+value = 25.0
+nine_patch_stretch = true
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Statistic"]
+layout_mode = 0
+offset_top = 913.0
+offset_right = 640.0
+offset_bottom = 941.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Statistic"]
+layout_mode = 0
+offset_top = 77.0
+offset_right = 640.0
+offset_bottom = 98.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="back" type="Label" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 1430.0
+offset_top = 333.0
+offset_right = -24.0
+offset_bottom = 368.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "pause.journal.quest.control.tip"
+horizontal_alignment = 2
+vertical_alignment = 1
+clip_text = true
+script = ExtResource("11_2wb54")
+
+[node name="skillpoints" type="Label" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 673.0
+offset_top = 268.0
+offset_right = -957.0
+offset_bottom = 302.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "SKILLPOINTS 0"
+vertical_alignment = 1
+clip_text = true
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="level" type="Label" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 646.0
+offset_top = -384.0
+offset_right = -984.0
+offset_bottom = -350.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "level 1"
+vertical_alignment = 1
+clip_text = true
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="weight" type="Label" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 1117.0
+offset_top = 274.0
+offset_right = -631.0
+offset_bottom = 308.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "WEIGHT 35"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="title" type="Label" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 24.0
+offset_top = -463.0
+offset_right = -1692.0
+offset_bottom = -415.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.skills"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="VerticalContainerSkills" type="VBoxContainer" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.397
+anchor_top = 0.317
+anchor_right = 0.603
+anchor_bottom = 0.683
+offset_left = -107.24
+offset_top = 3.63998
+offset_right = -182.76
+offset_bottom = 0.359985
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="accuracy" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "accuracy"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Statistic/VerticalContainerSkills/accuracy"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.112796
+speed_scale = 1.5
+
+[node name="separator" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_brnwr")
+disabled = true
+button_mask = 0
+
+[node name="health" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "health"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="separator2" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_brnwr")
+disabled = true
+button_mask = 0
+
+[node name="strenght" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "strenght"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="separator3" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_brnwr")
+disabled = true
+button_mask = 0
+
+[node name="resistance" type="Button" parent="GAME/Statistic/VerticalContainerSkills"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "resistance"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="VParameters" type="VBoxContainer" parent="GAME/Statistic"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.397
+anchor_top = 0.317
+anchor_right = 0.603
+anchor_bottom = 0.683
+offset_left = 359.76
+offset_top = 24.64
+offset_right = 131.24
+offset_bottom = 21.36
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 32
+
+[node name="parameter" type="Panel" parent="GAME/Statistic/VParameters"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("41_4vu26")
+
+[node name="container" type="HBoxContainer" parent="GAME/Statistic/VParameters/parameter"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="icon" type="TextureRect" parent="GAME/Statistic/VParameters/parameter/container"]
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="VSeparator" type="VSeparator" parent="GAME/Statistic/VParameters/parameter/container"]
+custom_minimum_size = Vector2(37.875, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="GAME/Statistic/VParameters/parameter/container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "+35%"
+vertical_alignment = 1
+clip_text = true
+uppercase = true
+
+[node name="parameter2" type="Panel" parent="GAME/Statistic/VParameters"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("41_4vu26")
+
+[node name="container" type="HBoxContainer" parent="GAME/Statistic/VParameters/parameter2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="icon" type="TextureRect" parent="GAME/Statistic/VParameters/parameter2/container"]
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="VSeparator" type="VSeparator" parent="GAME/Statistic/VParameters/parameter2/container"]
+custom_minimum_size = Vector2(37.875, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="GAME/Statistic/VParameters/parameter2/container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "100%"
+vertical_alignment = 1
+clip_text = true
+uppercase = true
+
+[node name="parameter3" type="Panel" parent="GAME/Statistic/VParameters"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("41_4vu26")
+
+[node name="container" type="HBoxContainer" parent="GAME/Statistic/VParameters/parameter3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="icon" type="TextureRect" parent="GAME/Statistic/VParameters/parameter3/container"]
+layout_mode = 2
+expand_mode = 2
+stretch_mode = 5
+
+[node name="VSeparator" type="VSeparator" parent="GAME/Statistic/VParameters/parameter3/container"]
+custom_minimum_size = Vector2(37.875, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="GAME/Statistic/VParameters/parameter3/container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "+20%"
+clip_text = true
+uppercase = true
+
+[node name="parameter4" type="Panel" parent="GAME/Statistic/VParameters"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("41_4vu26")
+
+[node name="container" type="HBoxContainer" parent="GAME/Statistic/VParameters/parameter4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="icon" type="TextureRect" parent="GAME/Statistic/VParameters/parameter4/container"]
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="VSeparator" type="VSeparator" parent="GAME/Statistic/VParameters/parameter4/container"]
+custom_minimum_size = Vector2(37.875, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="GAME/Statistic/VParameters/parameter4/container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "+10%"
+clip_text = true
+uppercase = true
+
+[node name="parameter5" type="Panel" parent="GAME/Statistic/VParameters"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kypl4")
+script = ExtResource("41_4vu26")
+
+[node name="container" type="HBoxContainer" parent="GAME/Statistic/VParameters/parameter5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="icon" type="TextureRect" parent="GAME/Statistic/VParameters/parameter5/container"]
+layout_mode = 2
+expand_mode = 3
+stretch_mode = 5
+
+[node name="VSeparator" type="VSeparator" parent="GAME/Statistic/VParameters/parameter5/container"]
+custom_minimum_size = Vector2(37.875, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+theme_override_styles/separator = SubResource("StyleBoxEmpty_aa6u6")
+
+[node name="parameterText" type="Label" parent="GAME/Statistic/VParameters/parameter5/container"]
+layout_direction = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.909804, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "-10%"
+clip_text = true
+uppercase = true
+
+[node name="Pause" type="ColorRect" parent="GAME" node_paths=PackedStringArray("buttons_list")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("37_uw34q")
+buttons_list = NodePath("VerticalContainer")
+
+[node name="BG" type="NinePatchRect" parent="GAME/Pause"]
+layout_mode = 0
+offset_top = -39.0
+offset_right = 1920.0
+offset_bottom = 1115.0
+texture = ExtResource("23_g703d")
+
+[node name="WND" type="TextureRect" parent="GAME/Pause"]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 1920.0
+offset_bottom = 1000.0
+texture = ExtResource("32_n4bty")
+stretch_mode = 5
+
+[node name="VerticalContainer" type="VBoxContainer" parent="GAME/Pause"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.397
+anchor_top = 0.317
+anchor_right = 0.603
+anchor_bottom = 0.683
+offset_left = 126.76
+offset_top = 3.63998
+offset_right = -23.76
+offset_bottom = 0.359985
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="continue" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "pause.resume"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/continue"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.817293
+speed_scale = 1.5
+
+[node name="mainmenu" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+disabled = true
+text = "pause.exit"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/mainmenu"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="separator" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_brnwr")
+disabled = true
+button_mask = 0
+
+[node name="inventory" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "pause.inv"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/inventory"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="character" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+disabled = true
+text = "pause.skills"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/character"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="map" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "pause.pda"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/map"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="journal" type="Button" parent="GAME/Pause/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "pause.journal"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Pause/VerticalContainer/journal"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Pause"]
+layout_mode = 0
+offset_top = 918.0
+offset_right = 640.0
+offset_bottom = 946.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Pause"]
+layout_mode = 0
+offset_top = 77.0
+offset_right = 640.0
+offset_bottom = 98.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="title" type="Label" parent="GAME/Pause"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 24.0
+offset_top = -463.0
+offset_right = -1692.0
+offset_bottom = -415.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.title"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="Black" type="ColorRect" parent="GAME/Pause"]
+layout_mode = 0
+offset_left = 558.0
+offset_top = 890.0
+offset_right = 1373.0
+offset_bottom = 925.0
+color = Color(0, 0, 0, 1)
+
+[node name="Map" type="ColorRect" parent="GAME" node_paths=PackedStringArray("map_node", "hint", "h_line", "v_line")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("55_nbi3b")
+map_node = NodePath("MAP")
+hint = NodePath("MAP/horizontal_line/marker_tooltip")
+h_line = NodePath("MAP/horizontal_line")
+v_line = NodePath("MAP/vertical_line")
+
+[node name="WND" type="TextureRect" parent="GAME/Map"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+texture = ExtResource("32_n4bty")
+stretch_mode = 5
+
+[node name="MAP" type="TextureRect" parent="GAME/Map"]
+texture_filter = 1
+clip_contents = true
+layout_mode = 0
+offset_left = 712.0
+offset_top = 176.0
+offset_right = 1206.0
+offset_bottom = 873.0
+mouse_filter = 2
+texture = ExtResource("31_ldsu6")
+stretch_mode = 6
+
+[node name="horizontal_line" type="ColorRect" parent="GAME/Map/MAP"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -348.5
+offset_bottom = -346.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.156863, 0.745098, 0.219608, 1)
+
+[node name="marker_tooltip" type="Label" parent="GAME/Map/MAP/horizontal_line"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = -50.0
+offset_right = -292.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "marker.name"
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="vertical_line" type="ColorRect" parent="GAME/Map/MAP"]
+custom_minimum_size = Vector2(2, 0)
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -247.0
+offset_right = -245.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.156863, 0.745098, 0.219608, 1)
+
+[node name="Overlay" type="TextureRect" parent="GAME/Map"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+texture = ExtResource("40_ksaf1")
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="BG" type="NinePatchRect" parent="GAME/Map"]
+layout_mode = 0
+offset_top = -39.0
+offset_right = 1920.0
+offset_bottom = 1115.0
+texture = ExtResource("23_g703d")
+metadata/_edit_lock_ = true
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Map"]
+layout_mode = 0
+offset_top = 918.0
+offset_right = 640.0
+offset_bottom = 946.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+metadata/_edit_lock_ = true
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Map"]
+layout_mode = 0
+offset_top = 77.0
+offset_right = 640.0
+offset_bottom = 98.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+metadata/_edit_lock_ = true
+
+[node name="title" type="Label" parent="GAME/Map"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 24.0
+offset_top = -463.0
+offset_right = -1692.0
+offset_bottom = -415.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "pause.pda"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="back_tip" type="Label" parent="GAME/Map"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1664.0
+offset_top = 865.0
+offset_right = -45.0
+offset_bottom = -170.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "inv.back.tip"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="Loot" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("28_168gm")
+metadata/_edit_lock_ = true
+
+[node name="BG" type="NinePatchRect" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1440.0
+offset_bottom = -810.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 4)
+texture = ExtResource("39_gq6jm")
+patch_margin_left = 89
+patch_margin_top = 59
+patch_margin_right = 73
+patch_margin_bottom = 11
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="TradeBg" type="TextureRect" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -39.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("39_rqxcb")
+expand_mode = 3
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Loot"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 988.0
+offset_right = 639.0
+offset_bottom = 1016.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="Black" type="ColorRect" parent="GAME/Loot"]
+layout_mode = 0
+offset_left = 558.0
+offset_top = 863.0
+offset_right = 1373.0
+offset_bottom = 1000.0
+color = Color(0, 0, 0, 1)
+
+[node name="title" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 8.0
+offset_right = -1576.0
+offset_bottom = -1037.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+text = "interact.loot"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="selectedItemTitle" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 596.0
+offset_top = 247.0
+offset_right = -930.0
+offset_bottom = -798.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="selectedItemDescr" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 600.0
+offset_top = 294.0
+offset_right = -930.0
+offset_bottom = -331.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+autowrap_mode = 3
+
+[node name="back_tip" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1664.0
+offset_top = 937.0
+offset_right = -45.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "inv.back.tip"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="money" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1014.0
+offset_top = 802.0
+offset_right = -565.0
+offset_bottom = -228.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "0$"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="weight" type="Label" parent="GAME/Loot"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 602.0
+offset_top = 802.0
+offset_right = -977.0
+offset_bottom = -228.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "0 kg"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="ItemsScroll" type="ScrollContainer" parent="GAME/Loot"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 45.0
+offset_right = 1341.0
+offset_bottom = 105.0
+theme = SubResource("Theme_tjcsc")
+vertical_scroll_mode = 0
+
+[node name="items_list" type="HBoxContainer" parent="GAME/Loot/ItemsScroll"]
+custom_minimum_size = Vector2(0, 59)
+layout_mode = 2
+theme_override_constants/separation = -4
+
+[node name="SelectedIcon" type="TextureRect" parent="GAME/Loot"]
+layout_mode = 0
+offset_left = 1057.0
+offset_top = 350.0
+offset_right = 1324.0
+offset_bottom = 524.0
+stretch_mode = 5
+
+[node name="TakeAll" type="Button" parent="GAME/Loot"]
+layout_mode = 0
+offset_left = 600.0
+offset_top = 900.0
+offset_right = 1355.0
+offset_bottom = 964.0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_owgcl")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_owgcl")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_owgcl")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_owgcl")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_owgcl")
+text = "TAKE ALL"
+
+[node name="Trading" type="ColorRect" parent="GAME" node_paths=PackedStringArray("trader_items_list", "player_items_list", "parameter_list", "loot_sel_name", "loot_sel_desc", "loot_sel_icon", "item_weight", "item_money")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("59_1rvbc")
+trader_items_list = NodePath("ItemsScrollTrader/trader_items_list")
+player_items_list = NodePath("ItemsScroll/player_items_list")
+parameter_list = NodePath("SelectedParameters")
+loot_sel_name = NodePath("selectedItemTitle")
+loot_sel_desc = NodePath("selectedItemDescr")
+loot_sel_icon = NodePath("SelectedIcon")
+item_weight = NodePath("weight")
+item_money = NodePath("money")
+metadata/_edit_lock_ = true
+
+[node name="BG" type="NinePatchRect" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1440.0
+offset_bottom = -806.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 4)
+texture = ExtResource("39_gq6jm")
+patch_margin_left = 89
+patch_margin_top = 59
+patch_margin_right = 73
+patch_margin_bottom = 11
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="TradeBg" type="TextureRect" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -39.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("40_107da")
+expand_mode = 3
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Trading"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 992.0
+offset_right = 641.0
+offset_bottom = 1020.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+metadata/_edit_lock_ = true
+
+[node name="title" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 8.0
+offset_right = -1576.0
+offset_bottom = -1037.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "TRADING"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="info_title" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 610.0
+offset_top = 176.0
+offset_right = -1095.0
+offset_bottom = -857.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "INFO"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="info_title2" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1036.0
+offset_top = 176.0
+offset_right = -669.0
+offset_bottom = -857.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "PROPERTIES"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+script = ExtResource("11_2wb54")
+
+[node name="selectedItemTitle" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 596.0
+offset_top = 247.0
+offset_right = -930.0
+offset_bottom = -798.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="selectedItemDescr" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 600.0
+offset_top = 294.0
+offset_right = -930.0
+offset_bottom = -331.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+autowrap_mode = 3
+
+[node name="back_tip" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1664.0
+offset_top = 937.0
+offset_right = -45.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "inv.back.tip"
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="weight" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 600.0
+offset_top = 802.0
+offset_right = -979.0
+offset_bottom = -227.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "weight"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="money" type="Label" parent="GAME/Trading"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1014.0
+offset_top = 802.0
+offset_right = -565.0
+offset_bottom = -227.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.156863, 0.745098, 0.219608, 1)
+theme_override_font_sizes/font_size = 32
+text = "0$"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SelectedParameters" type="GridContainer" parent="GAME/Trading"]
+layout_mode = 0
+offset_left = 1036.0
+offset_top = 256.0
+offset_right = 1341.0
+offset_bottom = 738.0
+theme_override_constants/v_separation = 16
+
+[node name="SelectedIcon" type="TextureRect" parent="GAME/Trading"]
+visible = false
+layout_mode = 0
+offset_left = -207.0
+offset_top = 11.0
+offset_right = -18.0
+offset_bottom = 136.0
+stretch_mode = 5
+
+[node name="ItemsScrollTrader" type="ScrollContainer" parent="GAME/Trading"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 45.0
+offset_right = 1341.0
+offset_bottom = 104.0
+theme = SubResource("Theme_tjcsc")
+vertical_scroll_mode = 0
+
+[node name="trader_items_list" type="HBoxContainer" parent="GAME/Trading/ItemsScrollTrader"]
+clip_contents = true
+custom_minimum_size = Vector2(0, 59)
+layout_mode = 2
+theme_override_constants/separation = -4
+
+[node name="ItemsScroll" type="ScrollContainer" parent="GAME/Trading"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 919.0
+offset_right = 1341.0
+offset_bottom = 979.0
+theme = SubResource("Theme_tjcsc")
+vertical_scroll_mode = 0
+metadata/_edit_lock_ = true
+
+[node name="player_items_list" type="HBoxContainer" parent="GAME/Trading/ItemsScroll"]
+custom_minimum_size = Vector2(0, 59)
+layout_mode = 2
+theme_override_constants/separation = -4
+
+[node name="MainMenu" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("63_avffg")
+metadata/_edit_lock_ = true
+
+[node name="ClickableTitle" type="Label" parent="GAME/MainMenu"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -144.0
+offset_right = 64.0
+offset_bottom = -96.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 32
+text = "new game"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="NonClickableRight" type="Label" parent="GAME/MainMenu"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 1104.0
+offset_top = 396.0
+offset_right = -640.0
+offset_bottom = 444.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 16
+text = "Continue"
+vertical_alignment = 1
+
+[node name="NonClickableLeft" type="Label" parent="GAME/MainMenu"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 640.0
+offset_top = 396.0
+offset_right = -1101.0
+offset_bottom = 444.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 16
+text = "Exit"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Logo" type="TextureRect" parent="GAME/MainMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -267.0
+offset_top = -129.5
+offset_right = 267.0
+offset_bottom = 129.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("38_0s4b8")
+stretch_mode = 5
+metadata/_edit_lock_ = true
+
+[node name="title2" type="Label" parent="GAME/MainMenu"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -40.0
+offset_right = -24.0
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "build#26072023 ver0.1"
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="MenuAbout" type="ColorRect" parent="GAME/MainMenu"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="Logo" type="TextureRect" parent="GAME/MainMenu/MenuAbout"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -264.0
+offset_top = -476.0
+offset_right = 270.0
+offset_bottom = -217.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("39_2tx4h")
+stretch_mode = 5
+
+[node name="Logo2" type="TextureRect" parent="GAME/MainMenu/MenuAbout"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 72.0
+offset_top = -196.0
+offset_right = 328.0
+offset_bottom = -44.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("65_pg8ow")
+stretch_mode = 5
+
+[node name="Logo3" type="TextureRect" parent="GAME/MainMenu/MenuAbout"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -304.0
+offset_top = -220.0
+offset_right = 80.0
+offset_bottom = -28.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("41_60nhi")
+stretch_mode = 5
+
+[node name="ScrollContainer" type="ScrollContainer" parent="GAME/MainMenu/MenuAbout"]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 512.0
+offset_right = 1536.0
+offset_bottom = 1024.0
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GAME/MainMenu/MenuAbout/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 44
+
+[node name="MainSubTitle1" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "assets / inspiration / j2me dev"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MainTitle1" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer/MainSubTitle1"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = -3.0
+offset_right = 960.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+text = "QPlaze"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="MainSubTitle2" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "main remake developer"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MainTitle2" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer/MainSubTitle2"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = -3.0
+offset_right = 960.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+text = "Leksii"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="MainSubTitle3" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "help with original text / models decoding"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MainTitle3" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer/MainSubTitle3"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = -3.0
+offset_right = 960.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+text = "ALDECOTAN"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="OthersThanks" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "thanks to others / assets"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MainTitle3" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer/OthersThanks"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = -3.0
+offset_right = 960.0
+offset_bottom = 41.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+text = "QPLAZE / Assets
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="MainTitle4" type="Label" parent="GAME/MainMenu/MenuAbout/ScrollContainer/VBoxContainer/OthersThanks"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = 48.0
+offset_right = 960.0
+offset_bottom = 92.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_font_sizes/font_size = 40
+text = "reff pixels / social icons
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Back" type="Label" parent="GAME/MainMenu/MenuAbout"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -960.0
+offset_top = -64.0
+offset_right = 960.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+text = "> [ESC] <"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="PayPal" type="Button" parent="GAME/MainMenu/MenuAbout"]
+visible = false
+layout_mode = 0
+offset_left = 1792.0
+offset_top = 960.0
+offset_right = 1856.0
+offset_bottom = 1024.0
+icon = ExtResource("67_4oxs6")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Patreon" type="Button" parent="GAME/MainMenu/MenuAbout"]
+visible = false
+layout_mode = 0
+offset_left = 1728.0
+offset_top = 960.0
+offset_right = 1792.0
+offset_bottom = 1024.0
+icon = ExtResource("68_ugy71")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Twitter" type="Button" parent="GAME/MainMenu/MenuAbout"]
+visible = false
+layout_mode = 0
+offset_left = 1664.0
+offset_top = 960.0
+offset_right = 1728.0
+offset_bottom = 1024.0
+icon = ExtResource("69_oyqf6")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Kofi" type="Button" parent="GAME/MainMenu/MenuAbout"]
+visible = false
+layout_mode = 0
+offset_left = 1600.0
+offset_top = 960.0
+offset_right = 1664.0
+offset_bottom = 1024.0
+icon = ExtResource("70_2raa4")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Options" type="ColorRect" parent="GAME"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="BG" type="NinePatchRect" parent="GAME/Options"]
+layout_mode = 0
+offset_top = -39.0
+offset_right = 1920.0
+offset_bottom = 1115.0
+texture = ExtResource("23_g703d")
+
+[node name="WND" type="TextureRect" parent="GAME/Options"]
+layout_mode = 0
+offset_top = 75.0
+offset_right = 1920.0
+offset_bottom = 1000.0
+texture = ExtResource("32_n4bty")
+stretch_mode = 5
+
+[node name="VerticalContainer" type="VBoxContainer" parent="GAME/Options"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.397
+anchor_top = 0.317
+anchor_right = 0.603
+anchor_bottom = 0.683
+offset_left = 126.76
+offset_top = 3.63998
+offset_right = -23.76
+offset_bottom = 0.359985
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="continue" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "option1"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/continue"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.817293
+speed_scale = 1.5
+
+[node name="mainmenu" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+disabled = true
+text = "option2"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/mainmenu"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="separator" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_brnwr")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_brnwr")
+disabled = true
+button_mask = 0
+
+[node name="inventory" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "option3"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/inventory"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="character" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+disabled = true
+text = "option4"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/character"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="map" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+disabled = true
+text = "option5"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/map"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="journal" type="Button" parent="GAME/Options/VerticalContainer"]
+custom_minimum_size = Vector2(15.56, 48)
+layout_mode = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_pressed_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_hover_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_focus_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_disabled_color = Color(0.4, 0.384314, 0.372549, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_ubxnn")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ubxnn")
+text = "option6"
+alignment = 0
+expand_icon = true
+script = ExtResource("11_2wb54")
+
+[node name="AnimIcon" type="AnimatedSprite2D" parent="GAME/Options/VerticalContainer/journal"]
+visible = false
+position = Vector2(-45, 24)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5msjn")
+frame_progress = 0.543385
+speed_scale = 1.5
+
+[node name="panel_down" type="NinePatchRect" parent="GAME/Options"]
+layout_mode = 0
+offset_top = 913.0
+offset_right = 640.0
+offset_bottom = 941.0
+scale = Vector2(3, 3)
+texture = ExtResource("33_8b2ni")
+region_rect = Rect2(28, 0, 202, 28)
+patch_margin_right = 32
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="panel_up" type="NinePatchRect" parent="GAME/Options"]
+layout_mode = 0
+offset_top = 77.0
+offset_right = 640.0
+offset_bottom = 98.0
+scale = Vector2(3, 3)
+texture = ExtResource("34_3rj87")
+region_rect = Rect2(0, 0, 234, 21)
+patch_margin_left = 80
+patch_margin_right = 94
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="title" type="Label" parent="GAME/Options"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 24.0
+offset_top = -463.0
+offset_right = -1692.0
+offset_bottom = -415.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_mp0qm")
+theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "options"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("11_2wb54")
+
+[node name="Bug" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(640, 320)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="bug_title" type="Label" parent="Bug"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 8.0
+offset_bottom = 41.0
+grow_horizontal = 2
+theme = ExtResource("4_mp0qm")
+text = "Error has been occured"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="bug_button_ok" type="Button" parent="Bug"]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 256.0
+offset_right = 392.0
+offset_bottom = 294.0
+text = "OK"
+
+[node name="bug_caption" type="RichTextLabel" parent="Bug"]
+layout_mode = 0
+offset_top = 64.0
+offset_right = 640.0
+offset_bottom = 232.0
+bbcode_enabled = true
+
+[node name="GUI_SUB" type="SubViewportContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GUI_VIEW" type="SubViewport" parent="GUI_SUB"]
+disable_3d = true
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[connection signal="pressed" from="GAME/editor_mode/top/light_mode" to="." method="_on_light_mode_pressed"]
+[connection signal="pressed" from="GAME/editor_mode/lvl_objects_selector/CloseSelector" to="." method="_on_close_selector_pressed"]
+[connection signal="pressed" from="GAME/Statistic/VerticalContainerSkills/accuracy" to="GAME/Pause" method="_on_continue_pressed"]
+[connection signal="pressed" from="GAME/Statistic/VerticalContainerSkills/health" to="GAME/Pause" method="_on_inventory_pressed"]
+[connection signal="pressed" from="GAME/Statistic/VerticalContainerSkills/strenght" to="GAME/Pause" method="_on_character_pressed"]
+[connection signal="pressed" from="GAME/Statistic/VerticalContainerSkills/resistance" to="GAME/Pause" method="_on_map_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/continue" to="GAME/Pause" method="_on_continue_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/mainmenu" to="GAME/Pause" method="_on_mainmenu_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/inventory" to="GAME/Pause" method="_on_inventory_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/character" to="GAME/Pause" method="_on_character_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/map" to="GAME/Pause" method="_on_map_pressed"]
+[connection signal="pressed" from="GAME/Pause/VerticalContainer/journal" to="GAME/Pause" method="_on_journal_pressed"]
+[connection signal="pressed" from="GAME/Loot/TakeAll" to="GAME/Loot" method="_on_take_all_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/continue" to="GAME/Options" method="_on_continue_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/mainmenu" to="GAME/Options" method="_on_mainmenu_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/inventory" to="GAME/Options" method="_on_inventory_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/character" to="GAME/Options" method="_on_character_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/map" to="GAME/Options" method="_on_map_pressed"]
+[connection signal="pressed" from="GAME/Options/VerticalContainer/journal" to="GAME/Options" method="_on_journal_pressed"]
+[connection signal="pressed" from="Bug/bug_button_ok" to="." method="_on_bug_button_ok_pressed"]

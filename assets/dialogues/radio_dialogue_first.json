@@ -1,0 +1,72 @@
+{
+	"start_dialogue": "start",
+	"dialogues": {
+		"start": {
+			"text": "dlg.radio.0.text",
+			"answers": [
+				{
+					"text": "dlg.radio.0.answer.1",
+					"go_to": "radio1"
+				}
+			]
+		},
+		"radio1": {
+			"text": "dlg.radio.1.text",
+			"answers": [
+				{
+					"text": "dlg.radio.1.answer.1",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"radio.start.quest"
+						]
+					}
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 320,
+			"y": 260
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 353,
+			"size_y": 143,
+			"x": 940,
+			"y": 280
+		},
+		{
+			"_type": "answer",
+			"size_x": 282,
+			"size_y": 205,
+			"x": 640,
+			"y": 260
+		},
+		{
+			"_type": "answer",
+			"size_x": 279,
+			"size_y": 216,
+			"x": 1320,
+			"y": 280
+		},
+		{
+			"_type": "action",
+			"size_x": 350,
+			"size_y": 70,
+			"x": 1660,
+			"y": 440
+		},
+		{
+			"_type": "end_action",
+			"size_x": 334,
+			"size_y": 70,
+			"x": 1660,
+			"y": 340
+		}
+	]
+}

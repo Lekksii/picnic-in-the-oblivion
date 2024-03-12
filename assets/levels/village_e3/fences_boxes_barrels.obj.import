@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://hbtwyi7o2cpu"
+path="res://.godot/imported/fences_boxes_barrels.obj-6fea7121639cd059ef9d491cd2e587ec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fences_boxes_barrels.obj-6fea7121639cd059ef9d491cd2e587ec.mesh"]
+
+source_file="res://assets/levels/village_e3/fences_boxes_barrels.obj"
+dest_files=["res://.godot/imported/fences_boxes_barrels.obj-6fea7121639cd059ef9d491cd2e587ec.mesh", "res://.godot/imported/fences_boxes_barrels.obj-6fea7121639cd059ef9d491cd2e587ec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

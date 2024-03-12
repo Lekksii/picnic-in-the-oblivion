@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xlirjfjssaxn"
+path="res://.godot/imported/tree_4sided.obj-f636095ec9d7464c1389f23f55489b43.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_4sided.obj-f636095ec9d7464c1389f23f55489b43.mesh"]
+
+source_file="res://assets/models/tree_4sided.obj"
+dest_files=["res://.godot/imported/tree_4sided.obj-f636095ec9d7464c1389f23f55489b43.mesh", "res://.godot/imported/tree_4sided.obj-f636095ec9d7464c1389f23f55489b43.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

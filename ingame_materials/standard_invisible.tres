@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bt0e707xkufmx"]
+
+[ext_resource type="Texture2D" uid="uid://j5cpe6f7blcc" path="res://assets/null.png" id="1_pjd66"]
+
+[resource]
+transparency = 1
+depth_draw_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("1_pjd66")

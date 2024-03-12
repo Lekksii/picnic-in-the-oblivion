@@ -1,0 +1,14 @@
+{
+  "start_dialogue": "demo",
+  "dialogues": {
+	"demo": {
+	  "text": "dlg.demo",
+	  "answers": [
+		{
+		  "text": "mm.exit",
+		  "go_to": "close_game"
+		}
+	  ]
+	}
+  }
+}

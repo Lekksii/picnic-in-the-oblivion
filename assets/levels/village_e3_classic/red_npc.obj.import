@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw63s4hhptfx8"
+path="res://.godot/imported/red_npc.obj-6215c87f91b69dd28bcb40f8e968bdec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/red_npc.obj-6215c87f91b69dd28bcb40f8e968bdec.mesh"]
+
+source_file="res://assets/levels/village_e3_classic/red_npc.obj"
+dest_files=["res://.godot/imported/red_npc.obj-6215c87f91b69dd28bcb40f8e968bdec.mesh", "res://.godot/imported/red_npc.obj-6215c87f91b69dd28bcb40f8e968bdec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

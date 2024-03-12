@@ -1,0 +1,1167 @@
+{
+	"weather_color": "392e3d",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"id": "spawn_point",
+			"position": [
+				3.17,
+				1.6,
+				6.48
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/levels/belomor_friends/props_texobj1",
+			"name": "texobj1",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false,
+			"double_sided": true
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/levels/belomor_friends/props_texobj2",
+			"name": "texobj2",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest",
+			"position": [
+				10.92,
+				-10.17,
+				-59.39
+			],
+			"rotation": [
+				0,
+				-10.21,
+				0
+			],
+			"scale": [
+				7.56,
+				7.56,
+				7.56
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest2",
+			"position": [
+				-38.98,
+				-9.26,
+				-39.23
+			],
+			"rotation": [
+				0,
+				19.79,
+				0
+			],
+			"scale": [
+				7.85,
+				7.85,
+				7.85
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest3",
+			"position": [
+				-51.25,
+				-9.26,
+				11.18
+			],
+			"rotation": [
+				0,
+				67.6,
+				0
+			],
+			"scale": [
+				7.85,
+				7.85,
+				7.85
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest4",
+			"position": [
+				-42,
+				-9.26,
+				53.26
+			],
+			"rotation": [
+				0,
+				112.31,
+				0
+			],
+			"scale": [
+				7.85,
+				7.85,
+				7.85
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest5",
+			"position": [
+				-16.97,
+				-0.62,
+				19.42
+			],
+			"rotation": [
+				0,
+				146.06,
+				0
+			],
+			"scale": [
+				2.69,
+				2.69,
+				2.69
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest6",
+			"position": [
+				-21.26,
+				-1.8,
+				-1.89
+			],
+			"rotation": [
+				0,
+				62.5,
+				0
+			],
+			"scale": [
+				2.69,
+				2.69,
+				2.69
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest7",
+			"position": [
+				24.16,
+				-1.8,
+				-12.13
+			],
+			"rotation": [
+				0,
+				-73.52,
+				0
+			],
+			"scale": [
+				2.69,
+				2.69,
+				2.69
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest8",
+			"position": [
+				44.64,
+				-3.52,
+				-12.13
+			],
+			"rotation": [
+				0,
+				-73.52,
+				0
+			],
+			"scale": [
+				3.43,
+				3.43,
+				3.43
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest9",
+			"position": [
+				44.64,
+				-3.52,
+				16.29
+			],
+			"rotation": [
+				0,
+				-111.32,
+				0
+			],
+			"scale": [
+				3.43,
+				3.43,
+				3.43
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest10",
+			"position": [
+				44.64,
+				-3.52,
+				49.84
+			],
+			"rotation": [
+				0,
+				-135.83,
+				0
+			],
+			"scale": [
+				3.43,
+				3.43,
+				3.43
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest11",
+			"position": [
+				17.48,
+				-3.52,
+				49.84
+			],
+			"rotation": [
+				0,
+				-135.83,
+				0
+			],
+			"scale": [
+				3.43,
+				3.43,
+				3.43
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest12",
+			"position": [
+				0.14,
+				-3.52,
+				64.04
+			],
+			"rotation": [
+				0,
+				178.14,
+				0
+			],
+			"scale": [
+				3.43,
+				3.43,
+				3.43
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/forest_1",
+			"name": "forest13",
+			"position": [
+				-10.03,
+				-1.29,
+				44.11
+			],
+			"rotation": [
+				0,
+				-167.54,
+				0
+			],
+			"scale": [
+				1.81,
+				1.81,
+				1.81
+			],
+			"texture": "texforest1.png",
+			"billboard": false
+		},
+		{
+			"lit": true,
+			"model": "assets/models/sky_1",
+			"name": "skybox_2",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				9,
+				9,
+				9
+			],
+			"texture": "texsky2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_1",
+			"name": "stone_1",
+			"position": [
+				-3.29,
+				0,
+				-3.73
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_2",
+			"name": "stone_2",
+			"position": [
+				-2.13,
+				0,
+				-5.46
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_1",
+			"name": "stone_3",
+			"position": [
+				7.49,
+				0,
+				0.28
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_2",
+			"name": "stone_4",
+			"position": [
+				13.15,
+				0,
+				9.94
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/stone_1",
+			"name": "stone_5",
+			"position": [
+				14.11,
+				0,
+				8.58
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_1",
+			"position": [
+				4.03,
+				0,
+				25.32
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_2",
+			"position": [
+				-5.94,
+				0,
+				27.3
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_3",
+			"position": [
+				-3.29,
+				0,
+				34.22
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_4",
+			"position": [
+				-10.2,
+				0,
+				13.72
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_5",
+			"position": [
+				-2.4,
+				0,
+				16.2
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_6",
+			"position": [
+				13.01,
+				0,
+				32.7
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_7",
+			"position": [
+				9.91,
+				0,
+				21.28
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_8",
+			"position": [
+				17.74,
+				0,
+				7.54
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_18",
+			"position": [
+				12.67,
+				0,
+				6.64
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_9",
+			"position": [
+				20.26,
+				0,
+				-1.09
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_10",
+			"position": [
+				-9.28,
+				0,
+				-2.43
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_11",
+			"position": [
+				-7.44,
+				0,
+				-9.32
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_12",
+			"position": [
+				-1.57,
+				0,
+				-15.37
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_13",
+			"position": [
+				5.5,
+				0,
+				-7.58
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_14",
+			"position": [
+				5.77,
+				0,
+				-13.63
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_15",
+			"position": [
+				7.36,
+				0,
+				-22.79
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_16",
+			"position": [
+				-0.85,
+				0,
+				-22.85
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"alpha": true,
+			"lit": true,
+			"model": "assets/models/tree_faced",
+			"name": "tree_faced_17",
+			"position": [
+				4.72,
+				0,
+				-31.37
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "textree1.png",
+			"billboard": true
+		},
+		{
+			"hostile_id": "belomor_eyezone",
+			"id": "hostile_eyezone",
+			"name": "belomor_eyezone",
+			"position": [
+				3.18,
+				1.81,
+				6.68
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left",
+				"shoot_stand_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				12.68,
+				0.32,
+				2.88
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				-76.4,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				1.94,
+				0.02,
+				-2.08
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				5.42,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_stand_right",
+				"shoot_sit_up_right",
+				"shoot_sit_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				8.54,
+				0.32,
+				-3.79
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				-13.75,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-2.52,
+				-0.03,
+				9.68
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				124.32,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-0.72,
+				-0.03,
+				0.41
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				19.16,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-6.13,
+				-0.03,
+				2.3
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				51.03,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "belomor_eyezone",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				0.44,
+				0.61,
+				1.14
+			],
+			"rotation": [
+				0,
+				-26.07,
+				0
+			],
+			"scale": [
+				1.69,
+				1.15,
+				1.15
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				1.25,
+				1,
+				-0.52
+			],
+			"rotation": [
+				0,
+				-26.07,
+				0
+			],
+			"scale": [
+				1.59,
+				1.9,
+				2.59
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block3",
+			"position": [
+				11.5,
+				1.43,
+				2.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				2.23,
+				1.54
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block5",
+			"position": [
+				-5.81,
+				1.14,
+				3.27
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.63,
+				2.23,
+				1.54
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block4",
+			"position": [
+				8.74,
+				1.33,
+				-3.03
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.49,
+				2.23,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block6",
+			"position": [
+				-1.99,
+				0.5,
+				8.6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.1,
+				1,
+				1.81
+			]
+		}
+	]
+}

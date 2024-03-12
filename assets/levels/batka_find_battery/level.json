@@ -1,0 +1,2504 @@
+{
+	"weather_color": "0a0a0a",
+	"daylight": false,
+	"fog": true,
+	"view_distance": 35,
+	"light": [
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 5,
+			"energy": 1,
+			"name": "point_light",
+			"position": [
+				-2.99,
+				2.77,
+				9.97
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.68910789489746,
+			"energy": 1,
+			"name": "point_light2",
+			"position": [
+				-11.93,
+				2.5,
+				9.97
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 5,
+			"energy": 1,
+			"name": "point_light3",
+			"position": [
+				-6.79,
+				1.93,
+				9.97
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light4",
+			"position": [
+				-11,
+				1.81,
+				19
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light23",
+			"position": [
+				-41.01,
+				1.81,
+				22.02
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light24",
+			"position": [
+				-51.01,
+				1.81,
+				22.02
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light5",
+			"position": [
+				-1.98,
+				1.81,
+				19
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light6",
+			"position": [
+				-1.98,
+				1.81,
+				28.05
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light7",
+			"position": [
+				-16,
+				2.75,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light8",
+			"position": [
+				-24.01,
+				2.75,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light9",
+			"position": [
+				-20.54,
+				1.83,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light10",
+			"position": [
+				-33.01,
+				2.75,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light11",
+			"position": [
+				-41.02,
+				2.75,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light12",
+			"position": [
+				-37.55,
+				1.83,
+				31.07
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light13",
+			"position": [
+				-50.89,
+				2.75,
+				13.05
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 7.84022426605225,
+			"energy": 1,
+			"name": "point_light16",
+			"position": [
+				-38.64,
+				2.75,
+				9.77
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 9.36836528778076,
+			"energy": 1,
+			"name": "point_light17",
+			"position": [
+				-33.85,
+				2.75,
+				9.71
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 5.42617988586426,
+			"energy": 1,
+			"name": "point_light22",
+			"position": [
+				-36.58,
+				2.53,
+				5.54
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 7.84022426605225,
+			"energy": 1,
+			"name": "point_light18",
+			"position": [
+				-29.26,
+				3.71,
+				14.71
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 7.84022426605225,
+			"energy": 1,
+			"name": "point_light19",
+			"position": [
+				-29.26,
+				3.71,
+				5.49
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 7.84022426605225,
+			"energy": 1,
+			"name": "point_light20",
+			"position": [
+				-42.53,
+				3.71,
+				5.49
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 7.84022426605225,
+			"energy": 1,
+			"name": "point_light21",
+			"position": [
+				-42.53,
+				3.71,
+				14.69
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light14",
+			"position": [
+				-50.89,
+				2.75,
+				5.04
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		},
+		{
+			"color": [
+				255,
+				255,
+				255
+			],
+			"distance": 6.42368602752686,
+			"energy": 1,
+			"name": "point_light15",
+			"position": [
+				-50.14,
+				2.19,
+				8.51
+			],
+			"rotation": [
+				0,
+				-295452.56,
+				0
+			],
+			"shadows": false,
+			"type": "point"
+		}
+	],
+	"level_data": [
+		{
+			"id": "spawn_point",
+			"position": [
+				-2.36,
+				1.6,
+				10.36
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			]
+		},
+		{
+			"collider": null,
+			"lit": false,
+			"model": "assets/levels/batka_find_battery/props_texobj1",
+			"name": "props_texobj1",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false,
+			"double_sided": true
+		},
+		{
+			"collider": "mesh",
+			"lit": false,
+			"model": "assets/levels/batka_find_battery/props_texobj2",
+			"name": "props_texobj2",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"id": "sprite3d",
+			"name": "oreol",
+			"position": [
+				-10.99,
+				2.33,
+				18.98
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "sprite3d",
+			"name": "oreol4",
+			"position": [
+				-41,
+				2.33,
+				22
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "sprite3d",
+			"name": "oreol5",
+			"position": [
+				-51,
+				2.33,
+				22
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "sprite3d",
+			"name": "oreol2",
+			"position": [
+				-1.97,
+				2.33,
+				18.98
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "sprite3d",
+			"name": "oreol3",
+			"position": [
+				-1.97,
+				2.33,
+				28.02
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"hostile_id": "eyezone_battery1",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery1",
+			"position": [
+				-2.32,
+				2.1,
+				10.38
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery2",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery2",
+			"position": [
+				-12.71,
+				2.1,
+				16.93
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery3",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery3",
+			"position": [
+				-3.88,
+				2.1,
+				20.54
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery4",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery4",
+			"position": [
+				-0.5,
+				2.1,
+				25.81
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery5",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery5",
+			"position": [
+				-14.06,
+				2.1,
+				31.14
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery6",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery6",
+			"position": [
+				-31.19,
+				2.1,
+				31.14
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery7",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery7",
+			"position": [
+				-40.12,
+				2.1,
+				24.26
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery8",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery8",
+			"position": [
+				-49.08,
+				2.1,
+				21.66
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery9",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery9",
+			"position": [
+				-51.03,
+				2.1,
+				15.31
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"hostile_id": "eyezone_battery10",
+			"id": "hostile_eyezone",
+			"name": "eyezone_battery10",
+			"position": [
+				-39.9,
+				2.1,
+				15.31
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_left",
+				"shoot_sit_up",
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-7.76,
+				0,
+				12.54
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				113.18,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_right",
+				"shoot_sit_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-11.73,
+				0,
+				6.45
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				65.41,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_left",
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-7.57,
+				0,
+				15.9
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-84.59,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery2",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				0.42,
+				0,
+				16.45
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-61.08,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery3",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-3.96,
+				0,
+				26.33
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				112.92,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery4",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				0.12,
+				0,
+				31.79
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-175.14,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery4",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-24.99,
+				0,
+				28.81
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				77.44,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery5",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-37.68,
+				0,
+				27.93
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				77.44,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery6",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-35.48,
+				0,
+				34.41
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				115.24,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery6",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-43.36,
+				0,
+				20.11
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				36.53,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery7",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-37.18,
+				0,
+				20.1
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-34.16,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery7",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_right",
+				"shoot_sit_up_right",
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-35.7,
+				0,
+				7.2
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-14.36,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery10",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_right",
+				"shoot_sit_up_right",
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-31.36,
+				0,
+				11.71
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				-64.18,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery10",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-43.75,
+				0,
+				6.09
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				19.37,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery10",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-53.43,
+				0,
+				6.96
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				14.05,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery9",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_right",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-48.14,
+				0,
+				6.96
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				-18.39,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery9",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left",
+				"shoot_stand_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-50.17,
+				0,
+				3.32
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				-10.35,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery9",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_right",
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-41.87,
+				0,
+				32.57
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				90.37,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery6",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_left",
+				"shoot_sit_up_left",
+				"shoot_sit_up"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-19.84,
+				0,
+				34.51
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				110.2,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery5",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up_left",
+				"shoot_sit_left"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				1.02,
+				0,
+				17.23
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				-61.08,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery3",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_left",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-13.33,
+				0,
+				21.8
+			],
+			"profile": "stalker",
+			"rotation": [
+				0,
+				169.37,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "eyezone_battery2",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "level_0_0_corpse_0",
+			"model": "cube",
+			"position": [
+				-16.04,
+				0.63,
+				28.1
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "level_0_0_corpse_0",
+			"model": "cube",
+			"position": [
+				-32.36,
+				0.33,
+				29.17
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "loot_ak",
+			"model": "cube",
+			"position": [
+				-54.92,
+				0.93,
+				25.1
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1.92,
+				1.51
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "loot_battery",
+			"model": "cube",
+			"position": [
+				-35.34,
+				1.02,
+				3.16
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.39,
+				1.54,
+				1
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery1",
+			"position": [
+				-12.94,
+				1.15,
+				13.94
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-12.944296836853,
+				1.60000002384186,
+				16.3165683746338
+			],
+			"target_rotation": [
+				-0,
+				-180,
+				0
+			],
+			"waypoints": "battery_wp1",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery3",
+			"position": [
+				-0.51,
+				1.15,
+				22.83
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-0.53870618343353,
+				1.59999990463257,
+				25.1947631835938
+			],
+			"target_rotation": [
+				-0,
+				-180,
+				0
+			],
+			"waypoints": "battery_wp3",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery2",
+			"position": [
+				-7.13,
+				1.15,
+				20.7
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-4.76460456848145,
+				1.60000002384186,
+				20.6291542053223
+			],
+			"target_rotation": [
+				-0,
+				-90,
+				0
+			],
+			"waypoints": "battery_wp2",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery4",
+			"position": [
+				-5.83,
+				1.15,
+				30.01
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-13.0003204345703,
+				1.59999990463257,
+				31.1742782592773
+			],
+			"target_rotation": [
+				-0,
+				90,
+				0
+			],
+			"waypoints": "battery_wp4",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery5",
+			"position": [
+				-27.86,
+				1.15,
+				31.02
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-30.327974319458,
+				1.59999990463257,
+				31.0814476013184
+			],
+			"target_rotation": [
+				-0,
+				90,
+				0
+			],
+			"waypoints": "battery_wp5",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery6",
+			"position": [
+				-39.17,
+				1.15,
+				27.08
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-39.9884796142578,
+				1.59999942779541,
+				24.9736957550049
+			],
+			"target_rotation": [
+				-0,
+				-0.00000000000041,
+				0
+			],
+			"waypoints": "battery_wp6",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery7",
+			"position": [
+				-39.83,
+				1.15,
+				18.11
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-39.8762817382813,
+				1.59999942779541,
+				15.6665239334106
+			],
+			"target_rotation": [
+				-0,
+				-17.3439998626709,
+				0
+			],
+			"waypoints": "battery_wp7",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery12",
+			"position": [
+				-39.83,
+				1.15,
+				16.89
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-39.8197441101074,
+				1.59999942779541,
+				19.2878437042236
+			],
+			"target_rotation": [
+				-0,
+				175.856002807617,
+				0
+			],
+			"waypoints": "",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery8",
+			"position": [
+				-50.85,
+				1.15,
+				18.11
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-51.0413017272949,
+				1.59999942779541,
+				15.1301126480103
+			],
+			"target_rotation": [
+				-0,
+				0.62199807167053,
+				0
+			],
+			"waypoints": "battery_wp10",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery9",
+			"position": [
+				-51.01,
+				1.15,
+				16.85
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-51.0413017272949,
+				1.59999942779541,
+				19.1995315551758
+			],
+			"target_rotation": [
+				-0,
+				-179.377990722656,
+				0
+			],
+			"waypoints": "",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery10",
+			"position": [
+				-44.87,
+				1.15,
+				21.99
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-48.5046081542969,
+				1.59999942779541,
+				21.9469356536865
+			],
+			"target_rotation": [
+				-0,
+				87.6559982299805,
+				0
+			],
+			"waypoints": "battery_wp8",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone_battery11",
+			"position": [
+				-47.07,
+				1.15,
+				21.99
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				1.521,
+				2.222,
+				0.341
+			],
+			"target_position": [
+				-43.7185363769531,
+				1.59999942779541,
+				22.0621166229248
+			],
+			"target_rotation": [
+				-0,
+				-89.3779983520508,
+				0
+			],
+			"waypoints": "",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": false,
+			"model": "assets/models/metal_gate",
+			"name": "metal_gate",
+			"position": [
+				1.15,
+				0,
+				10
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.39,
+				1.39,
+				1.39
+			],
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				-6.78,
+				0.54,
+				12.31
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				-10.98,
+				0.54,
+				6.43
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block3",
+			"position": [
+				-13.32,
+				0.59,
+				20.93
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block4",
+			"position": [
+				-8.53,
+				0.59,
+				16.05
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block5",
+			"position": [
+				-0.03,
+				0.64,
+				17
+			],
+			"rotation": [
+				0,
+				42.19,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block6",
+			"position": [
+				0.44,
+				0.64,
+				17.49
+			],
+			"rotation": [
+				0,
+				26.63,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block7",
+			"position": [
+				0.43,
+				1.11,
+				30.76
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.51,
+				2.2,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block8",
+			"position": [
+				-2.58,
+				0.66,
+				25.2
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1.62,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block9",
+			"position": [
+				-19.17,
+				0.58,
+				34.24
+			],
+			"rotation": [
+				0,
+				24.9,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block10",
+			"position": [
+				-23.94,
+				0.46,
+				28.74
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1.46,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block11",
+			"position": [
+				-34.51,
+				0.51,
+				34.25
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block12",
+			"position": [
+				-36.4,
+				0.51,
+				28.12
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block13",
+			"position": [
+				-41.26,
+				0.51,
+				32.56
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block14",
+			"position": [
+				-42.95,
+				0.69,
+				20.96
+			],
+			"rotation": [
+				0,
+				23.65,
+				0
+			],
+			"scale": [
+				1.77,
+				1.17,
+				0.16
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block15",
+			"position": [
+				-37.37,
+				0.95,
+				21.02
+			],
+			"rotation": [
+				0,
+				19.85,
+				0
+			],
+			"scale": [
+				1,
+				2.04,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block16",
+			"position": [
+				-53.41,
+				0.54,
+				7.64
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block17",
+			"position": [
+				-48.27,
+				0.68,
+				7.64
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block18",
+			"position": [
+				-50.71,
+				0.93,
+				4.42
+			],
+			"rotation": [
+				0,
+				-11.99,
+				0
+			],
+			"scale": [
+				1.55,
+				2.2,
+				0.88
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block19",
+			"position": [
+				-43.27,
+				0.56,
+				6.5
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1.76,
+				1.32,
+				1
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block20",
+			"position": [
+				-31.94,
+				1.95,
+				12
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				0.74,
+				3.96,
+				0.63
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block21",
+			"position": [
+				-36,
+				1.95,
+				8
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				0.59,
+				3.96,
+				0.63
+			]
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"start_dialogue": "belomor_0",
+	"dialogues": {
+		"belomor_0": {
+			"text": "belomor.text.0",
+			"answers": [
+				{
+					"text": "belomor.answer.0",
+					"go_to": "belomor_1"
+				}
+			]
+		},
+		"belomor_1": {
+			"text": "belomor.text.1",
+			"answers": [
+				{
+					"text": "belomor.answer.1",
+					"go_to": "belomor_2"
+				}
+			]
+		},
+		"belomor_2": {
+			"text": "belomor.text.2",
+			"answers": [
+				{
+					"text": "belomor.answer.2",
+					"go_to": "belomor_3"
+				}
+			]
+		},
+		"belomor_3": {
+			"text": "belomor.text.3",
+			"answers": [
+				{
+					"text": "belomor.answer.3",
+					"go_to": "close_dialog",
+					"action": {
+						"add_e_key": [
+							"belomor.friends.quest"
+						]
+					}
+				},
+				{
+					"text": "belomor.answer.3.end",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 477,
+			"y": 442
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 800,
+			"y": 440
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1120,
+			"y": 440
+		},
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 1440,
+			"y": 440
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 800,
+			"y": 640
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1120,
+			"y": 640
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1440,
+			"y": 640
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1780,
+			"y": 640
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 1780,
+			"y": 900
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 2140,
+			"y": 1060
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 2140,
+			"y": 800
+		},
+		{
+			"_type": "action",
+			"size_x": 341,
+			"size_y": 59,
+			"x": 2140,
+			"y": 860
+		}
+	]
+}

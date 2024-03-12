@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dlqara88weh0f"
+path="res://.godot/imported/uaz.obj-a04e46ab0f5879dd11a38e356e1dc345.mesh"
+
+[deps]
+
+files=["res://.godot/imported/uaz.obj-a04e46ab0f5879dd11a38e356e1dc345.mesh"]
+
+source_file="res://assets/levels/garbage_camp/uaz.obj"
+dest_files=["res://.godot/imported/uaz.obj-a04e46ab0f5879dd11a38e356e1dc345.mesh", "res://.godot/imported/uaz.obj-a04e46ab0f5879dd11a38e356e1dc345.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

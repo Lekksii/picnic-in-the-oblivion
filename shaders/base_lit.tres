@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://r4xr8j3gis5f"]
+
+[ext_resource type="Shader" path="res://shaders/psx_lit.gdshader" id="1_e26u8"]
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="2_yrh4t"]
+
+[resource]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_e26u8")
+shader_parameter/billboard = null
+shader_parameter/billboard_vector = null
+shader_parameter/jitter = 0.1
+shader_parameter/jitter_z_coordinate = true
+shader_parameter/jitter_depth_independent = true
+shader_parameter/affine_texture_mapping = false
+shader_parameter/alpha_scissor = 1.0
+shader_parameter/albedo_color = Color(1, 1, 1, 1)
+shader_parameter/emission_color = Color(1, 1, 1, 1)
+shader_parameter/texture_size = Vector2(1, 1)
+shader_parameter/albedo = ExtResource("2_yrh4t")

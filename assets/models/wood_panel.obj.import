@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5i3bxpijruwy"
+path="res://.godot/imported/wood_panel.obj-00b3c007053bceab6eda7412713c4cd7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wood_panel.obj-00b3c007053bceab6eda7412713c4cd7.mesh"]
+
+source_file="res://assets/models/wood_panel.obj"
+dest_files=["res://.godot/imported/wood_panel.obj-00b3c007053bceab6eda7412713c4cd7.mesh", "res://.godot/imported/wood_panel.obj-00b3c007053bceab6eda7412713c4cd7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

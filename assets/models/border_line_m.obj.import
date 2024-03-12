@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wg65w0hukp36"
+path="res://.godot/imported/border_line_m.obj-f3b4628b866a54ac119c513dedf3c4ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/border_line_m.obj-f3b4628b866a54ac119c513dedf3c4ce.mesh"]
+
+source_file="res://assets/models/border_line_m.obj"
+dest_files=["res://.godot/imported/border_line_m.obj-f3b4628b866a54ac119c513dedf3c4ce.mesh", "res://.godot/imported/border_line_m.obj-f3b4628b866a54ac119c513dedf3c4ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://drqgv6b10aiw2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_achjk"]
+load_path = "res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.s3tc.ctex"
+
+[resource]
+shading_mode = 2
+diffuse_mode = 3
+specular_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = SubResource("CompressedTexture2D_achjk")
+metallic_specular = 0.0
+emission_enabled = true
+emission_texture = SubResource("CompressedTexture2D_achjk")
+heightmap_scale = -0.405
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.32
+refraction_scale = -1.0
+texture_filter = 0
+disable_receive_shadows = true
+grow_amount = -3.459
+proximity_fade_distance = 277.76
+distance_fade_max_distance = 19.8

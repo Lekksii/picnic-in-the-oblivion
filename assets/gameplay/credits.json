@@ -1,0 +1,46 @@
+[
+	{
+		"title": "mm.about.text.1",
+		"authors":[
+			"GSC",
+			"QPLAZE",
+			"NOMOC"
+		]
+	},
+	{
+		"title": "mm.about.text.2",
+		"authors":[
+			"LEKSII/DARKPHOTTON"
+		]
+	},
+	{
+		"title": "mm.about.text.3",
+		"authors":[
+			"ROMAN LAHIN",
+			"PLOV",
+			"ALDEKOTAN"
+		]
+	},
+	{
+		"title": "mm.about.text.4",
+		"authors":[
+			"QPLAZE - S.T.A.L.K.E.R. Mobile 3D",
+			"randomDam - [lang]mm.about.shaders[/lang]",
+			"Mighty Duke - [lang]mm.about.shaders[/lang]",
+			"Yuliaasiikk - [lang]mm.about.text[/lang]",
+			"Cartoteka - [lang]mm.about.shaders[/lang], [lang]mm.about.testing[/lang]",
+			"vadyanchikus - [lang]mm.about.text[/lang]",
+			"ZeWixel - [lang]mm.about.text[/lang], [lang]mm.about.testing[/lang]",
+			"Mlovo - [lang]mm.about.testing[/lang]",
+			"PonPomPon - [lang]mm.about.testing[/lang]",
+			"Aldekotan - [lang]mm.about.testing[/lang]",
+			"PLOV - [lang]mm.about.testing[/lang]",
+			"Vlad - [lang]mm.about.text[/lang]",
+			"Hirurg39 - [lang]mm.about.assets[/lang]"
+		]
+	},
+	{
+		"title": "--",
+		"authors":[]
+	}
+]

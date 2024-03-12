@@ -1,0 +1,37 @@
+{
+	"start_dialogue": "shlang0",
+	"dialogues": {
+		"shlang0": {
+			"text": "shlang.quest.no.dialogue",
+			"answers": [
+				{
+					"text": "shlang.quest.no.dialogue.answer",
+					"go_to": "close_dialog"
+				}
+			]
+		}
+	},
+	"dialogue_editor": [
+		{
+			"_type": "dialogue",
+			"size_x": 289,
+			"size_y": 164,
+			"x": 354,
+			"y": 351
+		},
+		{
+			"_type": "answer",
+			"size_x": 287,
+			"size_y": 243,
+			"x": 733,
+			"y": 351
+		},
+		{
+			"_type": "end_action",
+			"size_x": 179,
+			"size_y": 54,
+			"x": 1084,
+			"y": 518
+		}
+	]
+}

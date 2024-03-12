@@ -1,0 +1,155 @@
+[
+	{
+		"level_id":[
+			"intro",
+			"manikovsky",
+			"forest_road"
+			],
+		"ambient": "amb_day1.mp3",
+		"ambient_volume": -30.0,
+		"ambient_bg_volume": 0,
+		"random_sfx_delay": [3.75, 6.0],
+		"random_sfx": [
+			"ambient_sfx/rnd_bird_1.mp3",
+			"ambient_sfx/rnd_bird_2.mp3",
+			"ambient_sfx/rnd_bird_3.mp3",
+			"ambient_sfx/rnd_bird_4.mp3",
+			"ambient_sfx/rnd_bird_5.mp3",
+			"ambient_sfx/rnd_bird_6.mp3",
+			"ambient_sfx/rnd_crow_1.mp3",
+			"ambient_sfx/rnd_crow_2.mp3",
+			"ambient_sfx/rnd_crow_3.mp3"
+		],
+		"background_ambients": [
+			"amb_day1_bg.mp3",
+			"ambient_sfx/dist_wind_1.mp3"
+		],
+		"background_ambients_volumes":[
+			0,
+			-10.0
+		]
+	},
+	{
+		"level_id": "intro_battle",
+		"ambient": "amb_day1.mp3",
+		"ambient_volume": -28.0,
+		"ambient_bg_volume": 0,
+		"random_sfx_delay": [3.0, 4.0],
+		"random_sfx": [
+			"ambient_sfx/rnd_bird_1.mp3",
+			"ambient_sfx/rnd_bird_2.mp3",
+			"ambient_sfx/rnd_bird_3.mp3",
+			"ambient_sfx/rnd_bird_4.mp3",
+			"ambient_sfx/rnd_bird_5.mp3",
+			"ambient_sfx/rnd_bird_6.mp3"
+		],
+		"background_ambients": [
+			"amb_day1_bg.mp3"
+		]
+	},
+	{
+		"level_id":[
+			"village",
+			"belomor_friends",
+			"evac_point",
+			"harya_outfit_road",
+			],
+		"ambient": "amb_day1.mp3",
+		"ambient_volume": -28.0,
+		"ambient_bg_volume": 0,
+		"random_sfx_delay": [3.0, 6.0],
+		"random_sfx": [
+			"ambient_sfx/rnd_bird_1.mp3",
+			"ambient_sfx/rnd_bird_2.mp3",
+			"ambient_sfx/rnd_bird_3.mp3",
+			"ambient_sfx/rnd_bird_4.mp3",
+			"ambient_sfx/rnd_bird_5.mp3",
+			"ambient_sfx/rnd_bird_6.mp3",
+			"ambient_sfx/rnd_crow_3.mp3",
+			"ambient_sfx/rnd_crow_2.mp3"
+		],
+		"background_ambients": [
+			"amb_day1_bg.mp3"
+		]
+	},
+	{
+		"level_id":[
+			"svistun_collectors",
+			"find_cap_underground",
+			"kaizanovsky_group2_final_underground",
+			"shlang_cd_underground",
+			"radio_quest_coward"
+			],
+		"ambient": "amb_underground1.mp3",
+		"ambient_volume": 5.0,
+		"ambient_bg_volume": 0,
+		"random_sfx_delay": [10.0, 20.0],
+		"random_sfx": [
+			"ambient_sfx/breath_1.mp3",
+			"ambient_sfx/breath_2.mp3",
+			"ambient_sfx/breath_3.mp3",
+			"ambient_sfx/rnd_rat_panic_1.mp3",
+			"ambient_sfx/rnd_rat_panic_2.mp3",
+			"ambient_sfx/rnd_rat_panic_3.mp3",
+			"ambient_sfx/strange_noise_1.mp3",
+			"ambient_sfx/strange_noise_2.mp3",
+			"ambient_sfx/strange_noise_3.mp3"
+		]
+	},
+	{
+		"level_id":"kaizanovsky_group2_final",
+		"ambient": "amb_day1_bg.mp3",
+		"ambient_volume": -8.0,
+		"background_ambients": [
+			"ambient_sfx/dist_wind_1.mp3"
+		],
+		"background_ambients_volumes":[
+			-10.0
+		]
+	},
+	{
+		"level_id":["galosh_art", "city_alley", "village_e3"],
+		"ambient": "amb_night1.mp3",
+		"ambient_volume": -1.0,
+		"ambient_bg_volume": -15.0,
+		"random_sfx_delay": [15.0, 25.0],
+		"random_sfx": [
+			"ambient_sfx/owl_2.mp3",
+			"ambient_sfx/owl_3.mp3"
+		],
+		"background_ambients": [
+			"ambient_sfx/dist_wind_1.mp3"
+		]
+	},
+	{
+		"level_id":[
+			"batka_find_battery",
+			"garbage_camp",
+			"first_group"
+		],
+		"ambient": "amb_underground1.mp3",
+		"ambient_volume": 1.0,
+		"ambient_bg_volume": 0,
+		"random_sfx_delay": [30.0, 60.0],
+		"random_sfx": [
+			"ambient_sfx/rnd_rat_panic_1.mp3",
+			"ambient_sfx/rnd_rat_panic_2.mp3",
+			"ambient_sfx/rnd_rat_panic_3.mp3"
+		]
+	},
+	{
+		"level_id":"second_group_attack",
+		"ambient": "amb_day1_bg.mp3",
+		"ambient_volume": -5.0,
+		"ambient_bg_volume": -12.0,
+		"random_sfx_delay": [20.0, 40.0],
+		"random_sfx": [
+			"ambient_sfx/rnd_crow_1.mp3",
+			"ambient_sfx/rnd_crow_2.mp3",
+			"ambient_sfx/rnd_crow_3.mp3"
+		],
+		"background_ambients": [
+			"ambient_sfx/dist_wind_1.mp3"
+		]
+	}
+]

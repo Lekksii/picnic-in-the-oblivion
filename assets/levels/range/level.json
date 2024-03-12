@@ -1,0 +1,120 @@
+{
+  "weather_color": "4a749f",
+  "rotation_range": [-90,90],
+  "daylight": true,
+  "fog": false,
+  "level_data": [
+	{
+	  "model": "assets/levels/range/terrain",
+	  "texture": "texobj2.png",
+	  "position": [0, 0, -5],
+	  "rotation": [0, 0, 0],
+	  "collider": null,
+	  "scale": 1,
+	  "lit": true
+	},
+	{
+	  "uid": "skybox",
+	  "le_name": "Skybox",
+	  "name": "skybox",
+	  "model": "assets/levels/intro/l_0_0_skybox",
+	  "texture": "texsky1.png",
+	  "position": [0, 0, 0],
+	  "rotation": [0, 0, 0],
+	  "collider": null,
+	  "scale": 1,
+	  "lit": true
+	},
+	{
+	  "le_name": "Forest",
+	  "model": "assets/levels/ai_test/forest",
+	  "texture": "texforest1.png",
+	  "position": [0, 0, 0],
+	  "rotation": [0, 0, 0],
+	  "collider": null,
+	  "scale": 1,
+	  "alpha": true,
+	  "lit": true
+	},
+	{
+	  "le_name": "Pripyat houses",
+	  "model": "assets/levels/ai_test/houses",
+	  "texture": "objects/pripyat_house.png",
+	  "position": [0, 0, 0],
+	  "rotation": [0, 0, 0],
+	  "collider": null,
+	  "scale": 1,
+	  "lit": true
+	},
+	{
+	  "le_name": "Block 1",
+	  "action":"range.spawn.enemy",
+	  "model": "assets/models/concrete_block",
+	  "texture": "texobj1.png",
+	  "position": [-1.61, 0, -11.46],
+	  "rotation": [0, 0, 0],
+	  "collider": "box",
+	  "scale": 1,
+	  "lit": true
+	},
+	{
+	  "model": "assets/models/wood_box_green",
+	  "texture": "texobj1.png",
+	  "position": [-1.53, 0, -11.95],
+	  "rotation": [0, 180, 0],
+	  "scale": 0.5,
+	  "lit": true
+	},
+	{
+	  "id": "loot",
+	  "loot_id": "test_loot",
+	  "model": "cube",
+	  "position": [3.18, 1, -13.99],
+	  "rotation": [0, 0, 0],
+	  "collider": "box",
+	  "invisible": true,
+	  "scale": 1,
+	  "undestroyable": true
+	},
+	{
+	  "model": "assets/models/metal_case",
+	  "texture": "texobj1.png",
+	  "position": [3.18, 0, -13.99],
+	  "rotation": [0, -90, 0],
+	  "scale": 1,
+	  "lit": true
+	},
+	
+	 {
+	   "le_name": "Block 2",
+	  "model": "assets/models/concrete_block",
+	  "texture": "texobj1.png",
+	  "position": [1.61, 0, -11.46],
+	  "rotation": [0, 0, 0],
+	  "collider": null,
+	  "scale": 1,
+	  "lit": true
+	},
+	{
+	  "id": "npc_hostile",
+	  "profile": "bandit",
+	  "zone_id": "range_zone",
+	  "position": [-0.50, -1.05, -3.84],
+	  "rotation": [0, 180, 0],
+	"lit": true
+	},
+	{
+	  "id": "hostile_eyezone",
+	  "hostile_id": "range_zone",
+	  "position": [0.07, 1.48, -12.73],
+	  "rotation": [0, 0, 0],
+	  "size": [4,2.5,3.5],
+	  "name": "RangeEyezone",
+	},
+	{
+	  "id": "spawn_point",
+	  "position": [0.07, 1.48, -12.73],
+	  "rotation": [0, 180, 0],
+	}
+  ]
+}
