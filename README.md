@@ -18,3 +18,6 @@ All rights for assets - QPlaze, GSC, Nomoc!
 ### Documentation:
 1. [Assets description](https://picnic-in-the-oblivion.gitbook.io/assets/)
 2. [Source code scripts](https://picnic-in-the-oblivion.gitbook.io/source-code-scripts/)
+   
+>[!WARNING]
+>Documentation isn't ready! There might be some time before it will be completed.
