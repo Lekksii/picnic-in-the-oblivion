@@ -181,7 +181,7 @@ func resize_cursor():
 	var original_cursor_size = cursor_compressed_image.get_size()
 	var original_width = ProjectSettings.get_setting("display/window/size/viewport_width") as int
 	var screen_scale = int(float(DisplayServer.window_get_size().x)/float(original_width))
-	var new_size = Vector2i(screen_scale*original_cursor_size)
+	var new_size = Vector2i(screen_scale*original_cursor_size*2)
 	
 	if last_scale != screen_scale:
 		last_scale = screen_scale
