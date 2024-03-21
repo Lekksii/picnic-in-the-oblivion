@@ -295,7 +295,13 @@ func attack(timer):
 	delay_timer -= timer
 	if delay_timer <= 0:
 		is_attack = true
-		animation.speed_scale = randf_range(0.4,0.75)
+		if "speed" in profile:
+			if typeof(profile["speed"]) == TYPE_FLOAT or typeof(profile["speed"]) == TYPE_INT:
+				animation.speed_scale = profile["speed"]
+			if typeof(profile["speed"]) == TYPE_ARRAY:
+				animation.speed_scale = randf_range(profile["speed"][0],profile["speed"][1])
+		else:
+			animation.speed_scale = randf_range(0.65,0.75)
 		if npc_model.get_surface_override_material(0).shading_mode == StandardMaterial3D.SHADING_MODE_UNSHADED:
 			$sparkle/sparkle_light.hide()
 		else:
