@@ -53,6 +53,7 @@ Resources tab:
    - select scripts/
    - select shaders/
    - select themes/
+   - select level_editor/
    - select bug_trap.tscn
    - select console.gd
    - select default_bus_layout.tres
@@ -69,6 +70,7 @@ When all done - press **Export Project** at the bottom of window.
 ### Documentation:
 1. [Assets description](https://picnic-in-the-oblivion.gitbook.io/assets/)
 2. [Source code scripts](https://picnic-in-the-oblivion.gitbook.io/source-code-scripts/)
+3. [Level Editor tutorials](https://picnic-in-the-oblivion.gitbook.io/level-editor)
    
 >[!WARNING]
 >Documentation isn't ready! There might be some time before it will be completed.
