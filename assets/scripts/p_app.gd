@@ -7,11 +7,15 @@ extends Node
 # So keep in mind, that you can change here only variables, do not try to change something other!
 func game_init():
 	GameManager.show_splash = true
-	GameManager.main_menu = true
-	GameManager._spawn_menu = true
+	GameManager.main_menu = false
+	GameManager._spawn_menu = true #F1 in game
 	
 	# we need await until game will be ready, 'cause before GameProcess variable is null
 	await GameManager.on_game_ready
 	
 	GameManager.GameProcess.show_tutorial = true
+	
+	# W A S D - fly, Q - down, E - up, Shift - speed
+	# Be careful, flying in combat may corrupt triggers and lock game.
+	GameManager.GameProcess.player.DebugFly = false 
 	pass

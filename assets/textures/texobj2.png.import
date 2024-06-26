@@ -3,21 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rrfpvj2jim3i"
-path.s3tc="res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.s3tc.ctex"
-path.etc2="res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.etc2.ctex"
+path="res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/textures/texobj2.png"
-dest_files=["res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.s3tc.ctex", "res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.etc2.ctex"]
+dest_files=["res://.godot/imported/texobj2.png-c92ffab9bc0d2feb2ee0f6d1b15fa814.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

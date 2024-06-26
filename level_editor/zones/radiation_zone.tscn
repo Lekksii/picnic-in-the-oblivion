@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhxce5pysd01o"]
+
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="1_8psd0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ycd0f"]
+size = Vector3(5.01782, 3.19922, 3.69434)
+
+[node name="radiation_zone" type="Area3D"]
+script = ExtResource("1_8psd0")
+keys = {
+"id": "radiation"
+}
+
+[node name="CollisionShape" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_ycd0f")

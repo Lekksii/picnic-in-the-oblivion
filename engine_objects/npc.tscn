@@ -6333,14 +6333,14 @@ bones/3/name = "l_arm_0"
 bones/3/parent = 1
 bones/3/rest = Transform3D(-0.950246, 0.3115, -6.78003e-07, -0.304362, -0.928474, -0.212837, -0.0662993, -0.202247, 0.977088, 0.54653, 1.30428, 2.55061e-07)
 bones/3/enabled = true
-bones/3/position = Vector3(0.54653, 1.30428, 0.00140093)
+bones/3/position = Vector3(0.54653, 1.30428, 2.55061e-07)
 bones/3/rotation = Quaternion(-0.219032, -0.0903047, 0.964316, -0.118169)
 bones/3/scale = Vector3(0.999999, 1, 0.999998)
 bones/4/name = "l_arm_1"
 bones/4/parent = 3
 bones/4/rest = Transform3D(0.96752, 0.23389, -0.0959217, -0.250629, 0.837929, -0.48483, -0.0330213, 0.493124, 0.869332, -2.90704e-09, 0.765915, 1.60265e-07)
 bones/4/enabled = true
-bones/4/position = Vector3(3.00627e-07, 0.765915, 3.39063e-08)
+bones/4/position = Vector3(-2.90704e-09, 0.765915, 1.60265e-07)
 bones/4/rotation = Quaternion(0.246881, -0.00762053, 0.0548989, 0.967459)
 bones/4/scale = Vector3(0.999998, 1, 0.999996)
 bones/5/name = "r_arm_0"
@@ -6354,7 +6354,7 @@ bones/6/name = "r_arm_1"
 bones/6/parent = 5
 bones/6/rest = Transform3D(0.998991, 0.0332751, -0.0301411, -0.0427819, 0.909142, -0.414284, 0.0136172, 0.415155, 0.909649, 2.15698e-08, 0.664623, 2.07419e-07)
 bones/6/enabled = true
-bones/6/position = Vector3(-5.83263e-07, 0.664624, 1.70798e-07)
+bones/6/position = Vector3(2.15698e-08, 0.664623, 2.07419e-07)
 bones/6/rotation = Quaternion(0.212251, -0.0111976, -0.0194627, 0.976957)
 bones/6/scale = Vector3(0.999996, 0.999999, 0.999998)
 bones/7/name = "l_leg_0"
@@ -6459,7 +6459,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_n265y")
 surface_material_override/1 = SubResource("StandardMaterial3D_a4r2k")
 
 [node name="BoneLeftHand" type="BoneAttachment3D" parent="npc/npc2/Skeleton3D"]
-transform = Transform3D(-0.860116, 0.138347, -0.490967, -0.294572, -0.920513, 0.25667, -0.416434, 0.365393, 0.8325, 0.772701, 3.31199, -0.185102)
+transform = Transform3D(-0.860116, 0.138347, -0.490966, -0.294572, -0.920513, 0.25667, -0.416434, 0.365393, 0.8325, 0.772701, 3.31199, -0.186503)
 bone_name = "l_arm_1"
 bone_idx = 4
 
@@ -6498,7 +6498,7 @@ texture_albedo = ExtResource("13_5mhh7")
 cull_mask = 1048573
 
 [node name="BoneRightHand" type="BoneAttachment3D" parent="npc/npc2/Skeleton3D"]
-transform = Transform3D(-0.984326, -0.169737, 0.0477332, 0.176287, -0.952708, 0.247519, 0.00346255, 0.252054, 0.9677, -0.618798, 3.36081, -0.207003)
+transform = Transform3D(-0.984326, -0.169738, 0.0477333, 0.176287, -0.952708, 0.247519, 0.00346255, 0.252054, 0.9677, -0.618799, 3.36081, -0.207003)
 bone_name = "r_arm_1"
 bone_idx = 6
 
@@ -6509,7 +6509,7 @@ transform = Transform3D(-0.813003, 0.379161, -0.441882, -0.36662, 0.256226, 0.89
 libraries = {
 "": SubResource("AnimationLibrary_oc2ws")
 }
-speed_scale = 0.75
+speed_scale = 5.0
 
 [node name="sparkle" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.46537, 0.29493)

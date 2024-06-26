@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://88mopdebgs3e"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_t4mxk"]
+[ext_resource type="ArrayMesh" uid="uid://dqr88sby68mtq" path="res://assets/models/door_2.obj" id="2_5m84n"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_y8a3v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_44pbq"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_t4mxk")
+texture_filter = 0
+
+[node name="door_2" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_44pbq")
+mesh = ExtResource("2_5m84n")
+script = ExtResource("3_y8a3v")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/door_2",
+"name": "door_2",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

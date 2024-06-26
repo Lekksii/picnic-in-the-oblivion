@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbyjr6s87oi6g"]
+
+[ext_resource type="Texture2D" uid="uid://xbgh2jervo6x" path="res://assets/textures/textree3.png" id="1_24jle"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="2_0yrom"]
+
+[node name="tree_3" type="Sprite3D"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 1.55607, 0)
+billboard = 2
+texture_filter = 0
+texture = ExtResource("1_24jle")
+script = ExtResource("2_0yrom")
+keys = {
+"id": "sprite3d",
+"name": "tree_3",
+"position": [39.92, 2.31, 11.73],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 2.0,
+"texture": "textree3.png"
+}

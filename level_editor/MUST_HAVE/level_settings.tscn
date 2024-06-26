@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqc7mhj0djeu4"]
+
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="1_wb1u0"]
+
+[node name="level_settings" type="Node3D"]
+script = ExtResource("1_wb1u0")
+keys = {
+"daylight": true,
+"fog": false,
+"weather_color": Color(0.290196, 0.45098, 0.623529, 1)
+}

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://dxiuljdixudrt"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_kc5up"]
+[ext_resource type="ArrayMesh" uid="uid://kyclcenifbjr" path="res://assets/models/rad.obj" id="2_j5xfn"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_4bajq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xb04k"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_kc5up")
+texture_filter = 0
+
+[node name="rad" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_xb04k")
+mesh = ExtResource("2_j5xfn")
+script = ExtResource("3_4bajq")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/MODEL_NAME",
+"name": "barrel_2",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

@@ -107,7 +107,7 @@ func on_command_entered(cmd : String):
 				console_text.append_text("\n>>> %s (%s)" % [cmd_code,cmd_arguments])
 				await get_tree().create_timer(0.1).timeout
 				Close()
-				GameManager.change_level(cmd_arguments)
+				GameManager.LoadGameLevel(cmd_arguments)
 		"add_key":
 			console_text.append_text("\n>>> %s (%s)" % [cmd_code,cmd_arguments])			
 			if cmd_arguments is PackedStringArray:
@@ -118,6 +118,14 @@ func on_command_entered(cmd : String):
 				console_text.append_text("\n>>> \"%s\" key added!" % cmd_arguments)
 				GameManager.AddEventKey(cmd_arguments)
 			Close()
+			
+		"fix_belt":
+			if cmd_arguments:
+				console_text.append_text("\n>>> %s (%s)" % [cmd_code,cmd_arguments])
+				await get_tree().create_timer(0.1).timeout
+				GameManager.Gui.SkillWindow.FixLostArtifactEffects(cmd_arguments)
+				console_text.append_text("\n[color=green]Artifact %s was fixed![/color]" % cmd_arguments)
+				
 		_: console_text.append_text("\n>>> %s : [color=red]Unknow command![/color]" % cmd_code)
 			
 	

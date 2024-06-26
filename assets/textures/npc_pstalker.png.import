@@ -3,21 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wbnaj182agv8"
-path.s3tc="res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.s3tc.ctex"
-path.etc2="res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.etc2.ctex"
+path="res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/textures/npc_pstalker.png"
-dest_files=["res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.s3tc.ctex", "res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.etc2.ctex"]
+dest_files=["res://.godot/imported/npc_pstalker.png-d3f31b229c27720edc5bd022cef5d61d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c046dlbhhn0id"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_3w8du"]
+[ext_resource type="ArrayMesh" uid="uid://bkf51j0xskc1a" path="res://assets/models/stone_2.obj" id="2_dmke5"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_2ff0w"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_asq8v"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_3w8du")
+texture_filter = 0
+
+[node name="stone_2" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_asq8v")
+mesh = ExtResource("2_dmke5")
+script = ExtResource("3_2ff0w")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/stone_2",
+"name": "stone_2",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

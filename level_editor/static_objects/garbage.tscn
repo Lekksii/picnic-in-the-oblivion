@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://cv0pop5psuero"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_fycwh"]
+[ext_resource type="ArrayMesh" uid="uid://knrspqe5u5mp" path="res://assets/models/garbage.obj" id="2_kx13t"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_4jtkr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xb04k"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_fycwh")
+texture_filter = 0
+
+[node name="garbage" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_xb04k")
+mesh = ExtResource("2_kx13t")
+script = ExtResource("3_4jtkr")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/garbage",
+"name": "garbage",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

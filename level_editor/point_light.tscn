@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bf0vusulnosn7"]
+
+[ext_resource type="Script" path="res://engine_objects/light.gd" id="1_hudlx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_jthmo"]
+frequency = 0.002
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_wxli6"]
+width = 32
+height = 32
+noise = SubResource("FastNoiseLite_jthmo")
+
+[node name="point_light" type="OmniLight3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5486, 2.0236, 0.526952)
+script = ExtResource("1_hudlx")
+noise = SubResource("NoiseTexture2D_wxli6")
+flicker_speed = 7.0

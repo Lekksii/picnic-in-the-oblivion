@@ -1,7 +1,7 @@
 extends Area3D
 class_name EYEZONE
 
-var id : String = ""
+@export var id : String = ""
 var enemies = []
 var player
 

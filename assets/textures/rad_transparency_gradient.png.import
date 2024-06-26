@@ -3,21 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwdcba8gcb37s"
-path.s3tc="res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.s3tc.ctex"
-path.etc2="res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.etc2.ctex"
+path="res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/textures/rad_transparency_gradient.png"
-dest_files=["res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.s3tc.ctex", "res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.etc2.ctex"]
+dest_files=["res://.godot/imported/rad_transparency_gradient.png-f3cfcb39ee765b68b33c11ae880fafff.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

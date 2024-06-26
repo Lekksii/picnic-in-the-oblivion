@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwlnrmb85i5xx"]
+
+[ext_resource type="Script" path="res://engine_objects/hostile_eyezone.gd" id="1_hkypj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xi787"]
+size = Vector3(5.45483, 4.3076, 6.90918)
+
+[node name="hostile_eyezone" type="Area3D"]
+monitoring = false
+script = ExtResource("1_hkypj")
+id = "test"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.116201, 0)
+shape = SubResource("BoxShape3D_xi787")

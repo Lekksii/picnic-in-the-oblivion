@@ -1,4 +1,4 @@
-[gd_scene load_steps=167 format=3 uid="uid://blnyqqwqrfcwc"]
+[gd_scene load_steps=166 format=3 uid="uid://blnyqqwqrfcwc"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_2g772"]
 [ext_resource type="Environment" uid="uid://bxrhdq577f50p" path="res://themes/game_environment.tres" id="2_l0pwf"]
@@ -16,7 +16,6 @@
 [ext_resource type="Texture2D" uid="uid://dn0iupdw5homn" path="res://assets/ui/feather_casual.png" id="9_ebrlv"]
 [ext_resource type="Script" path="res://scripts/GUI.gd" id="10_ude5t"]
 [ext_resource type="Theme" uid="uid://bwkf21e1tyodp" path="res://themes/regular_font.tres" id="11_hbbdk"]
-[ext_resource type="Texture2D" uid="uid://dh3b2rotmbim8" path="res://assets/ui/window_hud.png" id="11_u7bsg"]
 [ext_resource type="Theme" uid="uid://bvft1ophxax1r" path="res://themes/basic_editor.tres" id="12_smjgh"]
 [ext_resource type="Texture2D" uid="uid://8x7vqvyv7xa4" path="res://assets/ui/rad_bar.png" id="12_ufi8u"]
 [ext_resource type="Theme" uid="uid://wq7nrallofwf" path="res://themes/bold_font.tres" id="13_jcqcl"]
@@ -1113,14 +1112,13 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -123.0
+offset_left = -127.0
 offset_top = 16.0
-offset_right = 167.0
-offset_bottom = 208.0
+offset_right = -28.0
+offset_bottom = 105.0
 grow_horizontal = 0
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("11_u7bsg")
-region_rect = Rect2(0, 0, 118, 132)
+texture = ExtResource("13_jvp6u")
+region_rect = Rect2(0, 0, 145, 156)
 patch_margin_left = 25
 patch_margin_top = 40
 patch_margin_right = 74
@@ -1177,10 +1175,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -120.0
-offset_top = 20.0
-offset_right = 24.0
-offset_bottom = 53.0
+offset_left = -112.0
+offset_top = 27.0
+offset_right = 32.0
+offset_bottom = 60.0
 grow_horizontal = 0
 scale = Vector2(0.5, 0.5)
 theme = ExtResource("13_jcqcl")
@@ -1196,10 +1194,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -120.0
-offset_top = 36.0
-offset_right = 16.0
-offset_bottom = 47.0
+offset_left = -112.0
+offset_top = 44.0
+offset_right = 24.0
+offset_bottom = 55.0
 grow_horizontal = 0
 scale = Vector2(0.5, 0.5)
 theme = ExtResource("13_jcqcl")
@@ -1212,10 +1210,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 264.0
-offset_top = 41.0
-offset_right = 13.0
-offset_bottom = -164.0
+offset_left = 273.0
+offset_top = 49.0
+offset_right = 22.0
+offset_bottom = -137.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.5, 0.5)
@@ -1228,10 +1226,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -120.0
-offset_top = 41.0
-offset_right = 14.0
-offset_bottom = 84.0
+offset_left = -111.0
+offset_top = 65.0
+offset_right = 23.0
+offset_bottom = 108.0
 grow_horizontal = 0
 scale = Vector2(0.5, 0.5)
 theme = ExtResource("13_jcqcl")
@@ -4928,6 +4926,7 @@ stretch_mode = 5
 flip_h = true
 
 [node name="MainMenu" type="ColorRect" parent="CanvasLayer/GUI/GAME"]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -6644,6 +6643,7 @@ vertical_alignment = 2
 script = ExtResource("26_xrg7v")
 
 [node name="FirstLaunchWindow" type="ColorRect" parent="CanvasLayer/GUI/GAME/MainMenu"]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

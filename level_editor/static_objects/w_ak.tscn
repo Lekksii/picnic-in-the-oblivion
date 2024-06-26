@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d21x2ve0y6iwr"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_kupc6"]
+[ext_resource type="ArrayMesh" uid="uid://d4hfcs8id1gyr" path="res://assets/models/w_ak.obj" id="2_3urct"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_nv1cy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndjr1"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_kupc6")
+texture_filter = 0
+
+[node name="w_ak" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_ndjr1")
+mesh = ExtResource("2_3urct")
+script = ExtResource("3_nv1cy")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/w_ak",
+"name": "w_ak",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

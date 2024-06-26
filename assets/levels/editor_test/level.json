@@ -1,0 +1,548 @@
+{
+	"weather_color": "4a739f",
+	"daylight": true,
+	"fog": false,
+	"light": [],
+	"level_data": [
+		{
+			"id": "sprite3d",
+			"name": "sprite3d",
+			"position": [
+				-0.58,
+				1.12,
+				-2.93
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "sprite3d",
+			"name": "sprite3d2",
+			"position": [
+				-1.79,
+				1.12,
+				-3.49
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 2,
+			"texture": "sglare1_oreol.png"
+		},
+		{
+			"id": "spawn_point",
+			"position": [
+				0.07,
+				1.6,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad2",
+			"position": [
+				0,
+				0,
+				-6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad3",
+			"position": [
+				0,
+				0,
+				-12
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad4",
+			"position": [
+				0,
+				0,
+				6
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"lit": true,
+			"model": "assets/models/sky_1",
+			"name": "skybox_1",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				4.77,
+				4.77,
+				4.77
+			],
+			"texture": "texsky1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/uaz",
+			"name": "uaz",
+			"position": [
+				-0.26,
+				0.2,
+				-4.98
+			],
+			"rotation": [
+				0,
+				63.65,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/wood_box",
+			"name": "wood_box",
+			"position": [
+				-0.24,
+				0.21,
+				4.05
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/wood_box_green",
+			"name": "wood_box_green",
+			"position": [
+				0.01,
+				0.2,
+				-2.65
+			],
+			"rotation": [
+				0,
+				36.62,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"id": "npc",
+			"name": "npc",
+			"position": [
+				-0.19,
+				0.86,
+				3.54
+			],
+			"profile": "village_trader_profile",
+			"rotation": [
+				0,
+				-180,
+				0
+			],
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"color": [
+				10,
+				10,
+				10,
+				128
+			],
+			"id": "loot_money",
+			"invisible": true,
+			"model": "cube",
+			"name": "loot_zone_money",
+			"position": [
+				0,
+				0.56,
+				-2.68
+			],
+			"rotation": [
+				0,
+				38.1,
+				0
+			],
+			"scale": [
+				1,
+				0.49,
+				1
+			],
+			"value": 500,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "loot",
+			"invisible": true,
+			"loot_id": "loot_corpse_in_room",
+			"model": "cube",
+			"position": [
+				0,
+				1.69,
+				-4.57
+			],
+			"rotation": [
+				0,
+				-15.39,
+				0
+			],
+			"scale": 1,
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad5",
+			"position": [
+				9.5,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/railroad",
+			"name": "railroad6",
+			"position": [
+				-9,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/rad",
+			"name": "rad",
+			"position": [
+				9.39,
+				0.2,
+				-1.47
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				0.7,
+				0.7,
+				0.7
+			],
+			"texture": "texobj2.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"lit": true,
+			"model": "assets/models/concrete_block",
+			"name": "concrete_block",
+			"position": [
+				-9.07,
+				0.19,
+				-0.98
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": 1,
+			"texture": "texobj1.png",
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone",
+			"position": [
+				2.48,
+				1.29,
+				0.11
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				2.33,
+				2.22,
+				0.34
+			],
+			"target_position": [
+				9.47187519073486,
+				1.60000002384186,
+				1.39999997615814
+			],
+			"target_rotation": [
+				-0,
+				0,
+				0
+			],
+			"waypoints": "waypoint_right_0",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"collider": "box",
+			"id": "transition",
+			"invisible": true,
+			"model": "cube",
+			"name": "transition_zone2",
+			"position": [
+				-2.43,
+				1.29,
+				0.11
+			],
+			"rotation": [
+				0,
+				90,
+				0
+			],
+			"scale": [
+				2.33,
+				2.22,
+				0.34
+			],
+			"target_position": [
+				-8.92812538146973,
+				1.60000002384186,
+				1.39999997615814
+			],
+			"target_rotation": [
+				-0,
+				0,
+				0
+			],
+			"waypoints": "waypoint_right_1",
+			"lit": false,
+			"billboard": false
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block",
+			"position": [
+				3.28,
+				0.73,
+				-0.34
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				5.17,
+				20.9
+			]
+		},
+		{
+			"alpha": false,
+			"billboard": false,
+			"collider": "box",
+			"id": "block",
+			"invisible": true,
+			"lit": false,
+			"model": "cube",
+			"name": "block2",
+			"position": [
+				-3.15,
+				0.73,
+				-0.34
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				5.17,
+				20.9
+			]
+		},
+		{
+			"id": "radiation",
+			"name": "radiation_zone",
+			"position": [
+				9.96,
+				1.44,
+				-1.68
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"animations": [
+				"shoot_sit_up",
+				"shoot_sit_up_left",
+				"shoot_sit_up_right"
+			],
+			"id": "npc_hostile",
+			"lit": false,
+			"position": [
+				-9.11,
+				0.22,
+				-1.94
+			],
+			"profile": "bandit",
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"start_animation": "shoot_sit_start",
+			"zone_id": "test_eyezone1",
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			],
+			"billboard": false
+		},
+		{
+			"hostile_id": "test_eyezone1",
+			"id": "hostile_eyezone",
+			"name": "EyeZonePrefab",
+			"position": [
+				-8.65,
+				1.57,
+				1.37
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"size": [
+				4,
+				2.5,
+				3.5
+			]
+		}
+	]
+}

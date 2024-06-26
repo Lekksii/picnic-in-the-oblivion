@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c24nppbcoqbrn"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_0gvvd"]
+[ext_resource type="ArrayMesh" uid="uid://yfud8ao8jor5" path="res://assets/models/window_sill.obj" id="2_ded1y"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_xo8x2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vfqkg"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_0gvvd")
+texture_filter = 0
+
+[node name="window_sill" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_vfqkg")
+mesh = ExtResource("2_ded1y")
+script = ExtResource("3_xo8x2")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/window_sill",
+"name": "window_sill",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

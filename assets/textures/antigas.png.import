@@ -3,21 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmlj8uix4dryj"
-path.s3tc="res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.s3tc.ctex"
-path.etc2="res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.etc2.ctex"
+path="res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/textures/antigas.png"
-dest_files=["res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.s3tc.ctex", "res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.etc2.ctex"]
+dest_files=["res://.godot/imported/antigas.png-264817044db1a03f3cf5c5f3a934d041.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

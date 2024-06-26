@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://deigkbemxxngy"
+path="res://.godot/imported/mi6.obj-ae5e50484ebb4193b29a0fe7df193925.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mi6.obj-ae5e50484ebb4193b29a0fe7df193925.mesh"]
+
+source_file="res://assets/models/mi6.obj"
+dest_files=["res://.godot/imported/mi6.obj-ae5e50484ebb4193b29a0fe7df193925.mesh", "res://.godot/imported/mi6.obj-ae5e50484ebb4193b29a0fe7df193925.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://b5nju1gq43uke"]
+
+[ext_resource type="Texture2D" uid="uid://clis5nuv56bl5" path="res://assets/textures/fire_0000.png" id="1_j07cd"]
+[ext_resource type="Texture2D" uid="uid://f7eta14wlr4e" path="res://assets/textures/fire_0001.png" id="2_erkgt"]
+[ext_resource type="Texture2D" uid="uid://naiuh8anyhxk" path="res://assets/textures/fire_0002.png" id="3_nwtx2"]
+[ext_resource type="Texture2D" uid="uid://b3r6pnbydq8py" path="res://assets/textures/fire_0003.png" id="4_0qvn1"]
+[ext_resource type="Texture2D" uid="uid://r4mrcu27c31m" path="res://assets/textures/fire_0004.png" id="5_ot2kl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u0l5t"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j07cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_erkgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nwtx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0qvn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ot2kl")
+}],
+"loop": true,
+"name": &"fire",
+"speed": 6.0
+}]
+
+[node name="sprite3dAnimFire" type="AnimatedSprite3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0.488742, 0)
+billboard = 2
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_u0l5t")
+animation = &"fire"
+autoplay = "fire"

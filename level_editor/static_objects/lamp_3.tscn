@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dh7674jixqt54"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_lu63p"]
+[ext_resource type="ArrayMesh" uid="uid://dquauptntmpr8" path="res://assets/models/lamp_3.obj" id="2_47ra7"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_wcgme"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r2vlx"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_lu63p")
+texture_filter = 0
+
+[node name="lamp_3" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_r2vlx")
+mesh = ExtResource("2_47ra7")
+script = ExtResource("3_wcgme")
+keys = {
+"lit": true,
+"model": "assets/models/lamp_3",
+"name": "lamp_3",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

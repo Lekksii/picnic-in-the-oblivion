@@ -29,6 +29,7 @@ Utility="*res://scripts/Utility.gd"
 UI="*res://scripts/UI.gd"
 Lang="*res://scripts/Lang.gd"
 Prefabs="*res://scripts/Prefabs.gd"
+GameJolt="*res://addons/gamejolt/gamejolt.gd"
 
 [debug]
 
@@ -52,13 +53,43 @@ movie_writer/movie_file="D:/Programming/Godot-pito/InEngineMovie.avi"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/gamejolt/plugin.cfg")
+
+[game_jolt]
+
+config/global/game_id="885846"
+config/global/private_key="422dcc39fd254ef710022b1b6f43d573"
+config/debug/enabled=false
+config/debug/user_name=""
+config/debug/user_token=""
 
 [gui]
 
 fonts/dynamic_fonts/use_oversampling=false
 theme/default_font_subpixel_positioning=0
 timers/tooltip_delay_sec=0.01
+
+[importer_defaults]
+
+texture={
+"compress/channel_pack": 0,
+"compress/hdr_compression": 1,
+"compress/high_quality": false,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d/compress_to": 0,
+"mipmaps/generate": true,
+"mipmaps/limit": -1,
+"process/fix_alpha_border": true,
+"process/hdr_as_srgb": false,
+"process/hdr_clamp_exposure": false,
+"process/normal_map_invert_y": false,
+"process/premult_alpha": false,
+"process/size_limit": 0,
+"roughness/mode": 0,
+"roughness/src_normal": ""
+}
 
 [input]
 
@@ -219,6 +250,7 @@ textures/canvas_textures/default_texture_filter=3
 gl_compatibility/driver.windows="opengl3_angle"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+textures/lossless_compression/force_png=true
 lights_and_shadows/directional_shadow/size=256
 lights_and_shadows/directional_shadow/size.mobile=256
 lights_and_shadows/directional_shadow/soft_shadow_filter_quality=0

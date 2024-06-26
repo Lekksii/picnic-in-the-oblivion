@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d4dwlhg1twpll"]
+
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="1_gpcwc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sujyb"]
+albedo_color = Color(0.2, 0.898039, 0.27451, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3qenx"]
+
+[node name="usable_trigger" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_sujyb")
+transparency = 0.5
+gi_mode = 0
+mesh = SubResource("BoxMesh_3qenx")
+script = ExtResource("1_gpcwc")
+keys = {
+"event_key": "",
+"id": "usable_area",
+"invisible": true
+}

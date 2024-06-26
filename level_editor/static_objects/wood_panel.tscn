@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://cntlwfnmpl17y"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_lsfqo"]
+[ext_resource type="ArrayMesh" uid="uid://b5i3bxpijruwy" path="res://assets/models/wood_panel.obj" id="2_x1mye"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_l5too"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_44pbq"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_lsfqo")
+texture_filter = 0
+
+[node name="wood_panel" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_44pbq")
+mesh = ExtResource("2_x1mye")
+script = ExtResource("3_l5too")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/wood_panel",
+"name": "wood_panel",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

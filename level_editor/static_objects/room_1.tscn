@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dxeq1nam3bp4f"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_mfdlx"]
+[ext_resource type="ArrayMesh" uid="uid://sh2vs0gbxpxe" path="res://assets/models/room_1.obj" id="2_uchim"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_rrfvi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_asq8v"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_mfdlx")
+texture_filter = 0
+
+[node name="room_1" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_asq8v")
+mesh = ExtResource("2_uchim")
+script = ExtResource("3_rrfvi")
+keys = {
+"lit": true,
+"model": "assets/models/room_1",
+"name": "room_1",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://blfpavwi088nu"]
+
+[ext_resource type="Texture2D" uid="uid://db6h1aiyohmer" path="res://assets/textures/texgr3.png" id="1_prl05"]
+[ext_resource type="ArrayMesh" uid="uid://bgehvu8leh4du" path="res://assets/models/border_line_m.obj" id="2_n0kn4"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_3vd5q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_np6e1"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_prl05")
+texture_filter = 0
+
+[node name="border_line_m" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_np6e1")
+mesh = ExtResource("2_n0kn4")
+script = ExtResource("3_3vd5q")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/border_line_m",
+"name": "border_line_m",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

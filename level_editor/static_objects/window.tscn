@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d2c6466lfv8tu"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_dren1"]
+[ext_resource type="ArrayMesh" uid="uid://c37kyl7c2jkwu" path="res://assets/models/window.obj" id="2_5byr2"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_2u3fy"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vfqkg"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_dren1")
+texture_filter = 0
+
+[node name="window" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_vfqkg")
+mesh = ExtResource("2_5byr2")
+script = ExtResource("3_2u3fy")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/window",
+"name": "window",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

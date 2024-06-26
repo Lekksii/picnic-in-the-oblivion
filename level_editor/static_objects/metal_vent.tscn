@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c7yb1s02pv770"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_x2wvg"]
+[ext_resource type="ArrayMesh" uid="uid://dyyxotllneur0" path="res://assets/models/metal_vent.obj" id="2_7s33y"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_qsbpi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r2vlx"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_x2wvg")
+texture_filter = 0
+
+[node name="metal_vent" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_r2vlx")
+mesh = ExtResource("2_7s33y")
+script = ExtResource("3_qsbpi")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/metal_vent",
+"name": "metal_vent",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

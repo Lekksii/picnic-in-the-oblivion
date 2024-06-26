@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxc2egdfee8e3"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_qdy46"]
+[ext_resource type="ArrayMesh" uid="uid://cxqgrii8qn0p8" path="res://assets/models/underground_section_forward.obj" id="2_uyw2q"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_360yl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v7vqu"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_qdy46")
+texture_filter = 0
+
+[node name="underground_section_I" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_v7vqu")
+mesh = ExtResource("2_uyw2q")
+script = ExtResource("3_360yl")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/underground_section_forward",
+"name": "underground_section_i",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

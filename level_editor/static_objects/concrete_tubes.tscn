@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://87g7n7l4ttjd"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_ivery"]
+[ext_resource type="ArrayMesh" uid="uid://dicdd685qkk4m" path="res://assets/models/concrete_tube.obj" id="2_bspu2"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_w2yj6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_44pbq"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_ivery")
+texture_filter = 0
+
+[node name="concrete_tubes" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_44pbq")
+mesh = ExtResource("2_bspu2")
+script = ExtResource("3_w2yj6")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/concrete_tubes",
+"name": "concrete_block",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

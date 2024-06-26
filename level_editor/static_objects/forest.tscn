@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://dompt3305tkwu"]
+
+[ext_resource type="Texture2D" uid="uid://bgmmcctqw5jg8" path="res://assets/textures/texforest1.png" id="1_dmu1q"]
+[ext_resource type="ArrayMesh" uid="uid://c73buhihvsro1" path="res://assets/models/forest_1.obj" id="2_8i0tu"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_ffqgv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f4oh6"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_dmu1q")
+texture_filter = 0
+
+[node name="forest" type="MeshInstance3D"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_f4oh6")
+mesh = ExtResource("2_8i0tu")
+script = ExtResource("3_ffqgv")
+keys = {
+"alpha": true,
+"collider": "box",
+"lit": true,
+"model": "assets/models/forest_1",
+"name": "forest",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}
+export_alpha = true

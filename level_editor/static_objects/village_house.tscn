@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://ey7p2plspjqi"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_qglov"]
+[ext_resource type="ArrayMesh" uid="uid://c2iabljq2k5wr" path="res://assets/models/village_house.obj" id="2_sofjc"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_pdsho"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v7vqu"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_qglov")
+texture_filter = 0
+
+[node name="village_house" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_v7vqu")
+mesh = ExtResource("2_sofjc")
+script = ExtResource("3_pdsho")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/village_house",
+"name": "village_house",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

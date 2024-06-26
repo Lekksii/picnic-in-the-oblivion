@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bsl2yrj5lviw7"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_i6530"]
+[ext_resource type="ArrayMesh" uid="uid://cg60duxqbnv7j" path="res://assets/models/industry_tube.obj" id="2_hhpbr"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_gmgvo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xb04k"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_i6530")
+texture_filter = 0
+
+[node name="industry_tube" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0)
+material_override = SubResource("StandardMaterial3D_xb04k")
+mesh = ExtResource("2_hhpbr")
+script = ExtResource("3_gmgvo")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/industry_tube",
+"name": "industry_tube",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

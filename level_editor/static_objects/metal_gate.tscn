@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://cgi62r1kooehx"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_688hs"]
+[ext_resource type="ArrayMesh" uid="uid://draaxi7uhypl8" path="res://assets/models/metal_gate.obj" id="2_ifr5t"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_kjhil"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r2vlx"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_688hs")
+texture_filter = 0
+
+[node name="metal_gate" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_r2vlx")
+mesh = ExtResource("2_ifr5t")
+script = ExtResource("3_kjhil")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/metal_gate",
+"name": "metal_gate",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

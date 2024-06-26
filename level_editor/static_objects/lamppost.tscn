@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvsi3cceopnxa"]
+
+[ext_resource type="Texture2D" uid="uid://4rws26c0h08h" path="res://assets/textures/texw2.png" id="1_ekf2d"]
+[ext_resource type="ArrayMesh" uid="uid://bv6qi5cx4fcxu" path="res://assets/models/lamppost.obj" id="2_mc1y1"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_4ul1v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qpyde"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_ekf2d")
+texture_filter = 0
+
+[node name="lamppost" type="MeshInstance3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_qpyde")
+mesh = ExtResource("2_mc1y1")
+script = ExtResource("3_4ul1v")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/lamppost",
+"name": "lamppost",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

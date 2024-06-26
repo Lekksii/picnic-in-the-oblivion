@@ -3,21 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://poo2w6c2buhf"
-path.s3tc="res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.s3tc.ctex"
-path.etc2="res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.etc2.ctex"
+path="res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/textures/blood.png"
-dest_files=["res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.s3tc.ctex", "res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.etc2.ctex"]
+dest_files=["res://.godot/imported/blood.png-79ab7314920c2106c28eb8b1ebf92bfd.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

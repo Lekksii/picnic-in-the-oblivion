@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://dedsqk6cwmecp"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_14arn"]
+[ext_resource type="ArrayMesh" uid="uid://dhl3bv5xrk5ko" path="res://assets/models/storage_room.obj" id="2_mq0hp"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_0m6fn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_asq8v"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_14arn")
+texture_filter = 0
+
+[node name="storage_room_1" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_asq8v")
+mesh = ExtResource("2_mq0hp")
+script = ExtResource("3_0m6fn")
+keys = {
+"lit": true,
+"model": "assets/models/storage_room_1",
+"name": "storage_room_1",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

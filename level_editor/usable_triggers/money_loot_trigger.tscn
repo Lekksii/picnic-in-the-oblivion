@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cmqdgffyjuqyl"]
+
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="1_68n67"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_urafl"]
+albedo_color = Color(0.933333, 0.615686, 0.192157, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3qenx"]
+
+[node name="money_loot_trigger" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_urafl")
+transparency = 0.5
+gi_mode = 0
+mesh = SubResource("BoxMesh_3qenx")
+script = ExtResource("1_68n67")
+keys = {
+"id": "loot_money",
+"invisible": true,
+"value": 0
+}

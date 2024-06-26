@@ -1,3 +1,9 @@
+Path3D
+CollisionShape3D
+Area3D
+Node3D
+StaticBody3D
+Node
 TextureRect
 RichTextLabel
 VisibleOnScreenNotifier3D
@@ -6,9 +12,3 @@ OccluderInstance3D
 NinePatchRect
 OmniLight3D
 HBoxContainer
-ScrollContainer
-Button
-Container
-HSlider
-AspectRatioContainer
-AudioStreamPlayer3D

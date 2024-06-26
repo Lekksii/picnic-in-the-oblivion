@@ -1,0 +1,147 @@
+[gd_scene load_steps=29 format=3 uid="uid://blle24x4lu6vd"]
+
+[ext_resource type="PackedScene" uid="uid://qw28rr1g5qs3" path="res://level_editor/static_objects/terrain.tscn" id="1_jgnhj"]
+[ext_resource type="Texture2D" uid="uid://byb2ujyplh4pv" path="res://assets/textures/npc_texobj2.png" id="2_ol2ya"]
+[ext_resource type="PackedScene" uid="uid://blsvw81fnf3lr" path="res://level_editor/static_objects/uaz.tscn" id="3_wcskk"]
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="4_syk8a"]
+[ext_resource type="PackedScene" uid="uid://sjwxjf1vwmtp" path="res://level_editor/MUST_HAVE/spawn_point.tscn" id="5_vxq3r"]
+[ext_resource type="PackedScene" uid="uid://bqc7mhj0djeu4" path="res://level_editor/MUST_HAVE/level_settings.tscn" id="6_qbrmq"]
+[ext_resource type="PackedScene" uid="uid://dhxce5pysd01o" path="res://level_editor/zones/radiation_zone.tscn" id="7_3fvrj"]
+[ext_resource type="PackedScene" uid="uid://vd6dshrd4edt" path="res://level_editor/zones/block.tscn" id="9_cbvih"]
+[ext_resource type="PackedScene" uid="uid://culb2suxqx6h5" path="res://level_editor/zones/transition_zone.tscn" id="9_cfapo"]
+[ext_resource type="PackedScene" uid="uid://cmqdgffyjuqyl" path="res://level_editor/usable_triggers/money_loot_trigger.tscn" id="10_2jln6"]
+[ext_resource type="PackedScene" uid="uid://dcmuq1k6lut6f" path="res://level_editor/usable_triggers/items_loot_trigger.tscn" id="11_ujyhh"]
+[ext_resource type="PackedScene" uid="uid://d4dwlhg1twpll" path="res://level_editor/usable_triggers/usable_trigger.tscn" id="12_l3e5a"]
+[ext_resource type="PackedScene" uid="uid://dvsi3cceopnxa" path="res://level_editor/static_objects/lamppost.tscn" id="13_kmasi"]
+[ext_resource type="Texture2D" uid="uid://4rws26c0h08h" path="res://assets/textures/texw2.png" id="14_al35i"]
+[ext_resource type="PackedScene" uid="uid://dsfp0b550ukm8" path="res://level_editor/ai/ai_npc.tscn" id="15_h5xwn"]
+[ext_resource type="PackedScene" uid="uid://dxeax5luuhgev" path="res://level_editor/ai/ai_enemy.tscn" id="16_3t84m"]
+[ext_resource type="PackedScene" uid="uid://dwlnrmb85i5xx" path="res://level_editor/zones/hostile_eyezone.tscn" id="17_67v7l"]
+[ext_resource type="PackedScene" uid="uid://bf0vusulnosn7" path="res://level_editor/point_light.tscn" id="18_rjvnx"]
+[ext_resource type="PackedScene" uid="uid://bwt4wl44xrlwe" path="res://level_editor/sprites/sprite_tree_1.tscn" id="19_bw7ef"]
+[ext_resource type="PackedScene" uid="uid://cog7wllk4iyu2" path="res://level_editor/sprites/sprite_tree_2.tscn" id="20_mxtjb"]
+[ext_resource type="PackedScene" uid="uid://dbyjr6s87oi6g" path="res://level_editor/sprites/sprite_tree_3.tscn" id="21_73ilp"]
+[ext_resource type="PackedScene" uid="uid://bblw0r6wleey5" path="res://level_editor/sprites/sprite_3d.tscn" id="22_aloi5"]
+[ext_resource type="PackedScene" uid="uid://b5nju1gq43uke" path="res://level_editor/sprites/sprite_3d_anim_fire.tscn" id="23_y41w2"]
+[ext_resource type="PackedScene" uid="uid://dbfs6uygu4kfi" path="res://level_editor/helpers/transition_target.tscn" id="24_u1wxq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gck85"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("2_ol2ya")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g6tsr"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("4_syk8a")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edoip"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("14_al35i")
+texture_filter = 0
+
+[sub_resource type="Curve3D" id="Curve3D_66t0g"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 0, 1.75, 0, 0, 0, 0, 0, 0, 0, -1.61229, 1.75, -1.84244, 0, 0, 0, 0, 0, 0, -0.564355, 1.75, -4.02865, 0, 0, 0, 0, 0, 0, 1.53152, 1.75, -5.27533, 0, 0, 0, 0, 0, 0, 4.07909, 1.75, -4.39001, 0, 0, 0, 0, 0, 0, 4.85601, 1.75, -2.8181, 0, 0, 0, 0, 0, 0, 4.51272, 1.75, -0.794502, 0, 0, 0, 0, 0, 0, 3.10342, 1.75, 0.054688),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 8
+
+[node name="level_packed" type="Node3D"]
+
+[node name="level_settings" parent="." instance=ExtResource("6_qbrmq")]
+
+[node name="terrain" parent="." instance=ExtResource("1_jgnhj")]
+material_override = SubResource("StandardMaterial3D_gck85")
+
+[node name="uaz" parent="." instance=ExtResource("3_wcskk")]
+transform = Transform3D(0.767456, 0, -0.641101, 0, 1, 0, 0.641101, 0, 0.767456, 1.88621, 0, -2.74083)
+material_override = SubResource("StandardMaterial3D_g6tsr")
+
+[node name="spawn_point" parent="." instance=ExtResource("5_vxq3r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.745, 1.73809)
+
+[node name="radiation_zone" parent="." instance=ExtResource("7_3fvrj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.44099, -1.87618)
+
+[node name="block" parent="." instance=ExtResource("9_cbvih")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.47713, 0.469943, 0)
+
+[node name="transition_zone" parent="." instance=ExtResource("9_cfapo")]
+keys = {
+"id": "transition",
+"invisible": true,
+"last_point_is_end": false,
+"name": "transition_zone",
+"target_object": "",
+"waypoints": "waypoints"
+}
+
+[node name="money_loot_trigger" parent="." instance=ExtResource("10_2jln6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.64238, 0.5, -1.90702)
+
+[node name="items_loot_trigger" parent="." instance=ExtResource("11_ujyhh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.58411, 0.48955, 0)
+keys = {
+"id": "loot",
+"invisible": true,
+"loot_id": "level_0_0_corpse_0"
+}
+
+[node name="usable_trigger" parent="." instance=ExtResource("12_l3e5a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.514311, 0)
+
+[node name="lamppost" parent="." instance=ExtResource("13_kmasi")]
+transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, -2.10191, 0, -3.76302)
+material_override = SubResource("StandardMaterial3D_edoip")
+
+[node name="ai_npc" parent="." instance=ExtResource("15_h5xwn")]
+transform = Transform3D(-3.71547e-08, 0, -0.85, 0, 0.85, 0, 0.85, 0, -3.71547e-08, 3.57654, 0.112822, 1.61694)
+id = "garbage_trader_profile"
+
+[node name="ai_enemy" parent="." instance=ExtResource("16_3t84m")]
+transform = Transform3D(-3.71547e-08, 0, -0.85, 0, 0.85, 0, 0.85, 0, -3.71547e-08, 3.78596, 0.207397, 8.40814)
+eyezone_id = "test"
+attack_animations = ["shoot_sit_up"]
+
+[node name="hostile_eyezone" parent="." instance=ExtResource("17_67v7l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.761949, 2.15586, 8.99503)
+
+[node name="point_light" parent="." instance=ExtResource("18_rjvnx")]
+visible = false
+flicker_speed = 10.0
+
+[node name="TREES" type="Node3D" parent="."]
+
+[node name="tree_1" parent="TREES" instance=ExtResource("19_bw7ef")]
+transform = Transform3D(8.65439, 0, 0, 0, 8.65439, 0, 0, 0, 8.65439, 9.00098, 2.82247, 1.73833)
+
+[node name="tree_2" parent="TREES" instance=ExtResource("20_mxtjb")]
+transform = Transform3D(8.32355, 0, 0, 0, 8.32355, 0, 0, 0, 8.32355, 13, 3.02274, 3)
+
+[node name="tree_3" parent="TREES" instance=ExtResource("21_73ilp")]
+transform = Transform3D(12.629, 0, 0, 0, 12.629, 0, 0, 0, 12.629, 10, 4.00045, -2)
+
+[node name="sprite3d" parent="." instance=ExtResource("22_aloi5")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.184864, 0.910602, -3.67966)
+
+[node name="sprite3dAnimFire" parent="." instance=ExtResource("23_y41w2")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0.488742, -2.87645)
+
+[node name="waypoints" type="Path3D" parent="."]
+curve = SubResource("Curve3D_66t0g")
+
+[node name="transition_target" parent="." instance=ExtResource("24_u1wxq")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 1.74179, 8.53474)

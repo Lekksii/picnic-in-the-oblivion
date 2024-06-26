@@ -87,7 +87,7 @@ extends Node
 # DeleteEventKey(key : String) -> Delete event key from player
 # AddQuest(id : String, title : String, money : int=0, items=[]) -> Add your quest with your ID, TITLE, MONEY and Array of items IDs
 # CompleteQuest(id : String) -> Complete quest and gives you reward
-# change_level(id : String) -> load level by ID assets/levels/ID folder
+# LoadGameLevel(id : String) -> load level by ID assets/levels/ID folder or file
 # create_enemy(profile : String, eyezone_id : String, pos : Vector3, rot : Vector3) -> create hostile npc
 # PlaySFX(path : String) -> Play audio with name without type, put sound in "assets/sounds/*.wav"
 # ======================= #
@@ -305,6 +305,7 @@ func on_npc_kill(eyezone,_npc_id,_loot):
 	if game_process._check_kills_on_level("intro_battle",2, "eyezone_battle_intro",eyezone) and GM.DontHasEventKey("intro.battle.2.kills"):
 		#gui.ShowMessage("Killed 2 enemies. PDA marker added!")
 		GM.AddEventKey("intro.battle.2.kills")
+		GameJolt
 		
 	# FOREST ROAD
 	if game_process._check_kills_on_level("forest_road",5,"forest_road_battle",eyezone) and GM.DontHasEventKey("forest.road.5.kills"):
@@ -650,7 +651,7 @@ func on_event_key_add(key):
 		
 		"cobold.first.dlg.done":
 			if GM.current_level_id == "second_group_attack":
-				GM.change_level("kaizanovsky_group2_final_underground")
+				GM.LoadGameLevel("kaizanovsky_group2_final_underground")
 			pda.DeleteMarker("second_group")
 			GM.CompleteQuest("kaizanovsky_second_group")
 			
@@ -741,7 +742,7 @@ func on_event_key_add(key):
 			
 			await get_tree().create_timer(1.5).timeout
 			
-			GM.current_level.get_node("player_npc").PlayAnim("death_stand")
+			GM.current_level.get_node("player_npc").PlayAnim("death_stand",0.2)
 			
 			await get_tree().create_timer(0.1).timeout
 			
@@ -786,7 +787,7 @@ func on_event_key_add(key):
 			var betrayers = ["betrayer1","betrayer2","betrayer3","betrayer4","betrayer5"]
 			for b in betrayers:
 				# all npc's play shoot animation but with different delay
-				GM.current_level.get_node(b).PlayAnim("shoot_stand_idle_cutscene")
+				GM.current_level.get_node(b).PlayAnim("shoot_stand_idle_cutscene",0.25)
 				await get_tree().create_timer(randf_range(0.2,0.5)).timeout
 				
 		"final.cutscene.shoot.stop":
@@ -794,7 +795,7 @@ func on_event_key_add(key):
 			for b in betrayers:
 				# stop shooting
 				GM.current_level.get_node(b).animation.stop()
-				GM.current_level.get_node(b).PlayAnim("weapon_stand_idle_story")
+				GM.current_level.get_node(b).PlayAnim("weapon_stand_idle_story",0.25)
 				await get_tree().create_timer(randf_range(0.1,0.3)).timeout
 				
 		"the.end":

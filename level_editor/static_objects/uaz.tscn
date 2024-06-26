@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://blsvw81fnf3lr"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_bfgnm"]
+[ext_resource type="ArrayMesh" uid="uid://dtu6m4lntue44" path="res://assets/models/uaz.obj" id="2_lkye2"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_gmol0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r2vlx"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_bfgnm")
+texture_filter = 0
+
+[node name="uaz" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_r2vlx")
+mesh = ExtResource("2_lkye2")
+script = ExtResource("3_gmol0")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/uaz",
+"name": "uaz",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

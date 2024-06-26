@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://qw28rr1g5qs3"]
+
+[ext_resource type="Texture2D" uid="uid://byb2ujyplh4pv" path="res://assets/textures/npc_texobj2.png" id="1_tu2al"]
+[ext_resource type="ArrayMesh" uid="uid://4v05fxvt7uyj" path="res://assets/models/terrain.obj" id="2_0m4bx"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_fiim3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bo0c6"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_tu2al")
+texture_filter = 0
+
+[node name="terrain" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_bo0c6")
+mesh = ExtResource("2_0m4bx")
+script = ExtResource("3_fiim3")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/terrain",
+"name": "terrain",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj2.png"
+}

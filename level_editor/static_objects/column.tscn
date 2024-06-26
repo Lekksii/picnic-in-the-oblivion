@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://4gy7n0nyysct"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_26waf"]
+[ext_resource type="ArrayMesh" uid="uid://c4t1bbk1xa2ny" path="res://assets/models/column.obj" id="2_jo615"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_hlvv7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nxkwu"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_26waf")
+texture_filter = 0
+
+[node name="concrete_block" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_nxkwu")
+mesh = ExtResource("2_jo615")
+script = ExtResource("3_hlvv7")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/column",
+"name": "concrete_block",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

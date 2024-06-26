@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bep6v0h8b07ao"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_rc8r4"]
+[ext_resource type="ArrayMesh" uid="uid://cv7dvfkuistek" path="res://assets/models/w_groza.obj" id="2_anaf8"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_avtmr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndjr1"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_rc8r4")
+texture_filter = 0
+
+[node name="w_groza" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_ndjr1")
+mesh = ExtResource("2_anaf8")
+script = ExtResource("3_avtmr")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/w_groza",
+"name": "w_groza",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

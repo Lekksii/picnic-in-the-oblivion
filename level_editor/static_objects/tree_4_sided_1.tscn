@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://deegu7yjo8ta3"]
+
+[ext_resource type="Texture2D" uid="uid://ct0tu04etq763" path="res://assets/textures/textree1.png" id="1_7yhav"]
+[ext_resource type="ArrayMesh" uid="uid://xlirjfjssaxn" path="res://assets/models/tree_4sided.obj" id="2_ptywf"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_2cfme"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ka4ka"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_7yhav")
+texture_filter = 0
+
+[node name="tree_4sided_1" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_ka4ka")
+mesh = ExtResource("2_ptywf")
+script = ExtResource("3_2cfme")
+keys = {
+"alpha": true,
+"lit": true,
+"model": "assets/models/tree_4sided_1",
+"name": "tree_4sided_1",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}
+export_alpha = true

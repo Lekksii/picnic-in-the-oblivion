@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bikenm7xkc7uf"]
+
+[ext_resource type="Texture2D" uid="uid://rrfpvj2jim3i" path="res://assets/textures/texobj2.png" id="1_ohaod"]
+[ext_resource type="ArrayMesh" uid="uid://b6675vcchsr50" path="res://assets/models/underground_section_turned.obj" id="2_3nqpg"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_2rg7d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v7vqu"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_ohaod")
+texture_filter = 0
+
+[node name="underground_section_turned" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_v7vqu")
+mesh = ExtResource("2_3nqpg")
+script = ExtResource("3_2rg7d")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/underground_section_turned",
+"name": "underground_section_turned",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

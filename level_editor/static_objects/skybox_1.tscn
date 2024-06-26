@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://d047s8jm4hq40"]
+
+[ext_resource type="Texture2D" uid="uid://bqsg6mti88uhy" path="res://assets/textures/texsky1.png" id="1_ad7te"]
+[ext_resource type="ArrayMesh" uid="uid://6f3w86ysaov8" path="res://assets/models/sky_1.obj" id="2_ef6gl"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_sfd1g"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k351l"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_ad7te")
+texture_filter = 0
+
+[node name="skybox_1" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_k351l")
+mesh = ExtResource("2_ef6gl")
+script = ExtResource("3_sfd1g")
+keys = {
+"lit": true,
+"model": "assets/models/sky_1",
+"name": "skybox_1",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

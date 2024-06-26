@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://btcugb0f58bv7"]
+
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="1_ikmuc"]
+[ext_resource type="ArrayMesh" uid="uid://deyhsd44s45lp" path="res://assets/models/old_tree.obj" id="2_u1w7v"]
+[ext_resource type="Script" path="res://scripts/level_object.gd" id="3_yffss"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3c6hg"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("1_ikmuc")
+texture_filter = 0
+
+[node name="old_tree" type="MeshInstance3D"]
+material_override = SubResource("StandardMaterial3D_3c6hg")
+mesh = ExtResource("2_u1w7v")
+script = ExtResource("3_yffss")
+keys = {
+"collider": "box",
+"lit": true,
+"model": "assets/models/old_tree",
+"name": "old_tree",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}

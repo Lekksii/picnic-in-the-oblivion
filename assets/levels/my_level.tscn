@@ -1,0 +1,89 @@
+[gd_scene load_steps=14 format=3 uid="uid://c2wryclmpe1ia"]
+
+[ext_resource type="PackedScene" uid="uid://bqc7mhj0djeu4" path="res://level_editor/MUST_HAVE/level_settings.tscn" id="1_sc4gk"]
+[ext_resource type="PackedScene" uid="uid://sjwxjf1vwmtp" path="res://level_editor/MUST_HAVE/spawn_point.tscn" id="2_rb0sx"]
+[ext_resource type="PackedScene" uid="uid://qw28rr1g5qs3" path="res://level_editor/static_objects/terrain.tscn" id="3_lqyac"]
+[ext_resource type="Texture2D" uid="uid://byb2ujyplh4pv" path="res://assets/textures/npc_texobj2.png" id="4_h347s"]
+[ext_resource type="PackedScene" uid="uid://d047s8jm4hq40" path="res://level_editor/static_objects/skybox_1.tscn" id="5_1jt8a"]
+[ext_resource type="Texture2D" uid="uid://bqsg6mti88uhy" path="res://assets/textures/texsky1.png" id="6_ynikk"]
+[ext_resource type="PackedScene" uid="uid://btcugb0f58bv7" path="res://level_editor/static_objects/old_tree.tscn" id="7_xj3kg"]
+[ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="8_hx58c"]
+[ext_resource type="PackedScene" uid="uid://culb2suxqx6h5" path="res://level_editor/zones/transition_zone.tscn" id="9_7vxxk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7t5qs"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 2
+albedo_texture = ExtResource("4_h347s")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_igfll"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("6_ynikk")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tybou"]
+resource_local_to_scene = true
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+shading_mode = 0
+albedo_texture = ExtResource("8_hx58c")
+texture_filter = 0
+
+[sub_resource type="Curve3D" id="Curve3D_8376q"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 0.664011, 1.69995, -3.0788, 0, 0, 0, 0, 0, 0, 0.970608, 1.69995, -5.47748, 0, 0, 0, -0.535, 0, -0.6, 1.54773, 1.69995, -7.20885, 0.89, 0, 0, 0, 0, 0, 0.0508162, 1.69995, -7.80401),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[node name="my_level" type="Node3D"]
+
+[node name="level_settings" parent="." instance=ExtResource("1_sc4gk")]
+
+[node name="spawn_point" parent="." instance=ExtResource("2_rb0sx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
+
+[node name="terrain" parent="." instance=ExtResource("3_lqyac")]
+material_override = SubResource("StandardMaterial3D_7t5qs")
+
+[node name="skybox_1" parent="." instance=ExtResource("5_1jt8a")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_igfll")
+keys = {
+"id": "skybox",
+"lit": true,
+"model": "assets/models/sky_1",
+"name": "skybox_1",
+"position": [0.0, 0.0, 0.0],
+"rotation": [0.0, 0.0, 0.0],
+"scale": 1.0,
+"texture": "texobj1.png"
+}
+
+[node name="old_tree" parent="." instance=ExtResource("7_xj3kg")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -2.24684, 0, -7.974)
+material_override = SubResource("StandardMaterial3D_tybou")
+
+[node name="transition_zone" parent="." instance=ExtResource("9_7vxxk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.79139, -4.16776)
+keys = {
+"id": "transition",
+"invisible": true,
+"last_point_is_end": true,
+"name": "transition_zone",
+"target_object": "",
+"waypoints": "tree_waypoints"
+}
+
+[node name="tree_waypoints" type="Path3D" parent="."]
+curve = SubResource("Curve3D_8376q")
