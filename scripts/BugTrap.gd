@@ -55,7 +55,7 @@ func Crash(caption : String,console_secription=""):
 		bug.get_node("Copy").pressed.connect(on_copy_bug_pressed)	
 		bug.get_node("Panel/Group/ErrorRichLabel").text = "[center][img=256]IconBug.png[/img][/center]\n \n"
 		for cap in error_messages:
-			bug.get_node("Panel/Group/ErrorRichLabel").add_text(cap+"\n")
+			bug.get_node("Panel/Group/ErrorRichLabel").append_text(cap+"\n")
 		#get_tree().paused = true
 	else:
 		#print("Another crash!")
@@ -70,5 +70,8 @@ func on_ok_bug_pressed():
 	get_tree().quit()
 	
 func on_copy_bug_pressed():
-	DisplayServer.clipboard_set(bug.get_node("Panel/Group/ErrorRichLabel").text)
+	var result : String = ""
+	for err in error_messages:
+		result += err.replace("\n"," ")
+	DisplayServer.clipboard_set(result)
 	get_tree().quit()
