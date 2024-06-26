@@ -104,7 +104,8 @@ func _change_replic(replic_id : String):
 			for itm in player_answer["condition_has_items"]:
 				if GameManager.Gui.InventoryWindow.Find(itm):
 					#print("Found needed item!")
-					items_found += 1
+					if not GameManager.Gui.InventoryWindow.Find(itm).equipped:
+						items_found += 1
 				if items_found == player_answer["condition_has_items"].size():
 					pass
 					

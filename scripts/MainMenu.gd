@@ -301,7 +301,7 @@ func _process(_delta):
 						GameManager.weapon_system.UpdateAmmo()
 						self.hide()
 						Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-						GameManager.change_level(GameManager.player_json["start_level"])
+						GameManager.LoadGameLevel(GameManager.player_json["start_level"])
 				
 					if mm_buttons[selected_index]["id"] == "mm_load": # Load
 						await get_tree().create_timer(0.3).timeout

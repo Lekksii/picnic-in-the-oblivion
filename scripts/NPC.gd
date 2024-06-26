@@ -1,8 +1,47 @@
 extends Node3D
 class_name NPC
-var id : String
+@export_group("NPC PROFILE")
+## ID of profile, for neutral NPC's it can be found in assets/creatures/characters.json
+## For ENEMY npc profiles ID's can be founded in assets/creatures/enemy.json
+@export var id : String
 var keys : Dictionary
 var profile : Dictionary
+@export_group("NPC ENEMY (\"Is Hostile\" must be true)")
+## If true - npc will become an enemy and must have own eyezone ID
+@export var is_hostile = false
+## You need to create eyezone ID here and put same ID in eyezone object
+@export var eyezone_id : String = "your_new_id"
+## shoot_sit_left,
+## shoot_sit_right,
+## shoot_sit_up,
+## shoot_sit_up_left,
+## shoot_sit_up_right,
+## shoot_stand_idle,
+## shoot_stand_left,
+## shoot_stand_right,
+## shoot_stand_start,
+@export var attack_animations = []
+
+## shoot_sit_start,
+## death_sit_left,
+## death_sit_right,
+## death_stand,
+## idle,
+## idle_arm,
+## idle_cross,
+## idle_sit_table_1,
+## idle_warm_hands,
+## idle_weapon,
+## sit_ground,
+## sit_on_greenbox,
+## sit_on_greenbox_2,
+## shoot_stand_idle_cutscene,
+## weapon_stand_idle_story,
+## story_manikovsky_safe,
+## story_manikovsky_battle,
+## sit_ground_death
+@export var start_animation = "shoot_stand_start"
+@export_group("DO NOT TOUCH")
 @export var skeleton : Skeleton3D
 @export var animation : AnimationPlayer
 @export var npc_model : MeshInstance3D
@@ -17,8 +56,8 @@ var profile : Dictionary
 @export var sound_3d: AudioStreamPlayer
 var head_temp_rot
 var hostile_eyezone
-var attack_animations = []
-var start_animation = "shoot_stand_start"
+
+
 var current_animation = ""
 var attack_left = false
 var attack_right = false
@@ -29,7 +68,7 @@ var waypoints = []
 var walking_loop = false
 
 var weapon_place = null
-var is_hostile = false
+
 var is_dead = false
 var is_player_look = false
 var can_attack = false
@@ -53,7 +92,8 @@ var loot : Dictionary = {
 }
 
 func _ready():
-	
+	if GameManager.start_loading_from_file:
+		await GameManager.npc_loaded
 	# lit feature for daylight and unlit for dark
 	if GameManager.World.get_node("SceneLight").visible:
 		var orig_mat_0 : StandardMaterial3D = npc_model.get_surface_override_material(0)
@@ -103,7 +143,7 @@ func _ready():
 		
 		if "idle_animation" in profile and profile["idle_animation"]:
 			PlayAnim(profile["idle_animation"])
-			
+			print("played_anim_start")
 		
 		if "texture" in profile and profile["texture"]:
 			ChangeTexture(Utility.load_external_texture("assets/textures/"+profile["texture"]+".png"))
@@ -120,11 +160,13 @@ func _ready():
 		else:
 			antigas.hide()
 	else:
-		is_attacked.connect(on_attacked)
+		if not is_connected("is_attacked",on_attacked):
+			is_attacked.connect(on_attacked)
 		
 		get_node("npc/npc2/Skeleton3D/BoneTorsoCollider/BoneTorsoHostileBody").show()
 		get_node("npc/npc2/Skeleton3D/BoneTorsoCollider/BoneTorsoStaticBody").hide()
 		# checks if level has eyezone
+		
 		for nodes in GameManager.current_level.get_children():
 			if nodes is EYEZONE and nodes.id == keys["zone_id"]:
 				hostile_eyezone = nodes
@@ -210,10 +252,10 @@ func on_attacked(_npc):
 			else:
 				print("this is ourself ai, pass...")
 	'''
-func PlayAnim(a_name):
+func PlayAnim(a_name, speed = animation.speed_scale):
 	current_animation = a_name
 	#print(current_animation)
-	animation.play(a_name)
+	animation.play(a_name,-1,speed)
 
 func PlaySound(sound):
 	GameManager.PlaySFXLoaded(sound)

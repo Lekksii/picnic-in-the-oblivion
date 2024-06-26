@@ -54,7 +54,7 @@ func _process(delta):
 		
 		_owner.SetPlayerSpot(_owner.clicked_marker.position.x,_owner.clicked_marker.position.y)
 		_owner.hint.text = ""
-		GameManager.change_level(_owner.clicked_marker.keys["level_id"])
+		GameManager.LoadGameLevel(_owner.clicked_marker.keys["level_id"])
 		_owner.is_on_point = false
 		_owner.clicked_marker = null
 		GameManager.Gui.MapWindow.Close()

@@ -787,18 +787,6 @@ func UseItem():
 						equipped_text.hide()
 						belt_index -= 1
 						if "max_hp" in keys["on_use"]:
-							# calc defference percentage between current hp and max hp
-							# to keep that percentage when we unequip artefact or another stuff
-							# that change our max hp.
-							#var hp_percentage_difference : float = 0.0
-							#var new_hp_with_difference : float = 0.0
-							# if player's health less than max hp, calculate difference. Else - just change max hp
-							#if GameManager.player.health < GameManager.player.health_max:
-							#	hp_percentage_difference = snappedf(((GameManager.player.health_max - GameManager.player.health) / GameManager.player.health_max) * 100,2)
-							#	new_hp_with_difference = snappedf((GameManager.player.health_max - keys["on_use"]["max_hp"]) - (hp_percentage_difference / 100 * (GameManager.player.health_max - keys["on_use"]["max_hp"])),2)
-							#	GameManager.player.LowMaxHp(keys["on_use"]["max_hp"])
-							#	GameManager.player.SetHealth(snappedf(new_hp_with_difference,2))
-							#else:
 							GameManager.player.LowMaxHp(keys["on_use"]["max_hp"])
 						if "accuracy" in keys["on_use"]:
 							GameManager.Gui.SkillWindow.accuracy -= keys["on_use"]["accuracy"] / 100

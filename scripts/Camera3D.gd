@@ -26,7 +26,7 @@ const ALT_MULTIPLIER = 1.0 / SHIFT_MULTIPLIER
 #dev test, one hit one kill
 var one_hit_kill = false
 # on/off player possibility to debug fly (KEEP IN MIND, THAT KILLING ENEMIES IN THIS MODE ALLOW SOFTLOCK OF THE GAME)
-@export var DebugFly : bool = false
+@export var DebugFly : bool = true
 # on/off camera sway on mouse motion to the left/right
 var camera_sway_option = true
 
@@ -40,6 +40,7 @@ var in_focus = false
 
 signal in_eyezone
 signal out_from_eyezone
+signal dead
 
 var camera_input : Vector2
 var rotation_velocity : Vector2
@@ -155,6 +156,8 @@ var basic_fov = 1
 var is_dead = false
 var rad_geiger_playing = false
 var rad_geiger_current_sfx = null
+var last_point_pos = null
+var last_point_rot = null
 
 signal player_loaded
 
@@ -197,6 +200,9 @@ func _notification(what):
 			if (not GameManager.pause and not GameManager.Gui.TradingWindow.IsOpened()):
 				Input.action_press("pause")
 				Input.action_release("pause")
+				
+		NOTIFICATION_WM_CLOSE_REQUEST:
+			GameJolt.sessions_close()
 
 func game_input(_event):
 	pass
@@ -474,6 +480,7 @@ func _process(delta):
 		t_bob += delta * 3 * float(waypoint_walk)
 	
 	if GameManager.waypoints.curve != null:
+		
 		if waypoint_walk:
 			
 			GameManager.Gui.crosshair.hide()
@@ -497,18 +504,21 @@ func _process(delta):
 				global_position = global_position.move_toward(destination,delta * 2.3)
 				#camera_sway(PlayerHead.rotation.y,delta,0.8)
 				#print(PlayerHead.rotation.z)
-				if global_position.distance_to(destination) <= 0.2:
+				if global_position.distance_to(destination) <= 0.15:
 					
 					if point < GameManager.waypoints.curve.point_count-1:
 						point += 1
 						#print(point)
 					else:
+						last_point_rot = destination
+						print(last_point_rot)
 						GameManager.waypoints.curve.clear_points()
 					camera_sway(0.0,delta,0.8)
 				else:
 					#print("Point: %s / %s" % [str(point),str(GameManager.waypoints.curve.point_count-1)])
 					if point != GameManager.waypoints.curve.point_count-1:
 						FakeHead.look_at(destination)
+						
 						PlayerHead.rotation.y = lerp_angle(PlayerHead.rotation.y,FakeHead.rotation.y,delta * 2)
 						PlayerCamera.rotation.y = lerp_angle(PlayerCamera.rotation.y,FakeHead.rotation.y,delta * 2)
 					else:
@@ -527,14 +537,35 @@ func _process(delta):
 				point = 0
 				#await get_tree().create_timer(0.1).timeout
 				if transition_data["id"] == "transition_to_level":
-					GameManager.change_level(waypoint_new_level)
+					GameManager.LoadGameLevel(waypoint_new_level)
 					GameManager.on_door_used.emit(transition_data)
-				if transition_data["id"] == "transition":
-					if "target_rotation" in transition_data:
-						ChangeRotation(Vector3(transition_data["target_rotation"][0],transition_data["target_rotation"][1],transition_data["target_rotation"][2]))
-					ChangePosition(Vector3(transition_data["target_position"][0],transition_data["target_position"][1],transition_data["target_position"][2]))
-					GameManager.on_door_used.emit(transition_data)
+					
+				
+				if "target_object" in transition_data and transition_data["target_object"] != "" and not transition_data["last_point_is_end"]:
+					ChangeRotation(GameManager.current_level.get_node(transition_data["target_object"]).rotation_degrees)
+					ChangePosition(GameManager.current_level.get_node(transition_data["target_object"]).position)
+				else:
+					if transition_data["id"] == "transition":
+						if "target_rotation" in transition_data:
+							ChangeRotation(Vector3(transition_data["target_rotation"][0],transition_data["target_rotation"][1],transition_data["target_rotation"][2]))
+						if "last_point_is_end" in transition_data and transition_data["last_point_is_end"]:
+							#var y_direction : float = Vector2(last_point_rot.z.x,last_point_rot.z.z).angle_to(Vector2(0,-1))
+							#print(y_direction)
+							FakeHead.look_at(last_point_rot)
+							ChangePosition(last_point_pos)
+							ChangeRotation(Vector3(0.0,FakeHead.rotation_degrees.y,0.0))
+							FakeHead.rotation = Vector3.ZERO
+							
+						else:
+							ChangePosition(Vector3(transition_data["target_position"][0],transition_data["target_position"][1],transition_data["target_position"][2]))
+				GameManager.on_door_used.emit(transition_data)
 				#PlayerHead.rotation = Vector3.ZERO
+				#if "last_point_is_end" in transition_data and transition_data["last_point_is_end"]:
+				#	FakeHead.look_at(-last_point_pos)
+				#	PlayerCamera.rotation.x = lerp_angle(PlayerCamera.rotation.x,FakeHead.rotation.x,delta * 2)
+				#	PlayerCamera.rotation.y = lerp_angle(PlayerCamera.rotation.y,FakeHead.rotation.y,delta * 2)
+				#	PlayerCamera.rotation.z = lerp_angle(PlayerCamera.rotation.z,FakeHead.rotation.z,delta * 2)
+
 				PlayerCamera.rotation = Vector3.ZERO
 				PlayerHead.rotation = Vector3.ZERO
 				FakeHead.rotation = Vector3.ZERO
@@ -732,6 +763,7 @@ func Hit(value : float,by=null):
 		GameManager.Gui.death_screen.show()
 		GameManager.WipePlayerData()
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		dead.emit()
 	await get_tree().create_timer(0.5).timeout
 	GameManager.Gui.damage_l.hide()
 	GameManager.Gui.damage_r.hide()
@@ -885,8 +917,7 @@ func _on_trigger_body_area_entered(area):
 		radiation = true
 		GameManager.Gui.rad_icon.show()
 		rad_icn_anim.play("blink")
-		
-
+	GameManager.GameProcess.on_area3d_entered(area,self)
 
 func _on_trigger_body_area_exited(area):
 	# IN EYEZONE (COMBAT ZONE)
@@ -901,7 +932,7 @@ func _on_trigger_body_area_exited(area):
 		GameManager.Gui.rad_icon.hide()
 		rad_icn_anim.stop()
 		radiation_timer = 5.0
-		
+	GameManager.GameProcess.on_area3d_exited(area,self)
 
 
 func _on_ready():

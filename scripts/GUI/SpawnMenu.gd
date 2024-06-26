@@ -13,7 +13,7 @@ func _on_add_item_btn_pressed():
 
 func _on_load_lvl_btn_pressed():
 	if levels_list.get_selected_items().size() > 0:
-		GM.change_level(levels_list.get_item_text(levels_list.get_selected_items()[0]))
+		GM.LoadGameLevel(levels_list.get_item_text(levels_list.get_selected_items()[0]))
 		self.hide()
 
 func Open():
@@ -31,6 +31,10 @@ func Open():
 	
 	for lvl_id in DirAccess.get_directories_at(GM.app_dir+"assets/levels/"):
 		levels_list.add_item(lvl_id)
+	
+	for lvl_file in DirAccess.get_files_at(GM.app_dir+"assets/levels/"):
+		if lvl_file.get_extension() == "tscn":
+			levels_list.add_item(lvl_file.get_basename())
 
 
 func _on_visibility_changed():

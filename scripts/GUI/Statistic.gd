@@ -39,6 +39,8 @@ func _set_color_if(ui_obj,if_skill):
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	_ResetSkills()
+	#await GameManager.on_game_ready
+	#FixLostArtifactEffects("af_battery")
 
 func UpgradeSkill(skill:String):
 	GameManager.PlaySFXLoaded(GameManager.sfx_manager_json["on_skill_click"])
@@ -57,6 +59,31 @@ func UpgradeSkill(skill:String):
 				GameManager.Gui.InventoryWindow.weight_max += snappedf(10.0,0.01)
 		skill_point -= 1
 	_update_skills()
+
+func FixLostArtifactEffects(art_id : String):
+	var art = null
+	var effects = null
+	if GameManager.items_json[art_id]["slot"] == "belt":
+		art = GameManager.items_json[art_id]
+		effects = art["on_use"]
+	else:
+		return
+	for effect in effects:
+		if effect == "max_hp":
+			GameManager.player.LowMaxHp(effects[effect])
+		if effect == "accuracy":
+			GameManager.Gui.SkillWindow.accuracy -= effects[effect] / 100
+		if effect == "strength":
+			GameManager.Gui.SkillWindow.strenght -= effects[effect] / 100
+		if effect == "weight":
+			GameManager.Gui.InventoryWindow.weight_max -= effects[effect]
+			GameManager.Gui.InventoryWindow.UpdateWeight()
+		if effect == "armor":
+			GameManager.Gui.SkillWindow.armor -= effects[effect]
+		if effect == "rad_resist":
+			GameManager.Gui.SkillWindow.radiation_resistance -= effects[effect]
+		if effect == "anomaly_resist":
+			GameManager.Gui.SkillWindow.anomaly_resistance -= effects[effect]
 
 func AddExp(value:int, with_message : bool = false):
 	var lvl_up_exp = 0

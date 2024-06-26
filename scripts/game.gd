@@ -88,7 +88,7 @@ signal cutscene_cam_rotated
 # DeleteEventKey(key : String) -> Delete event key from player
 # AddQuest(id : String, title : String, money : int=0, items=[]) -> Add your quest with your ID, TITLE, MONEY and Array of items IDs
 # CompleteQuest(id : String) -> Complete quest and gives you reward
-# change_level(id : String) -> load level by ID assets/levels/ID folder
+# LoadGameLevel(id : String) -> load level by ID assets/levels/ID folder
 # create_enemy(profile : String, eyezone_id : String, pos : Vector3, rot : Vector3) -> create hostile npc
 # PlaySFX(path : String) -> Play audio with full path "assets/sounds/sound.wav"
 # ======================= #
@@ -189,6 +189,7 @@ func main_game_init():
 	gui.Loot.on_item_took.connect(on_loot_item_took)
 	player.in_eyezone.connect(come_in_eyezone)
 	player.out_from_eyezone.connect(out_from_eyezone)
+	player.dead.connect(on_player_death)
 	
 	print("[game.gd] -> all signals connected!\n")
 	
@@ -248,6 +249,10 @@ func cutscene_slide_camera(from : Vector3, to : Vector3,speed : float = 4.0, mul
 func _show_tutorial(id : String):
 	if show_tutorial:
 		gui.LoadHelpTipJson(id)		
+
+func on_player_death():
+	if GameAPI.RunOutsideScript("p_game") and GameAPI.RunOutsideScript("p_game").has_method("on_player_death"):
+		GameAPI.RunOutsideScript("p_game").on_player_death()
 
 func on_npc_talk(npc : NPC):
 	if GameAPI.RunOutsideScript("p_game") and GameAPI.RunOutsideScript("p_game").has_method("on_npc_talk"):
@@ -385,6 +390,13 @@ func out_from_eyezone(eyezone):
 func on_npc_animation_finished(npc : NPC, anim_name : String):
 	GameAPI.RunOutsideScript("p_game").on_npc_animation_finished(npc, anim_name)
 	
+# Call when Player came in ANY area 3D
+func on_area3d_entered(area, who):
+	print("%s entered in %s area" % [who.name,area.name])
+
+# Call when Player comes out ANY area 3D
+func on_area3d_exited(area, who):
+	print("%s exited from %s area" % [who.name,area.name])
 
 func _process(_delta):
 	if has_node("/root/Game/CanvasLayer/GUI/BugTrap"):

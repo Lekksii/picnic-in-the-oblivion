@@ -33,8 +33,8 @@ var volumetric_fog = false
 var first_rad_damage = true
 
 var game_version = 1.2
-var game_build = "[color=28be38]%02d%02d%s[/color]" % [Time.get_date_dict_from_system().day, Time.get_date_dict_from_system().month, str(Time.get_date_dict_from_system().year).trim_prefix("20")]
-var game_version_suffix = ""#"| hotfix [color=4a739f]2[/color]" if OS.has_feature("windows") else "| [color=33e546]android[/color]"
+var game_build = "[color=28be38]260624[/color]" #"[color=28be38]%02d%02d%s[/color]" % [Time.get_date_dict_from_system().day, Time.get_date_dict_from_system().month, str(Time.get_date_dict_from_system().year).trim_prefix("20")]
+var game_version_suffix = "| hotfix [color=4a739f]3[/color]" if OS.has_feature("windows") else "| [color=33e546]Web Demo[/color]"
 var editor_mode = false
 var current_level_id = ""
 var current_level
@@ -98,6 +98,9 @@ signal on_npc_animation_finished
 signal on_item_used
 ## Emits when player start talking with NPC
 signal on_npc_talk
+
+signal npc_loaded
+var start_loading_from_file : bool = false
 
 signal on_game_ready
 signal on_trading_message_ok
@@ -310,7 +313,7 @@ func game_ready():
 		weapon_system._game_ready()
 		weapon_system.UpdateAmmo()
 		#await get_tree().create_timer(0.2).timeout
-		change_level(player_json["start_level"])
+		LoadGameLevel(player_json["start_level"])
 		#Gui.LoadHelpTipJson("radiation_tip")
 		#AddQuest("test","Test Quest",0,[])
 	else:
@@ -323,7 +326,16 @@ func game_ready():
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	on_game_ready.emit()
 #endregion
-	
+
+func LoadGameLevel(level_id : String, silent : bool = false):
+	if DirAccess.dir_exists_absolute(app_dir+"assets/levels/%s" % level_id):
+		change_level(level_id, silent)
+		
+	if FileAccess.file_exists(app_dir+"assets/levels/%s.tscn" % level_id) or \
+	FileAccess.file_exists(app_dir+"assets/levels/%s.scn" % level_id) or \
+	FileAccess.file_exists(app_dir+"assets/levels/%s.res" % level_id):
+		load_level_from_file(level_id,silent)
+
 func ShowPDA(value):
 	pda_enabled = value
 	if pda_enabled:
@@ -589,7 +601,7 @@ func LoadGame():
 		
 		Gui.InventoryWindow.weight_max = loaded_data["player"]["max_weight"]
 		
-		change_level(loaded_data["player"]["level_id"],true)
+		LoadGameLevel(loaded_data["player"]["level_id"],true)
 		
 		await get_tree().process_frame
 		ambient_system.player_on_level.emit(loaded_data["player"]["level_id"])
@@ -665,55 +677,27 @@ func on_npc_looked(_npc):
 ## <waypoint_id>_back_only_waypoints -> go backward by waypoints from end of points and finish only at last point
 func _transition_waypoints_check(hit_obj):
 	if hit_obj.keys["waypoints"] and player.global_position.distance_to(hit_obj.global_position) > 2.6:
+		# check if there's waypoint path on packed level
+		var in_level_wp : Path3D = null
 		var curve = Curve3D.new()
 		waypoints.curve = curve
+		# looking for waypoint path3D in current level
+		for lvl_wp in current_level.get_children():
+			if lvl_wp is Path3D and lvl_wp.name == hit_obj.keys["waypoints"]:
+				in_level_wp = lvl_wp as Path3D
+
 		if waypoints_json:			
 			if hit_obj.keys["waypoints"] != "$to_this_door":
-				for wp in waypoints_json:
-					if wp["level"] == current_level_id:
-						if hit_obj.keys["waypoints"].contains("_last_points"):
-							var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_last_points','')]["list"].duplicate()
-							backwards_waypoints.reverse()
-							
-							for wp_point in backwards_waypoints:
-								var pos_x = wp_point["position"][0]
-								var pos_y = wp_point["position"][1]
-								var pos_z = wp_point["position"][2]
-								curve.add_point(Vector3(pos_x,pos_y,pos_z))
-							
-							player.point = ceili(waypoints.curve.point_count / 2)
-						elif hit_obj.keys["waypoints"].contains("_return"):
-							var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_return','')]["list"].duplicate()
-							backwards_waypoints.reverse()
-							var y_pos : float = 0
-							for wp_point in backwards_waypoints:
-								var pos_x = wp_point["position"][0]
-								var pos_y = wp_point["position"][1]
-								y_pos = pos_y
-								var pos_z = wp_point["position"][2]
-								curve.add_point(Vector3(pos_x,pos_y,pos_z))
-							
-							curve.add_point(Vector3(hit_obj.position.x,y_pos,hit_obj.position.z))
-						elif hit_obj.keys["waypoints"].contains("_back_only_waypoints"):
-							var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_back_only_waypoints','')]["list"].duplicate()
-							backwards_waypoints.reverse()
-							var y_pos : float = 0
-							for wp_point in backwards_waypoints:
-								var pos_x = wp_point["position"][0]
-								var pos_y = wp_point["position"][1]
-								y_pos = pos_y
-								var pos_z = wp_point["position"][2]
-								curve.add_point(Vector3(pos_x,pos_y,pos_z))
-						else:
-							for wp_point in wp["waypoints"][hit_obj.keys["waypoints"]]["list"]:
-								var pos_x = wp_point["position"][0]
-								var pos_y = wp_point["position"][1]
-								var pos_z = wp_point["position"][2]
-								#var rot_x = wp_point["rotation"][0]
-								#var rot_y = wp_point["rotation"][1]
-								#var rot_z = wp_point["rotation"][2]
-								curve.add_point(Vector3(pos_x,pos_y,pos_z))
-								#curve.set_point_tilt(curve.point_count-1,-rot_y)
+				# check waypoints json file for current level waypoints
+				_transition_check_waypoints_json(hit_obj,curve)
+				# if we didn't found any in the file, then get waypoint
+				# from current level (if available)
+				if in_level_wp:
+					waypoints.curve = in_level_wp.curve.duplicate()
+					print(waypoints.curve)
+					
+				if "last_point_is_end" in hit_obj.keys and hit_obj.keys["last_point_is_end"]:
+					player.last_point_pos = waypoints.curve.get_point_position(GameManager.waypoints.curve.point_count-1)
 			else:
 				curve.add_point(Vector3(hit_obj.position.x,randf_range(1.55,1.77),hit_obj.position.z))
 			if HasEventKey("doors.return"):
@@ -733,16 +717,72 @@ func _transition_waypoints_check(hit_obj):
 			player.waypoint_new_level = hit_obj.keys["level"]
 			emit_signal("on_door_used",hit_obj.keys)
 	else:
-		if hit_obj.keys["id"] == "transition":
+		# Player too close to door
+		_transition_low_distance(hit_obj)
+
+## Function that runs when player too close to transition zone
+## and moving animation will not be played, player will teleported to 
+## transition zone's target position
+func _transition_low_distance(hit_obj):
+	if hit_obj.keys["id"] == "transition":
+		if "target_object" in hit_obj.keys and hit_obj.keys["target_object"] != null:
+			player.ChangeRotation(current_level.get_node(hit_obj.keys["target_object"]).rotation_degrees)
+			player.ChangePosition(current_level.get_node(hit_obj.keys["target_object"]).position)
+		else:
 			if "target_rotation" in hit_obj.keys:
 				player.ChangeRotation(Vector3(hit_obj.keys["target_rotation"][0],hit_obj.keys["target_rotation"][1],hit_obj.keys["target_rotation"][2]))
 			player.ChangePosition(Vector3(hit_obj.keys["target_position"][0],hit_obj.keys["target_position"][1],hit_obj.keys["target_position"][2]))
-			emit_signal("on_door_used",hit_obj.keys)
-		if hit_obj.keys["id"] == "transition_to_level":
-			change_level(hit_obj.keys["level"])
-			emit_signal("on_door_used",hit_obj.keys)
-	
-	
+	if hit_obj.keys["id"] == "transition_to_level":
+		LoadGameLevel(hit_obj.keys["level"])
+	emit_signal("on_door_used",hit_obj.keys)
+
+func _transition_check_waypoints_json(hit_obj,curve):
+	for wp in waypoints_json:
+		if wp["level"] == current_level_id:
+			if hit_obj.keys["waypoints"].contains("_last_points"):
+				var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_last_points','')]["list"].duplicate()
+				backwards_waypoints.reverse()
+				
+				for wp_point in backwards_waypoints:
+					var pos_x = wp_point["position"][0]
+					var pos_y = wp_point["position"][1]
+					var pos_z = wp_point["position"][2]
+					curve.add_point(Vector3(pos_x,pos_y,pos_z))
+				
+				player.point = ceili(waypoints.curve.point_count / 2)
+			elif hit_obj.keys["waypoints"].contains("_return"):
+				var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_return','')]["list"].duplicate()
+				backwards_waypoints.reverse()
+				var y_pos : float = 0
+				for wp_point in backwards_waypoints:
+					var pos_x = wp_point["position"][0]
+					var pos_y = wp_point["position"][1]
+					y_pos = pos_y
+					var pos_z = wp_point["position"][2]
+					curve.add_point(Vector3(pos_x,pos_y,pos_z))
+				
+				curve.add_point(Vector3(hit_obj.position.x,y_pos,hit_obj.position.z))
+			elif hit_obj.keys["waypoints"].contains("_back_only_waypoints"):
+				var backwards_waypoints = wp["waypoints"][hit_obj.keys["waypoints"].replace('_back_only_waypoints','')]["list"].duplicate()
+				backwards_waypoints.reverse()
+				var y_pos : float = 0
+				for wp_point in backwards_waypoints:
+					var pos_x = wp_point["position"][0]
+					var pos_y = wp_point["position"][1]
+					y_pos = pos_y
+					var pos_z = wp_point["position"][2]
+					curve.add_point(Vector3(pos_x,pos_y,pos_z))
+			else:
+				for wp_point in wp["waypoints"][hit_obj.keys["waypoints"]]["list"]:
+					var pos_x = wp_point["position"][0]
+					var pos_y = wp_point["position"][1]
+					var pos_z = wp_point["position"][2]
+					#var rot_x = wp_point["rotation"][0]
+					#var rot_y = wp_point["rotation"][1]
+					#var rot_z = wp_point["rotation"][2]
+					curve.add_point(Vector3(pos_x,pos_y,pos_z))
+					#curve.set_point_tilt(curve.point_count-1,-rot_y)
+
 func _transition_conditions(hit_obj):
 	if "condition" in hit_obj.keys:
 		#print("has condition key")
@@ -1230,7 +1270,175 @@ func change_level(id, silent=false):
 		current_level = null
 	load_level(id,silent)
 	
+## Loads game level from packed scene from assets/levels/ folder
+## Levels can be created inside project!
+func load_level_from_file(id, silent=false):
+	start_loading_from_file = true
+	if FileAccess.file_exists(app_dir+"assets/levels/%s.tscn" % id):
+		_level_loaded = false
+		var level_packed : PackedScene = load(app_dir+"assets/levels/%s.tscn" % id) as PackedScene
+		var level = level_packed.instantiate()
+		Gui.loading_screen.show()
+		
+		if not level.get_node("level_settings"):
+			BugTrap.Crash("Packed level doesn't contain \"level_settings\" node inside!\nPlease add this node with project editor and try again!")
+			return
+		
+		loading_autoclose = true
+		if current_level != null:
+			current_level.queue_free()
+			current_level = null
+		World.add_child(level)
+		
+		for obj in level.get_children():
+			if "keys" in obj and obj.keys.keys().has("id"):
+				match obj.keys["id"]:
+					"spawn_point":
+						player.ChangePosition(obj.position)
+						player.ChangeRotation(obj.rotation_degrees)
+						obj.queue_free()
+						continue
+					"editor":
+						obj.hide()
+					"skybox":
+						var sky_mat = preload("res://ingame_materials/pito_3d_mat_sky.tres")
+						var orig_mat = obj.material_override.duplicate()
+						obj.material_override = sky_mat
+						obj.material_override.set_shader_parameter("texture_albedo",orig_mat.albedo_texture)
+						obj.material_override.set_shader_parameter("direction",sky_speed)
+						if not moving_sky_shader:
+							obj.material_override.set_shader_parameter("enabled",false)
+						else:
+							obj.material_override.set_shader_parameter("enabled",true)
+					"block":
+						_visibility_collision_generation(obj)
+					"loot_money":
+						_visibility_collision_generation(obj)
+					"loot":
+						_visibility_collision_generation(obj)
+					"usable_area":
+						_visibility_collision_generation(obj)
+					"transition":
+						_visibility_collision_generation(obj)
+					"transition_to_level":
+						_visibility_collision_generation(obj)
+			else:
+					
+				match obj.name:
+					# if we found settings node
+					"level_settings":
+						# change color of outsky
+						print("found level_settings")
+						if "weather_color" in obj.keys:
+							outsky_color.get_material().albedo_color = obj.keys["weather_color"]
+						else:
+							BugTrap.Crash("%s->\"level_setting\"->keys <Dict> doesn't contain \"weather_color\" key with color data! Create it!" % id)
+							return
+						# if has daylight key - set light settings
+						if "daylight" in obj.keys:
+							var old_mat = player.PlayerCamera.get_node("HUD").material_override
+							if obj.keys["daylight"]:
+								World.get_node("SceneLight").show()
+								old_mat.shading_mode = StandardMaterial3D.SHADING_MODE_UNSHADED
+								old_mat.normal_enabled = false
+								old_mat.metallic_specular = 0
+								player.PlayerCamera.get_node("HUD").material_override = old_mat
+								for mat_obj in level.get_children():
+									if mat_obj is NPC:
+										var orig_mat_0 : StandardMaterial3D = mat_obj.npc_model.get_surface_override_material(0)
+										var orig_mat_1 : StandardMaterial3D = mat_obj.npc_model.get_surface_override_material(1)
+										orig_mat_0.shading_mode = StandardMaterial3D.SHADING_MODE_UNSHADED
+										orig_mat_1.shading_mode = StandardMaterial3D.SHADING_MODE_UNSHADED
+										mat_obj.npc_model.set_surface_override_material(0,orig_mat_0)
+										mat_obj.npc_model.set_surface_override_material(1,orig_mat_1)
+									if mat_obj.is_class("level_object"):
+										if mat_obj.material_override:
+											mat_obj.material_override.shading_mode = StandardMaterial3D.SHADING_MODE_UNSHADED
+									
+							else:
+								World.get_node("SceneLight").hide()
+								old_mat.shading_mode = StandardMaterial3D.SHADING_MODE_PER_PIXEL
+								old_mat.normal_enabled = true
+								old_mat.metallic_specular = 0
+								player.PlayerCamera.get_node("HUD").material_override = old_mat
+								for mat_obj in level.get_children():
+									if mat_obj is NPC:
+										var orig_mat_0 : StandardMaterial3D = mat_obj.npc_model.get_surface_override_material(0)
+										var orig_mat_1 : StandardMaterial3D = mat_obj.npc_model.get_surface_override_material(1)
+										orig_mat_0.shading_mode = StandardMaterial3D.SHADING_MODE_PER_PIXEL
+										orig_mat_1.shading_mode = StandardMaterial3D.SHADING_MODE_PER_PIXEL
+										mat_obj.npc_model.set_surface_override_material(0,orig_mat_0)
+										mat_obj.npc_model.set_surface_override_material(1,orig_mat_1)
+									if mat_obj.name != "level_settings" and mat_obj is level_object:
+										if "material_override" in mat_obj and mat_obj.material_override != null:
+											mat_obj.material_override.shading_mode = StandardMaterial3D.SHADING_MODE_PER_PIXEL
+						# if has fog key - set fog
+						if "fog" in obj.keys:
+							if obj.keys["fog"]:
+								player.PlayerCamera.environment.volumetric_fog_enabled = true if volumetric_fog else false
+								#player.PlayerCamera.environment.fog_enabled = true if volumetric_fog else false
+							else:
+								player.PlayerCamera.environment.volumetric_fog_enabled = false
+								#player.PlayerCamera.environment.fog_enabled = false
+						
+						# if has eye distance key - set raycast distance
+						# if has view distance - set camera's far parameter
+						if "eye_distance" in obj.keys and obj.keys["eye_distance"] != null:
+							player.raycast.target_position = Vector3(0,obj.keys["eye_distance"],0)
+						if "view_distance" in obj.keys:
+							player.PlayerCamera.far = obj.keys["view_distance"]
+						else:
+							player.PlayerCamera.far = 750
+		
+		current_level = level
+		current_level_id = id
+		
+		for npc in current_level.get_children():
+			if npc is NPC:
+				
+				if not npc.is_hostile:
+					npc.keys = {
+						"id": "npc",
+						"profile": npc.id
+					}
+					npc.profile = npc_json[npc.id]
+					npc.PlayAnim("idle")
+				else:
+					npc.keys = {
+						"id": "npc_hostile",
+						"profile": npc.id,
+						"animations": npc.attack_animations,
+						"start_animation": npc.start_animation,
+						"zone_id": npc.eyezone_id
+					}
+					npc.profile = npc_enemy_json[npc.id]
+				
+		emit_signal("npc_loaded")
+		
+		#for npc in current_level.get_children():
+			#if npc is NPC:
+				#npc._ready()
+		
+		if not silent:
+			emit_signal("on_level_changed",id)	
+		_level_loaded = true
+		start_loading_from_file = false
 #endregion
+
+func _visibility_collision_generation(obj):
+	if "invisible" in obj.keys and obj.keys["invisible"]:
+		obj.transparency = 1
+	generate_collider(obj)
+
+## Generate collision for level object
+func generate_collider(obj):
+	var collider = CollisionShape3D.new()
+	var sbody = StaticBody3D.new()
+	sbody.name = "static_body"
+	sbody.add_child(collider)
+	obj.add_child(sbody)
+	collider.shape = obj.mesh.create_trimesh_shape()
+	collider.name = "collider_trimesh_"+str(collider.get_instance_id())
 
 func on_weapon_shot(dmg,accuracy):
 	var skills = GameManager.Gui.SkillWindow as SkillSystem	
