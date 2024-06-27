@@ -1395,7 +1395,9 @@ func load_level_from_file(id, silent=false):
 		
 		for npc in current_level.get_children():
 			if npc is NPC:
-				
+				if npc.id == "":
+					BugTrap.Crash("NPC [%s] on level [%s] has empty ID!" % [npc.name,id])
+					return
 				if not npc.is_hostile:
 					npc.keys = {
 						"id": "npc",
