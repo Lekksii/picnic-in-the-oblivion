@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c2wryclmpe1ia"]
+[gd_scene load_steps=13 format=3 uid="uid://c2wryclmpe1ia"]
 
 [ext_resource type="PackedScene" uid="uid://bqc7mhj0djeu4" path="res://level_editor/MUST_HAVE/level_settings.tscn" id="1_sc4gk"]
 [ext_resource type="PackedScene" uid="uid://sjwxjf1vwmtp" path="res://level_editor/MUST_HAVE/spawn_point.tscn" id="2_rb0sx"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://bqsg6mti88uhy" path="res://assets/textures/texsky1.png" id="6_ynikk"]
 [ext_resource type="PackedScene" uid="uid://btcugb0f58bv7" path="res://level_editor/static_objects/old_tree.tscn" id="7_xj3kg"]
 [ext_resource type="Texture2D" uid="uid://cy36oaosnfkr1" path="res://assets/textures/texobj1.png" id="8_hx58c"]
-[ext_resource type="PackedScene" uid="uid://culb2suxqx6h5" path="res://level_editor/zones/transition_zone.tscn" id="9_7vxxk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7t5qs"]
 resource_local_to_scene = true
@@ -73,17 +72,6 @@ keys = {
 [node name="old_tree" parent="." instance=ExtResource("7_xj3kg")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -2.24684, 0, -7.974)
 material_override = SubResource("StandardMaterial3D_tybou")
-
-[node name="transition_zone" parent="." instance=ExtResource("9_7vxxk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.79139, -4.16776)
-keys = {
-"id": "transition",
-"invisible": true,
-"last_point_is_end": true,
-"name": "transition_zone",
-"target_object": "",
-"waypoints": "tree_waypoints"
-}
 
 [node name="tree_waypoints" type="Path3D" parent="."]
 curve = SubResource("Curve3D_8376q")

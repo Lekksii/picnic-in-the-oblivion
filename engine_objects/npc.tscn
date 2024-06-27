@@ -6459,7 +6459,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_n265y")
 surface_material_override/1 = SubResource("StandardMaterial3D_a4r2k")
 
 [node name="BoneLeftHand" type="BoneAttachment3D" parent="npc/npc2/Skeleton3D"]
-transform = Transform3D(-0.860116, 0.138347, -0.490966, -0.294572, -0.920513, 0.25667, -0.416434, 0.365393, 0.8325, 0.772701, 3.31199, -0.186503)
+transform = Transform3D(-0.860116, 0.138347, -0.490967, -0.294572, -0.920513, 0.25667, -0.416434, 0.365393, 0.8325, 0.772701, 3.31199, -0.186503)
 bone_name = "l_arm_1"
 bone_idx = 4
 
@@ -6498,7 +6498,7 @@ texture_albedo = ExtResource("13_5mhh7")
 cull_mask = 1048573
 
 [node name="BoneRightHand" type="BoneAttachment3D" parent="npc/npc2/Skeleton3D"]
-transform = Transform3D(-0.984326, -0.169738, 0.0477333, 0.176287, -0.952708, 0.247519, 0.00346255, 0.252054, 0.9677, -0.618799, 3.36081, -0.207003)
+transform = Transform3D(-0.984326, -0.169737, 0.0477332, 0.176287, -0.952708, 0.247519, 0.00346255, 0.252054, 0.9677, -0.618799, 3.36081, -0.207003)
 bone_name = "r_arm_1"
 bone_idx = 6
 
