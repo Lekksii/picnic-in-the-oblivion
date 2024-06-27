@@ -17,5 +17,5 @@
 	"use_items_after_start": ["w_pistol"],
 	"start_quests": [],
 	"start_event_keys": [],
-	"start_level": "my_level"
+	"start_level": "intro"
 }
