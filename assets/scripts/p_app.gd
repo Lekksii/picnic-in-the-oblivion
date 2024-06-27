@@ -7,7 +7,7 @@ extends Node
 # So keep in mind, that you can change here only variables, do not try to change something other!
 func game_init():
 	GameManager.show_splash = true
-	GameManager.main_menu = false
+	GameManager.main_menu = true
 	GameManager._spawn_menu = true #F1 in game
 	
 	# we need await until game will be ready, 'cause before GameProcess variable is null
