@@ -12,8 +12,8 @@ res://themes/bold_font.tres
 res://themes/game_environment.tres
 res://ingame_materials/3dpixelart.gdshader
 res://ingame_materials/pixelated.tres
-res://scripts/GameManager.gd
-res://assets/scripts/p_app.gd
 res://game.tscn
 res://engine_objects/npc.tscn
-res://assets/scripts/p_game.gd
+res://scripts/GameManager.gd
+res://assets/creatures/player.json
+res://assets/scripts/p_app.gd
