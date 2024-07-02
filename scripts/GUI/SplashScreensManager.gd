@@ -1,11 +1,8 @@
 extends Control
 
 @export var _move_to: Control
-
 @export var _initial_delay: float = 1
-
 var _splash_screens: Array[SplashScreen] = []
-
 @onready var _splash_screen_container: Control = $"."
 @onready var _splash_blocker : ColorRect = $"../SplashBlocker"
 @onready var mm : MainMenu = $"../GAME/MainMenu"

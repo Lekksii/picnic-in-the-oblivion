@@ -4,7 +4,7 @@ class_name Game
 
 ## ===================================================
 ##  Main gameplay script with scenario scripts
-##  Created by Leksii 07/10/2023
+##  Created by Leksii 07/October/2023
 ## ===================================================
 
 @onready var GM = GameManager
