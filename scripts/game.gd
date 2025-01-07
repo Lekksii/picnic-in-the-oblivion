@@ -197,6 +197,12 @@ func main_game_init():
 	await GM.on_game_ready
 	GameAPI.RunOutsideScript("p_game")
 	
+	await get_tree().process_frame
+	
+	# if script has _ready, run it
+	if GameAPI.RunOutsideScript("p_game").has_method("_ready"):
+		GameAPI.RunOutsideScript("p_game")._ready()
+	
 # callback every tick when game works
 func main_game_update(_delta):
 		
