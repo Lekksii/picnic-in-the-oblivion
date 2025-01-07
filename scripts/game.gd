@@ -197,25 +197,8 @@ func main_game_init():
 	await GM.on_game_ready
 	GameAPI.RunOutsideScript("p_game")
 	
-	await get_tree().process_frame
-	
-	# if script has _ready, run it
-	if GameAPI.RunOutsideScript("p_game").has_method("_ready"):
-		GameAPI.RunOutsideScript("p_game")._ready()
-
-func _input(event):
-	if GameAPI.RunOutsideScript("p_game").has_method("_input"):
-		GameAPI.RunOutsideScript("p_game")._input(event)
-	
-func _unhandled_input(event):
-	if GameAPI.RunOutsideScript("p_game").has_method("_unhandled_input"):
-		GameAPI.RunOutsideScript("p_game")._unhandled_input(event)
-	
 # callback every tick when game works
 func main_game_update(_delta):
-	# update every frame method
-	if GameAPI.RunOutsideScript("p_game").has_method("_process"):
-		GameAPI.RunOutsideScript("p_game")._process(_delta)
 		
 	if cutscene_camera_movement:
 		if not GM.player.global_position.distance_to(cutscene_camera_b) < 0.1:
