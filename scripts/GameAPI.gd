@@ -26,11 +26,11 @@ func RunOutsideScript(script_name : String):
 		add_child(script_holder)
 		script_holder.name = script_name
 		
-		script_holder.set_script(script)
-		
 		script_holder.set_process(true)
 		script_holder.set_process_input(true)
 		script_holder.set_process_unhandled_input(true)
+		
+		script_holder.set_script(script)
 		
 		print("[Script Loader]: Script \"assets/scripts/%s.gd\" loaded successfuly!\n" % script_name)
 		return script_holder
