@@ -27,6 +27,11 @@ func RunOutsideScript(script_name : String):
 		script_holder.name = script_name
 		
 		script_holder.set_script(script)
+		
+		script_holder.set_process(true)
+		script_holder.set_process_input(true)
+		script_holder.set_process_unhandled_input(true)
+		
 		print("[Script Loader]: Script \"assets/scripts/%s.gd\" loaded successfuly!\n" % script_name)
 		return script_holder
 	else: # else we just return already created holder with functions
