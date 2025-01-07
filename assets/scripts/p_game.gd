@@ -274,9 +274,15 @@ var quests_exp_table = {
 func _ready():
 	pass
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	pass
+
+# here you can check input conditions such as key pressing
+func _input(event):
+	pass
+	
+func _unhandled_input(event):
 	pass
 
 # ------------------------
