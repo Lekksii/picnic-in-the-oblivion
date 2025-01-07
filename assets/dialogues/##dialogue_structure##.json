@@ -1,7 +1,7 @@
 {
   "start_dialogue": "DIALOGUE ID",
   "dialogues": {
-	"DIALOGUE ID": {
+	"DIALOGUE ID 1": {
 	  "text": "TEXT IN NPC WINDOW",
 	  "answers": [
 		{
@@ -22,7 +22,7 @@
 		}
 	  ]
 	},
-	"DIALOGUE ID": {
+	"DIALOGUE ID 2": {
 	  "text": "TEXT IN NPC WINDOW",
 	  "answers": [
 		{
