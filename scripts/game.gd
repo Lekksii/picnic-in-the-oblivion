@@ -5,6 +5,7 @@ class_name Game
 ## ===================================================
 ##  Main gameplay script with scenario scripts
 ##  Created by Leksii 07/October/2023
+##  Edited by Leksii 07/January/2025
 ## ===================================================
 
 @onready var GM = GameManager
@@ -198,11 +199,22 @@ func main_game_init():
 	
 	await get_tree().process_frame
 	
-	GameAPI.RunOutsideScript("p_game")._ready()
+	# if script has _ready, run it
+	if GameAPI.RunOutsideScript("p_game").has_method("_ready"):
+		GameAPI.RunOutsideScript("p_game")._ready()
+
+func _input(event):
+	if GameAPI.RunOutsideScript("p_game").has_method("_input"):
+		GameAPI.RunOutsideScript("p_game")._input(event)
+	
+func _unhandled_input(event):
+	if GameAPI.RunOutsideScript("p_game").has_method("_unhandled_input"):
+		GameAPI.RunOutsideScript("p_game")._unhandled_input(event)
 	
 # callback every tick when game works
 func main_game_update(_delta):
-	if GameAPI.RunOutsideScript("p_game") != null:
+	# update every frame method
+	if GameAPI.RunOutsideScript("p_game").has_method("_process"):
 		GameAPI.RunOutsideScript("p_game")._process(_delta)
 		
 	if cutscene_camera_movement:
@@ -359,6 +371,7 @@ func on_dialogue_end(id):
 	GameAPI.RunOutsideScript("p_game").on_dialogue_end(id)
 	#print("[DIALOGUE]: Dialogue %s ended" % id)
 	pass
+
 	
 # Call when any item from lootbox was took, argument - ID of item
 func on_loot_item_took(id):
