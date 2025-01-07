@@ -61,11 +61,16 @@ Resources tab:
    - select Icon.png
    - select IconBug.png
    - select panel.tscn
+     
+*Keep in mind, that new resources what has been created in res:// root folder, must be checked for export too.*
+*Also, if you add new assets resources and used them as preview in the editor (like UI elements made, they use textures, fonts) you must check them for export too, game will look after export in the assets/ folder and replace them to files inside assets, so it can be modded.*
 
 Features tab:
    - add in custom field: standalone
 
 When all done - press **Export Project** at the bottom of window.
+
+7. Copy **assets/** folder from the source code folder into exported game build folder near *picnic.exe*.
 
 ### Documentation:
 1. [Assets description](https://picnic-in-the-oblivion.gitbook.io/assets/)
