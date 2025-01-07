@@ -376,7 +376,7 @@ func _process(_delta):
 		
 		if Input.is_key_pressed(KEY_F1) and _spawn_menu and not main_menu and not Gui.final_image.visible:
 			if not Gui.SpawnMenuWindow.visible:
-				Gui.SpawnMenuWindow.Open()
+				Gui.SpawnMenuWindow.call_deferred("Open")
 				
 		#if Input.is_key_pressed(KEY_F2):
 		#	if DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_WINDOWED:
