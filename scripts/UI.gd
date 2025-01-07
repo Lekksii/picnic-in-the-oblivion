@@ -32,6 +32,7 @@ func apply_anchors_preset(gui_obj : Control,preset : String):
 
 # UI TEXT
 func CreateLabel(text : String ="",pos : Vector2 =Vector2(0,0),size : Vector2=Vector2(128,32),color : Color =Color.WHITE,font : String ="regular",anchor : String="full_screen"):
+	
 	var label : Label = Label.new()
 	apply_anchors_preset(label,anchor)
 	label.position = pos
@@ -44,7 +45,8 @@ func CreateLabel(text : String ="",pos : Vector2 =Vector2(0,0),size : Vector2=Ve
 		"regular": label.theme = load("res://themes/regular_font.tres")
 		"bold": label.theme = load("res://themes/bold_font.tres")
 	return label
-
+	
+	
 # UI IMAGE
 func CreateImage(path : String = "assets/null.png", pos : Vector2 = Vector2.ZERO, size : Vector2 = Vector2.ZERO, anchor : String = "full_screen"):
 	var img : TextureRect = TextureRect.new()
@@ -54,12 +56,13 @@ func CreateImage(path : String = "assets/null.png", pos : Vector2 = Vector2.ZERO
 	img.set_deferred("size",size)
 	img.name = "custom_mod_img"
 	return img
-	
+
 # UI BUTTON
 func CreateButton(text : String = "button", press_function = func():print("pressed"), pos : Vector2 = Vector2.ZERO, size : Vector2 = Vector2.ZERO, anchor : String = "top_left"):
 	var btn : Button = preload("res://engine_objects/custom_button.tscn").instantiate()
 	apply_anchors_preset(btn,anchor)
 	btn.position = pos
+	btn.text = text
 	btn.set_deferred("size",size)
 	btn.name = "custom_mod_btn"
 	btn.pressed.connect(press_function)
