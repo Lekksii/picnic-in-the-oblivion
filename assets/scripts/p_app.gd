@@ -12,7 +12,7 @@ func game_init():
 	
 	# we need await until game will be ready, 'cause before GameProcess variable is null
 	await GameManager.on_game_ready
-	
+	GameManager.Gui.intro_scroll_timer = 5.0 # set delay before first intro auto scrolling
 	GameManager.GameProcess.show_tutorial = true
 	
 	# W A S D - fly, Q - down, E - up, Shift - speed
