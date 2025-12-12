@@ -255,7 +255,7 @@ func game_update(delta):
 			radiation_timer = 5.0
 			if GameManager.first_rad_damage:
 				GameManager.first_rad_damage = false
-				if OS.has_feature("windows"):
+				if OS.has_feature("windows") or OS.has_feature("macos"):
 					GameManager.GameProcess._show_tutorial("radiation_tip")
 				if OS.has_feature("mobile"):
 					GameManager.GameProcess._show_tutorial("radiation_tip_mob")
@@ -367,7 +367,7 @@ func _input(event):
 	#if not in_focus:
 	#	return
 	if can_look:
-		if OS.has_feature('windows'):
+		if OS.has_feature('windows') or OS.has_feature("macos"):
 			if event is InputEventMouseMotion:
 				#print("mouse motion!")
 				_mouse_position = event.relative
@@ -583,7 +583,7 @@ func _process(delta):
 				hud_anim_player.speed_scale = 0.4
 	
 	# Only rotates mouse if the mouse is captured
-	if OS.has_feature('windows'):
+	if OS.has_feature('windows') or OS.has_feature("macos"):
 		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 			
 			rotation_velocity = rotation_velocity.lerp(_mouse_position * SENSITIVITY, 1) #delta * SMOOTHNESS

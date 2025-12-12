@@ -34,7 +34,7 @@ var first_rad_damage = true
 
 var game_version = 1.2
 var game_build = "[color=28be38]260624[/color]" #"[color=28be38]%02d%02d%s[/color]" % [Time.get_date_dict_from_system().day, Time.get_date_dict_from_system().month, str(Time.get_date_dict_from_system().year).trim_prefix("20")]
-var game_version_suffix = "| hotfix [color=4a739f]3[/color]" if OS.has_feature("windows") else "| [color=33e546]Web Demo[/color]"
+var game_version_suffix = "| hotfix [color=4a739f]3[/color]" if OS.has_feature("windows") or OS.has_feature("macos") else "| [color=33e546]Web Demo[/color]"
 var editor_mode = false
 var current_level_id = ""
 var current_level
@@ -824,7 +824,7 @@ func _game_update(_delta):
 				#var b = player.global_transform.origin
 				if aim_assist and hit_obj.npc_obj.is_attack:
 					player.FakeHead.look_at(a)
-					player.PlayerHead.rotation.y = lerp_angle(player.PlayerHead.rotation.y,player.FakeHead.rotation.y + player.PlayerHead.rotation.y,_delta * 8 if OS.has_feature("windows") else 1)
+					player.PlayerHead.rotation.y = lerp_angle(player.PlayerHead.rotation.y,player.FakeHead.rotation.y + player.PlayerHead.rotation.y,_delta * 8 if OS.has_feature("windows") or OS.has_feature("macos") else 1)
 				# AUTOFIRE FOR MOBILE VERSION
 				if OS.has_feature("mobile"):
 					if weapon_system != null:

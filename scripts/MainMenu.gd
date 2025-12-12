@@ -319,7 +319,7 @@ func _process(_delta):
 							_update_options()
 							
 					if mm_buttons[selected_index]["id"] == "mm_help": # About
-						if OS.has_feature("windows"):
+						if OS.has_feature("windows") or OS.has_feature("macos"):
 							GameManager.Gui.ShowIntroMessageCustom("mm.help.text")
 						if OS.has_feature("mobile"):
 							GameManager.Gui.ShowIntroMessageCustom("mm.help.text.mobile")

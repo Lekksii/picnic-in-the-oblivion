@@ -1,7 +1,7 @@
 [gd_resource type="Theme" load_steps=6 format=3 uid="uid://wq7nrallofwf"]
 
-[ext_resource type="FontFile" uid="uid://w8euiy645per" path="res://assets/fonts/SM3DBold.ttf" id="1_loril"]
-[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular.ttf" id="1_whnah"]
+[ext_resource type="FontFile" uid="uid://dj0332cich06v" path="res://assets/fonts/SM3DBold.ttf" id="1_loril"]
+[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular_old.ttf" id="2_g5q6c"]
 [ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="2_j7v8e"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2n7g"]
@@ -22,6 +22,6 @@ LineEdit/styles/focus = SubResource("StyleBoxFlat_t2n7g")
 LineEdit/styles/normal = SubResource("StyleBoxFlat_t2n7g")
 LineEdit/styles/read_only = SubResource("StyleBoxFlat_t2n7g")
 RichTextLabel/fonts/bold_font = ExtResource("1_loril")
-RichTextLabel/fonts/normal_font = ExtResource("1_whnah")
+RichTextLabel/fonts/normal_font = ExtResource("2_g5q6c")
 TooltipLabel/fonts/font = ExtResource("1_loril")
 TooltipPanel/styles/panel = SubResource("StyleBoxFlat_ldblx")

@@ -30,7 +30,7 @@ func _ready() -> void:
 
 func _input(_event: InputEvent) -> void:
 	if GameManager.main_menu and GameManager.show_splash:
-		if OS.has_feature('windows'):
+		if OS.has_feature('windows') or OS.has_feature("macos"):
 			if Input.is_action_just_pressed("pause"):
 				_skip()
 		

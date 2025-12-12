@@ -369,7 +369,7 @@ func on_level_changed(level_id):
 		"intro_battle": 
 			pda.AddMarker("intro_marker")
 			await get_tree().process_frame
-			if OS.has_feature("windows"):
+			if OS.has_feature("windows") or OS.has_feature("macos"):
 				game_process._show_tutorial("first_battle_tip")
 			if OS.has_feature("mobile"):
 				game_process._show_tutorial("first_battle_tip_mob")
@@ -381,7 +381,7 @@ func on_level_changed(level_id):
 			#GM.AddEventKey("intro.cutscene")
 			#print("intro hidden!")
 			await get_tree().create_timer(1.5).timeout
-			if OS.has_feature("windows"):
+			if OS.has_feature("windows") or OS.has_feature("macos"):
 				game_process._show_tutorial("interaction_tip")
 			if OS.has_feature("mobile"):
 				game_process._show_tutorial("interaction_tip_mob")
@@ -447,7 +447,7 @@ func on_event_key_add(key):
 		"intro.battle.2.kills":
 			pda.AddMarker("find_camp_spot")
 			await get_tree().create_timer(0.5).timeout
-			if OS.has_feature("windows"):
+			if OS.has_feature("windows") or OS.has_feature("macos"):
 				game_process._show_tutorial("pda_tip")
 			if OS.has_feature("mobile"):
 				game_process._show_tutorial("pda_tip_mob")

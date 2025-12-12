@@ -158,7 +158,7 @@ func _ready():
 		medkit_army_icon.show()
 		antirad_icon.show()
 		
-	if OS.has_feature("windows"):
+	if OS.has_feature("windows") or OS.has_feature("macos"):
 		medkit_icon.hide()
 		medkit_army_icon.hide()
 		antirad_icon.hide()
@@ -280,7 +280,7 @@ func _process(_delta):
 
 func PressF(state : bool):
 	if state:
-		if OS.has_feature("windows"):
+		if OS.has_feature("windows") or OS.has_feature("macos"):
 			press_f_text.text = "%s (%s)" % [Lang.translate("press"), Lang.translate_string("[key_action]use[/key_action]")]
 		if OS.has_feature("mobile"):
 			press_f_text.text = "%s" % Lang.translate("press.mobile")

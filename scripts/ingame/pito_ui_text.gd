@@ -20,16 +20,25 @@ func _ready():
 		self.connect("mouse_exited", _on_mouse_exited)
 		
 	self.text = Lang.translate(text_id)	
+	var text_for_edit : String = self.text
 	
 	if uppercase_text:
-		self.text = self.text.to_upper()
+		self.text = text_for_edit.to_upper()
 		
 	if lowercase_text:
-		self.text = self.text.to_lower()
+		self.text = text_for_edit.to_lower()
 		
 func UpdateLanguage():
 	if not text_id.is_empty():
 		self.text = Lang.translate(text_id)
+		
+		var text_for_edit : String = self.text
+		
+		if uppercase_text:
+			self.text = text_for_edit.to_upper()
+		
+		if lowercase_text:
+			self.text = text_for_edit.to_lower()
 	
 func _process(delta):
 	if blink:

@@ -2,8 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://bprvup7ilw0q1" path="res://IconBug.png" id="1_txjbs"]
 [ext_resource type="FontFile" uid="uid://i88sf8wagilo" path="res://assets/fonts/fix.ttf" id="2_yhdbw"]
-[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular.ttf" id="3_armef"]
-[ext_resource type="FontFile" uid="uid://w8euiy645per" path="res://assets/fonts/SM3DBold.ttf" id="4_0pr34"]
+[ext_resource type="FontFile" uid="uid://ccys3c2abu2yb" path="res://assets/fonts/SM3DRegular_old.ttf" id="3_armef"]
+[ext_resource type="FontFile" uid="uid://w8euiy645per" path="res://assets/fonts/SM3DBold_old.ttf" id="4_0pr34"]
+
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pgah1"]
 bg_color = Color(0, 0, 0, 1)

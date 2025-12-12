@@ -851,7 +851,7 @@ func _on_gui_input(event : InputEvent):
 				if OWNER is LootWindow:
 					# IF WE CLICK ONLY ON ITEMS IN BOX SIDE
 					if get_parent().name == "items_list":
-						if OS.has_feature("windows"):
+						if OS.has_feature('windows') or OS.has_feature("macos"):
 						# we check if future weight will be enough to take it
 							var _weight_calculator = GameManager.Gui.InventoryWindow.weight + weight
 							
@@ -888,7 +888,7 @@ func _on_gui_input(event : InputEvent):
 						#print(GameManager.Gui.InventoryWindow.weight)
 					# IF WE CLICK ONLY ON ITEMS IN PLAYER'S SIDE
 					if get_parent().name == "items_list_player":
-						if OS.has_feature("windows"):
+						if OS.has_feature('windows') or OS.has_feature("macos"):
 							if not equipped:
 								GameManager.Gui.InventoryWindow.DeleteItem(instance_id)
 								OWNER.AddItemToLoot(ID)
@@ -972,7 +972,7 @@ func _on_gui_input(event : InputEvent):
 							_clear_selection_texts()
 							_select_item(false)
 							
-			if OS.has_feature("windows"):
+			if OS.has_feature("windows") or OS.has_feature("macos"):
 				if event.double_click:
 					if OWNER is Inventory:
 						UseItem()

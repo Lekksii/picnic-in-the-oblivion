@@ -8,6 +8,10 @@ class_name inv_parameter_bar
 @onready var parameter_text2 : Label = $container/parameterText2
 @onready var parameter_bar : TextureProgressBar = $container/ParameterProgress
 
+func _ready():
+	container.size.x = 347
+	container.position.x = 64
+
 func AddIcon(icon_new,pos = 0):
 	var new_icon = TextureRect.new()
 	new_icon.name = "icon"+str(container.get_child_count())

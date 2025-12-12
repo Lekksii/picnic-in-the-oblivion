@@ -269,7 +269,7 @@ func _process(_delta):
 			_scroll_timer = scroll_delay
 	
 	if IsOpened() and len(loot_list_node.get_children()) == 0:
-		if OS.has_feature("windows"):
+		if OS.has_feature("windows") or OS.has_feature("macos"):
 			set_process(false)
 			GameManager.player.can_look = false
 			await get_tree().create_timer(0.2).timeout

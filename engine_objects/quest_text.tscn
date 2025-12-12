@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://cu8rcjomuxmeb"]
 
-[ext_resource type="Theme" uid="uid://bvft1ophxax1r" path="res://themes/basic_editor.tres" id="1_wbplr"]
+[ext_resource type="Theme" uid="uid://bwkf21e1tyodp" path="res://themes/regular_font.tres" id="1_hqne2"]
 
 [node name="quest_text" type="Label"]
 custom_minimum_size = Vector2(0, 48)
-theme = ExtResource("1_wbplr")
+theme = ExtResource("1_hqne2")
 theme_override_colors/font_color = Color(0.933333, 0.615686, 0.192157, 1)
 theme_override_font_sizes/font_size = 24
 text = "Quest1"
