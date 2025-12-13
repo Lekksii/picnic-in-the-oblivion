@@ -30,11 +30,11 @@ var enemy_accuracy_always = false # enemy always hit player without missing
 var moving_sky_shader = true #used for levels skyboxes, enabling/disabling sky animation
 var corpse_cleaner = false #used for cleaning corpses on level after enemy death
 var volumetric_fog = false
-var first_rad_damage = true
+var first_rad_damage = true #If true - after first radiation damage player will get a hint about radiation
 
 var game_version = 1.2
-var game_build = "[color=28be38]260624[/color]" #"[color=28be38]%02d%02d%s[/color]" % [Time.get_date_dict_from_system().day, Time.get_date_dict_from_system().month, str(Time.get_date_dict_from_system().year).trim_prefix("20")]
-var game_version_suffix = "| hotfix [color=4a739f]3[/color]" if OS.has_feature("windows") or OS.has_feature("macos") else "| [color=33e546]Web Demo[/color]"
+var game_build = "[color=28be38]121225[/color]" #"[color=28be38]%02d%02d%s[/color]" % [Time.get_date_dict_from_system().day, Time.get_date_dict_from_system().month, str(Time.get_date_dict_from_system().year).trim_prefix("20")]
+var game_version_suffix = "| december postfix [color=4a739f]1[/color]" if OS.has_feature("windows") or OS.has_feature("macos") else "| [color=33e546]Web Demo[/color]"
 var editor_mode = false
 var current_level_id = ""
 var current_level
@@ -57,9 +57,9 @@ var show_splash = false
 #########################
 
 var aim_assist = true
-var ai_ignore = false
+var ai_ignore = false # ai dont attack player, just sitting in their covers
 var show_fps = false
-var godmode = false
+var godmode = false # no damage to player
 
 #########################
 

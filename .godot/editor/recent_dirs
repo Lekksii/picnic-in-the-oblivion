@@ -1,9 +1,7 @@
+res://assets/ui
 res://themes
 res://level_editor/zones
-D:/Programming/Godot-pito
-res://assets/ui
 res://assets/textures
-D:/Programming/GodotExport
 res://assets/levels
 res://level_editor/helpers
 res://level_editor/sprites
@@ -13,10 +11,7 @@ res://level_editor/ai
 res://level_editor/usable_triggers
 res://level_editor/MUST_HAVE
 res://assets/models
-D:/Programming/GodotExport/WEB
 res://engine_objects
 res://assets/ui/items
-C:/Users/User/.android
 res://
-D:/Programming/AndroidSDK
 res://ingame_materials
